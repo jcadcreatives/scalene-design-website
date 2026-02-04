@@ -1,54 +1,96 @@
 {
-  "_HOW_TO_USE": "Edit any text below, save, then push to GitHub. To add portfolio images: put .jpg in public/images/portfolio/, then add a new line below.",
-
+  "_HOW_TO_USE": "Auto-generated from EDIT-ME.txt. Run: node update-content.cjs",
   "hero": {
     "tagline": "Amazon Listing Optimization",
     "headline": "Your Product Deserves To Be Seen",
     "description": "We transform underperforming Amazon listings into conversion machines. Strategic visuals. Compelling copy. Measurable results.",
     "buttonText": "Start Converting More →",
     "stats": [
-      { "value": "250+", "label": "Listings Optimized" },
-      { "value": "40%", "label": "Avg. Conversion Lift" },
-      { "value": "3-5 Day", "label": "Turnaround" }
+      {
+        "value": "250+",
+        "label": "Listings Optimized"
+      },
+      {
+        "value": "40%",
+        "label": "Avg. Conversion Lift"
+      },
+      {
+        "value": "3-5 Day",
+        "label": "Turnaround"
+      }
     ]
   },
-
   "portfolio": {
     "listing": {
       "title": "Listing Images",
       "description": "Main images, lifestyle shots, and infographics engineered for maximum conversion.",
       "images": [
-        { "file": "listing-1.jpg", "name": "Wireless Earbuds", "subtitle": "Electronics • Complete 7-Image Set" },
-        { "file": "listing-2.jpg", "name": "Skincare Collection", "subtitle": "Beauty • Lifestyle & Macro Set" },
-        { "file": "listing-3.jpg", "name": "Yoga Mat Pro", "subtitle": "Fitness • Feature-Benefit Set" }
+        {
+          "file": "listing-1.jpg",
+          "name": "Wireless Earbuds",
+          "subtitle": "Electronics • Complete 7-Image Set"
+        },
+        {
+          "file": "listing-2.jpg",
+          "name": "Skincare Collection",
+          "subtitle": "Beauty • Lifestyle & Macro Set"
+        },
+        {
+          "file": "listing-3.jpg",
+          "name": "Yoga Mat Pro",
+          "subtitle": "Fitness • Feature-Benefit Set"
+        }
       ]
     },
     "aplus": {
       "title": "A+ Content",
       "description": "Premium brand content modules that tell your story and differentiate your product.",
       "images": [
-        { "file": "aplus-1.jpg", "name": "EcoPet Food", "subtitle": "Pet • Storytelling Modules" },
-        { "file": "aplus-2.jpg", "name": "Office Flow", "subtitle": "Home • Product Comparison" },
-        { "file": "aplus-3.jpg", "name": "Premium Brand", "subtitle": "Lifestyle • A+ Content Set" },
-        { "file": "aplus-4.jpg", "name": "GPS Tracker", "subtitle": "Electronics • Feature Showcase" }
+        {
+          "file": "aplus-1.jpg",
+          "name": "EcoPet Food",
+          "subtitle": "Pet • Storytelling Modules"
+        },
+        {
+          "file": "aplus-2.jpg",
+          "name": "Office Flow",
+          "subtitle": "Home • Product Comparison"
+        },
+        {
+          "file": "aplus-3.jpg",
+          "name": "Premium Brand",
+          "subtitle": "Lifestyle • A+ Content Set"
+        },
+        {
+          "file": "aplus-4.jpg",
+          "name": "GPS Tracker",
+          "subtitle": "Electronics • Feature Showcase"
+        }
       ]
     },
     "brand": {
       "title": "Brand Story",
       "description": "Build emotional connection and brand loyalty with compelling narrative design.",
       "images": [
-        { "file": "brand-1.jpg", "name": "Veda Wellness", "subtitle": "Supplements • Brand Story Set" }
+        {
+          "file": "brand-1.jpg",
+          "name": "Veda Wellness",
+          "subtitle": "Supplements • Brand Story Set"
+        }
       ]
     },
     "storefront": {
       "title": "Storefronts",
       "description": "Custom branded shopping experiences that increase AOV and customer lifetime value.",
       "images": [
-        { "file": "storefront-1.jpg", "name": "Lux Apparel", "subtitle": "Clothing • Premium Storefront" }
+        {
+          "file": "storefront-1.jpg",
+          "name": "Lux Apparel",
+          "subtitle": "Clothing • Premium Storefront"
+        }
       ]
     }
   },
-
   "testimonials": [
     {
       "quote": "Our conversion rate jumped 47% within two weeks of launching the new images. Scalene understood exactly what we needed and delivered beyond expectations.",
@@ -66,7 +108,6 @@
       "business": "Electronics Seller"
     }
   ],
-
   "contact": {
     "email": "scalenedesigns@gmail.com",
     "phone": "+63 977 332 3052",

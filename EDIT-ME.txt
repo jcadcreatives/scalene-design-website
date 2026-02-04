@@ -1,0 +1,84 @@
+=========================================
+    SCALENE DESIGN - WEBSITE CONTENT
+    Edit this file, save, then push!
+=========================================
+
+
+--- HERO SECTION ---
+
+Tagline: Amazon Listing Optimization
+Headline: Your Product Deserves To Be Seen
+Description: We transform underperforming Amazon listings into conversion machines. Strategic visuals. Compelling copy. Measurable results.
+Button Text: Start Converting More →
+
+Stat 1: 250+ | Listings Optimized
+Stat 2: 40% | Avg. Conversion Lift
+Stat 3: 3-5 Day | Turnaround
+
+
+--- PORTFOLIO: LISTING IMAGES ---
+
+Category Description: Main images, lifestyle shots, and infographics engineered for maximum conversion.
+
+Image: listing-1.jpg | Ceiling Speaker | Electronics • Complete 7-Image Set
+Image: listing-2.jpg | Skincare Collection | Beauty • Lifestyle & Macro Set
+Image: listing-3.jpg | Yoga Mat Pro | Fitness • Feature-Benefit Set
+
+
+--- PORTFOLIO: A+ CONTENT ---
+
+Category Description: Premium brand content modules that tell your story and differentiate your product.
+
+Image: aplus-1.jpg | EcoPet Food | Pet • Storytelling Modules
+Image: aplus-2.jpg | Office Flow | Home • Product Comparison
+Image: aplus-3.jpg | Premium Brand | Lifestyle • A+ Content Set
+Image: aplus-4.jpg | GPS Tracker | Electronics • Feature Showcase
+
+
+--- PORTFOLIO: BRAND STORY ---
+
+Category Description: Build emotional connection and brand loyalty with compelling narrative design.
+
+Image: brand-1.jpg | Veda Wellness | Supplements • Brand Story Set
+
+
+--- PORTFOLIO: STOREFRONTS ---
+
+Category Description: Custom branded shopping experiences that increase AOV and customer lifetime value.
+
+Image: storefront-1.jpg | Lux Apparel | Clothing • Premium Storefront
+
+
+--- TESTIMONIALS ---
+
+Testimonial 1:
+Quote: Our conversion rate jumped 47% within two weeks of launching the new images. Scalene understood exactly what we needed and delivered beyond expectations.
+Name: Simon H.
+Business: Home & Kitchen Brand
+
+Testimonial 2:
+Quote: Finally, an agency that gets Amazon. The team's attention to detail and quick turnaround made our product launch stress-free. Highly recommend.
+Name: Sarah L.
+Business: Beauty & Personal Care
+
+Testimonial 3:
+Quote: We've worked with several agencies before. Scalene is the first one that actually moved the needle. Their A+ Content alone paid for itself in the first month.
+Name: David T.
+Business: Electronics Seller
+
+
+--- CONTACT INFO ---
+
+Email: scalenedesigns@gmail.com
+Phone: +63 977 332 3052
+Calendly: https://calendly.com/jcad-creatives/discovery-call
+
+
+=========================================
+    HOW TO ADD NEW PORTFOLIO IMAGES:
+
+    1. Put your .jpg file in: public/images/portfolio/
+    2. Add a new line under the right category:
+       Image: filename.jpg | Brand Name | Category • Description
+    3. Save this file and push to GitHub
+=========================================
