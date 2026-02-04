@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-white font-bold mb-6">Contact</h4>
             <ul className="space-y-4">
-              <li className="text-neutral-500">hello@scalenedesign.com</li>
+              <li className="text-neutral-500">scalenedesigns@gmail.com</li>
               <li className="text-neutral-500">
                 <a href="https://wa.me/639773323052" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition-colors">
                   +63 977 332 3052 (WhatsApp)

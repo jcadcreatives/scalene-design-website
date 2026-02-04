@@ -19,7 +19,7 @@ const ContactForm: React.FC = () => {
     setStatus('sending');
 
     // Using FormSubmit.co - emails go directly to your inbox
-    const response = await fetch('https://formsubmit.co/ajax/jcad.creatives@gmail.com', {
+    const response = await fetch('https://formsubmit.co/ajax/scalenedesigns@gmail.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
