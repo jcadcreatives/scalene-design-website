@@ -46,7 +46,8 @@ export const SERVICES: ServiceItem[] = [
     samples: [
       { id: 'a1', brand: 'EcoPet Food', description: 'Pet • Storytelling Modules', imageUrl: '/images/portfolio/aplus-1.jpg' },
       { id: 'a2', brand: 'Office Flow', description: 'Home • Product Comparison', imageUrl: '/images/portfolio/aplus-2.jpg' },
-      { id: 'a3', brand: 'Premium Brand', description: 'Lifestyle • A+ Content Set', imageUrl: '/images/portfolio/aplus-3.jpg' }
+      { id: 'a3', brand: 'Premium Brand', description: 'Lifestyle • A+ Content Set', imageUrl: '/images/portfolio/aplus-3.jpg' },
+      { id: 'a4', brand: 'GPS Tracker', description: 'Electronics • Feature Showcase', imageUrl: '/images/portfolio/aplus-4.jpg' }
     ]
   },
   {
