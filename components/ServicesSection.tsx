@@ -69,7 +69,7 @@ const ServicesSection: React.FC = () => {
           )}
 
           {/* Text info - positioned on left side of page */}
-          <div className="absolute left-0 bottom-8 z-50 text-left pl-4 lg:pl-6">
+          <div className="absolute left-20 lg:left-44 bottom-8 z-50 text-left">
             <span className="inline-block px-3 py-1 bg-orange-600/20 text-orange-500 text-[10px] font-black uppercase tracking-widest rounded mb-4 border border-orange-500/30">
               Sample Case
             </span>
