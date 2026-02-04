@@ -4,10 +4,17 @@ import { HERO_STATS } from '../constants';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-[#0a0a0a]">
-      <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="max-w-2xl relative z-10">
+    <section className="relative min-h-screen overflow-hidden">
+      {/* Full-page background image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}
+      />
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent" />
+
+      <div className="container mx-auto px-6 relative z-10 pt-32 pb-20 lg:pt-48 lg:pb-32">
+        <div className="max-w-2xl">
             <div className="flex items-center gap-2 mb-6">
               <div className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse" />
               <span className="text-orange-500 font-bold uppercase tracking-widest text-[10px]">Amazon Listing Optimization</span>
@@ -37,62 +44,7 @@ const Hero: React.FC = () => {
               ))}
             </div>
           </div>
-
-          <div className="relative">
-            {/* Visual Concept: Comparison UI Frame */}
-            <div className="relative w-full aspect-[4/3] bg-neutral-900/40 rounded-[2.5rem] border border-white/5 backdrop-blur-3xl p-8 shadow-2xl flex flex-col">
-              <div className="flex justify-between items-center mb-10 border-b border-white/5 pb-6">
-                <div className="flex gap-4">
-                  <span className="px-3 py-1 bg-neutral-800 rounded-lg text-[10px] font-bold text-neutral-500 uppercase tracking-widest">Before</span>
-                  <span className="px-3 py-1 bg-white rounded-lg text-[10px] font-bold text-black uppercase tracking-widest">After</span>
-                </div>
-                <div className="w-24 h-2 bg-neutral-800 rounded-full" />
-              </div>
-
-              <div className="grid grid-cols-2 gap-8 flex-grow">
-                {/* Left: Before */}
-                <div className="bg-neutral-800/50 rounded-2xl flex items-center justify-center border border-white/5 relative overflow-hidden group">
-                  <div className="absolute inset-0 bg-black/40" />
-                  <span className="relative z-10 text-xs font-black text-neutral-500 uppercase tracking-tighter">Generic Photo</span>
-                  <div className="absolute bottom-4 left-4 right-4 h-1 bg-neutral-700 rounded-full" />
-                </div>
-                {/* Right: After */}
-                <div className="bg-neutral-100 rounded-2xl flex flex-col p-6 shadow-xl relative overflow-hidden">
-                  <div className="flex-grow bg-neutral-200/50 rounded-xl flex items-center justify-center mb-4">
-                     <span className="text-xs font-black text-neutral-400 uppercase">Optimized Hero</span>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="w-full h-1.5 bg-neutral-200 rounded-full" />
-                    <div className="w-2/3 h-1.5 bg-neutral-200 rounded-full" />
-                  </div>
-                </div>
-              </div>
-
-              {/* Performance Badges */}
-              <div className="absolute top-1/2 -right-12 bg-white p-4 rounded-2xl shadow-2xl border border-neutral-100 flex items-center gap-4 animate-bounce" style={{ animationDuration: '5s' }}>
-                <div className="w-10 h-10 bg-orange-500 rounded-xl flex items-center justify-center shadow-lg">
-                  <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                </div>
-                <div>
-                  <div className="text-[9px] font-bold text-neutral-400 uppercase">Conversion</div>
-                  <div className="text-lg font-black text-black">+40%</div>
-                </div>
-              </div>
-
-              <div className="absolute bottom-8 -left-12 bg-black/90 p-4 rounded-2xl shadow-2xl border border-white/10 backdrop-blur-md flex items-center gap-4 animate-bounce" style={{ animationDuration: '4s' }}>
-                <div className="w-10 h-10 bg-orange-600 rounded-xl flex items-center justify-center text-white font-black">S</div>
-                <div>
-                  <div className="text-[9px] font-bold text-neutral-500 uppercase">Revenue</div>
-                  <div className="text-lg font-black text-white">+218%</div>
-                </div>
-              </div>
-            </div>
-            
-            {/* Background Glow */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-orange-600/10 rounded-full blur-[120px] -z-10" />
-          </div>
         </div>
-      </div>
     </section>
   );
 };
