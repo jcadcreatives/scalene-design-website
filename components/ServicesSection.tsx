@@ -96,12 +96,12 @@ const ServicesSection: React.FC = () => {
                   <img src={sample.imageUrl} alt={sample.brand} className="max-h-[550px] w-auto object-contain group-hover:scale-105 transition-transform duration-[2s]" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-90" />
                   
-                  <div className={`absolute bottom-12 left-12 right-12 transition-all duration-700 ${position === 0 ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
-                    <span className="inline-block px-3 py-1 bg-orange-600/20 text-orange-500 text-[10px] font-black uppercase tracking-widest rounded mb-4 border border-orange-500/30">
+                  <div className={`absolute bottom-4 left-6 text-left transition-all duration-700 ${position === 0 ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
+                    <span className="inline-block px-3 py-1 bg-orange-600/20 text-orange-500 text-[10px] font-black uppercase tracking-widest rounded mb-3 border border-orange-500/30">
                       Sample Case
                     </span>
-                    <h3 className="text-4xl font-black text-white mb-4 tracking-tighter leading-none">{sample.brand}</h3>
-                    <p className="text-neutral-400 text-base leading-relaxed max-w-xs">{sample.description}</p>
+                    <h3 className="text-2xl md:text-3xl font-black text-white mb-2 tracking-tighter leading-none">{sample.brand}</h3>
+                    <p className="text-neutral-400 text-sm leading-relaxed max-w-xs">{sample.description}</p>
                   </div>
                 </div>
               );
