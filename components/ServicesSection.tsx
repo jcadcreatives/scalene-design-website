@@ -70,15 +70,11 @@ const ServicesSection: React.FC = () => {
 
           {/* Text info - positioned on left side of page */}
           <div className="absolute left-20 lg:left-44 bottom-8 z-50 text-left">
-            <div className="relative p-6 pr-16">
-              {/* Dynamic gradient background */}
-              <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent rounded-r-3xl -z-10" />
-              <span className="inline-block px-3 py-1 bg-orange-600/20 text-orange-500 text-[10px] font-black uppercase tracking-widest rounded mb-4 border border-orange-500/30">
-                Sample Case
-              </span>
-              <h3 className="text-4xl font-black text-white mb-4 tracking-tighter leading-none">{samples[currentSampleIndex]?.brand}</h3>
-              <p className="text-neutral-400 text-base leading-relaxed max-w-xs">{samples[currentSampleIndex]?.description}</p>
-            </div>
+            <span className="inline-block px-3 py-1 bg-orange-600/20 text-orange-500 text-[10px] font-black uppercase tracking-widest rounded mb-4 border border-orange-500/30">
+              Sample Case
+            </span>
+            <h3 className="text-4xl font-black text-white mb-4 tracking-tighter leading-none" style={{ textShadow: '0 4px 30px rgba(0,0,0,0.9), 0 2px 15px rgba(0,0,0,0.8), 0 0 60px rgba(0,0,0,0.7)' }}>{samples[currentSampleIndex]?.brand}</h3>
+            <p className="text-neutral-400 text-base leading-relaxed max-w-xs" style={{ textShadow: '0 2px 20px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.6)' }}>{samples[currentSampleIndex]?.description}</p>
           </div>
 
           {/* Carousel Track */}
