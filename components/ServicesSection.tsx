@@ -93,7 +93,7 @@ const ServicesSection: React.FC = () => {
                   style={style}
                   className="absolute inset-0 bg-neutral-900 overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)] group pointer-events-none"
                 >
-                  <img src={sample.imageUrl} alt={sample.brand} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-[2s]" />
+                  <img src={sample.imageUrl} alt={sample.brand} className="h-full w-auto mx-auto group-hover:scale-105 transition-transform duration-[2s]" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-90" />
                   
                   <div className={`absolute bottom-12 left-12 right-12 transition-all duration-700 ${position === 0 ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
