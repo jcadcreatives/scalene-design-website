@@ -69,12 +69,12 @@ const ServicesSection: React.FC = () => {
           )}
 
           {/* Text info - positioned on left side of page */}
-          <div className="absolute left-20 lg:left-44 bottom-8 z-50 text-left">
-            <span className="inline-block px-3 py-1 bg-orange-600/20 text-orange-500 text-[10px] font-black uppercase tracking-widest rounded mb-4 border border-orange-500/30">
+          <div className="absolute left-4 md:left-20 lg:left-44 bottom-4 md:bottom-8 z-50 text-left max-w-[200px] md:max-w-xs">
+            <span className="inline-block px-2 md:px-3 py-1 bg-orange-600/20 text-orange-500 text-[8px] md:text-[10px] font-black uppercase tracking-widest rounded mb-2 md:mb-4 border border-orange-500/30">
               Sample Case
             </span>
-            <h3 className="text-4xl font-black text-white mb-4 tracking-tighter leading-none" style={{ textShadow: '0 4px 30px rgba(0,0,0,0.9), 0 2px 15px rgba(0,0,0,0.8), 0 0 60px rgba(0,0,0,0.7)' }}>{samples[currentSampleIndex]?.brand}</h3>
-            <p className="text-neutral-400 text-base leading-relaxed max-w-xs" style={{ textShadow: '0 2px 20px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.6)' }}>{samples[currentSampleIndex]?.description}</p>
+            <h3 className="text-2xl md:text-4xl font-black text-white mb-2 md:mb-4 tracking-tighter leading-none" style={{ textShadow: '0 4px 30px rgba(0,0,0,0.9), 0 2px 15px rgba(0,0,0,0.8), 0 0 60px rgba(0,0,0,0.7)' }}>{samples[currentSampleIndex]?.brand}</h3>
+            <p className="text-neutral-400 text-sm md:text-base leading-relaxed" style={{ textShadow: '0 2px 20px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.6)' }}>{samples[currentSampleIndex]?.description}</p>
           </div>
 
           {/* Carousel Track */}
