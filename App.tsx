@@ -9,6 +9,7 @@ import ProcessSection from './components/ProcessSection';
 import Results from './components/Results';
 import Testimonials from './components/Testimonials';
 import ContactCTA from './components/ContactCTA';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -40,6 +41,9 @@ const App: React.FC = () => {
 
         {/* SECTION 8: FINAL CTA */}
         <ContactCTA />
+
+        {/* SECTION 9: CONTACT FORM */}
+        <ContactForm />
       </main>
 
       <Footer />
