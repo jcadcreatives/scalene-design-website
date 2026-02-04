@@ -27,13 +27,23 @@
       "images": [
         {
           "file": "listing-1.jpg",
-          "name": "Ceiling Speaker",
-          "subtitle": "Electronics • Complete 7-Image Set"
+          "name": "Lionbeam",
+          "subtitle": "Ceiling Speaker • Electronics"
         },
         {
           "file": "listing-2.jpg",
-          "name": "Skincare Collection",
-          "subtitle": "Beauty • Lifestyle & Macro Set"
+          "name": "Brickhouse Security",
+          "subtitle": "Car GPS Tracker • Electronics"
+        },
+        {
+          "file": "listing-3.jpg",
+          "name": "Yoga Mat Pro",
+          "subtitle": "Fitness • Feature-Benefit Set"
+        },
+        {
+          "file": "listing-3.jpg",
+          "name": "Yoga Mat Pro",
+          "subtitle": "Fitness • Feature-Benefit Set"
         },
         {
           "file": "listing-3.jpg",
@@ -65,6 +75,11 @@
           "file": "aplus-4.jpg",
           "name": "GPS Tracker",
           "subtitle": "Electronics • Feature Showcase"
+        },
+        {
+          "file": "aplus-4.jpg",
+          "name": "GPS Tracker",
+          "subtitle": "Electronics • Feature Showcase"
         }
       ]
     },
@@ -76,6 +91,16 @@
           "file": "brand-1.jpg",
           "name": "Veda Wellness",
           "subtitle": "Supplements • Brand Story Set"
+        },
+        {
+          "file": "brand-1.jpg",
+          "name": "Veda Wellness",
+          "subtitle": "Supplements • Brand Story Set"
+        },
+        {
+          "file": "brand-1.jpg",
+          "name": "Veda Wellness",
+          "subtitle": "Supplements • Brand Story Set"
         }
       ]
     },
@@ -83,6 +108,21 @@
       "title": "Storefronts",
       "description": "Custom branded shopping experiences that increase AOV and customer lifetime value.",
       "images": [
+        {
+          "file": "storefront-1.jpg",
+          "name": "Lux Apparel",
+          "subtitle": "Clothing • Premium Storefront"
+        },
+        {
+          "file": "storefront-1.jpg",
+          "name": "Lux Apparel",
+          "subtitle": "Clothing • Premium Storefront"
+        },
+        {
+          "file": "storefront-1.jpg",
+          "name": "Lux Apparel",
+          "subtitle": "Clothing • Premium Storefront"
+        },
         {
           "file": "storefront-1.jpg",
           "name": "Lux Apparel",
