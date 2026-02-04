@@ -91,7 +91,7 @@ const ServicesSection: React.FC = () => {
                 <div
                   key={sample.id}
                   style={style}
-                  className="absolute flex items-center justify-center bg-neutral-900 overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)] group pointer-events-none"
+                  className="absolute flex items-center justify-center overflow-hidden group pointer-events-none"
                 >
                   <img src={sample.imageUrl} alt={sample.brand} className="max-h-[550px] w-auto object-contain group-hover:scale-105 transition-transform duration-[2s]" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-90" />
