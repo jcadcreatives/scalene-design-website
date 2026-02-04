@@ -1,4 +1,6 @@
 {
+  "_HOW_TO_USE": "Edit any text below, save, then push to GitHub. To add portfolio images: put .jpg in public/images/portfolio/, then add a new line below.",
+
   "hero": {
     "tagline": "Amazon Listing Optimization",
     "headline": "Your Product Deserves To Be Seen",
@@ -10,61 +12,64 @@
       { "value": "3-5 Day", "label": "Turnaround" }
     ]
   },
-  "services": {
+
+  "portfolio": {
     "listing": {
       "title": "Listing Images",
       "description": "Main images, lifestyle shots, and infographics engineered for maximum conversion.",
-      "samples": [
-        { "brand": "Wireless Earbuds", "description": "Electronics • Complete 7-Image Set", "image": "listing-1.jpg" },
-        { "brand": "Skincare Collection", "description": "Beauty • Lifestyle & Macro Set", "image": "listing-2.jpg" },
-        { "brand": "Yoga Mat Pro", "description": "Fitness • Feature-Benefit Set", "image": "listing-3.jpg" }
+      "images": [
+        { "file": "listing-1.jpg", "name": "Wireless Earbuds", "subtitle": "Electronics • Complete 7-Image Set" },
+        { "file": "listing-2.jpg", "name": "Skincare Collection", "subtitle": "Beauty • Lifestyle & Macro Set" },
+        { "file": "listing-3.jpg", "name": "Yoga Mat Pro", "subtitle": "Fitness • Feature-Benefit Set" }
       ]
     },
     "aplus": {
       "title": "A+ Content",
       "description": "Premium brand content modules that tell your story and differentiate your product.",
-      "samples": [
-        { "brand": "EcoPet Food", "description": "Pet • Storytelling Modules", "image": "aplus-1.jpg" },
-        { "brand": "Office Flow", "description": "Home • Product Comparison", "image": "aplus-2.jpg" },
-        { "brand": "Premium Brand", "description": "Lifestyle • A+ Content Set", "image": "aplus-3.jpg" },
-        { "brand": "GPS Tracker", "description": "Electronics • Feature Showcase", "image": "aplus-4.jpg" }
+      "images": [
+        { "file": "aplus-1.jpg", "name": "EcoPet Food", "subtitle": "Pet • Storytelling Modules" },
+        { "file": "aplus-2.jpg", "name": "Office Flow", "subtitle": "Home • Product Comparison" },
+        { "file": "aplus-3.jpg", "name": "Premium Brand", "subtitle": "Lifestyle • A+ Content Set" },
+        { "file": "aplus-4.jpg", "name": "GPS Tracker", "subtitle": "Electronics • Feature Showcase" }
       ]
     },
     "brand": {
       "title": "Brand Story",
       "description": "Build emotional connection and brand loyalty with compelling narrative design.",
-      "samples": [
-        { "brand": "Veda Wellness", "description": "Supplements • Brand Story Set", "image": "brand-1.jpg" }
+      "images": [
+        { "file": "brand-1.jpg", "name": "Veda Wellness", "subtitle": "Supplements • Brand Story Set" }
       ]
     },
     "storefront": {
       "title": "Storefronts",
       "description": "Custom branded shopping experiences that increase AOV and customer lifetime value.",
-      "samples": [
-        { "brand": "Lux Apparel", "description": "Clothing • Premium Storefront", "image": "storefront-1.jpg" }
+      "images": [
+        { "file": "storefront-1.jpg", "name": "Lux Apparel", "subtitle": "Clothing • Premium Storefront" }
       ]
     }
   },
+
   "testimonials": [
     {
       "quote": "Our conversion rate jumped 47% within two weeks of launching the new images. Scalene understood exactly what we needed and delivered beyond expectations.",
-      "author": "Simon H.",
-      "role": "Home & Kitchen Brand"
+      "name": "Simon H.",
+      "business": "Home & Kitchen Brand"
     },
     {
       "quote": "Finally, an agency that gets Amazon. The team's attention to detail and quick turnaround made our product launch stress-free. Highly recommend.",
-      "author": "Sarah L.",
-      "role": "Beauty & Personal Care"
+      "name": "Sarah L.",
+      "business": "Beauty & Personal Care"
     },
     {
       "quote": "We've worked with several agencies before. Scalene is the first one that actually moved the needle. Their A+ Content alone paid for itself in the first month.",
-      "author": "David T.",
-      "role": "Electronics Seller"
+      "name": "David T.",
+      "business": "Electronics Seller"
     }
   ],
+
   "contact": {
     "email": "scalenedesigns@gmail.com",
     "phone": "+63 977 332 3052",
-    "calendlyLink": "https://calendly.com/jcad-creatives/discovery-call"
+    "calendly": "https://calendly.com/jcad-creatives/discovery-call"
   }
 }

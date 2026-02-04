@@ -43,7 +43,7 @@ const ServicesSection: React.FC = () => {
           {/* Moved description here, below buttons, without a box */}
           <div className="animate-in fade-in slide-in-from-top-4 duration-700">
             <p className="text-neutral-400 text-lg leading-relaxed">
-              <span className="text-white font-bold">{activeCategory.title}:</span> {activeCategory.description}
+              {activeCategory.description}
             </p>
           </div>
         </div>
