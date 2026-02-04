@@ -69,11 +69,11 @@ const ServicesSection: React.FC = () => {
           )}
 
           {/* Carousel Track */}
-          <div className="relative w-full max-w-md aspect-[4/5] flex items-center justify-center">
+          <div className="relative w-full h-full flex items-center justify-center">
             {samples.map((sample, index) => {
               const diff = (index - currentSampleIndex + samples.length) % samples.length;
               let position = 0;
-              
+
               if (diff === 0) position = 0;
               else if (diff === 1 || diff === -samples.length + 1) position = 1;
               else if (diff === samples.length - 1 || diff === -1) position = -1;
@@ -91,9 +91,9 @@ const ServicesSection: React.FC = () => {
                 <div
                   key={sample.id}
                   style={style}
-                  className="absolute inset-0 bg-neutral-900 overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)] group pointer-events-none"
+                  className="absolute flex items-center justify-center bg-neutral-900 overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)] group pointer-events-none"
                 >
-                  <img src={sample.imageUrl} alt={sample.brand} className="h-full w-auto mx-auto group-hover:scale-105 transition-transform duration-[2s]" />
+                  <img src={sample.imageUrl} alt={sample.brand} className="max-h-[550px] w-auto object-contain group-hover:scale-105 transition-transform duration-[2s]" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-90" />
                   
                   <div className={`absolute bottom-12 left-12 right-12 transition-all duration-700 ${position === 0 ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
