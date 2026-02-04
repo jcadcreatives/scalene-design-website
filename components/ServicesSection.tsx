@@ -70,11 +70,15 @@ const ServicesSection: React.FC = () => {
 
           {/* Text info - positioned on left side of page */}
           <div className="absolute left-20 lg:left-44 bottom-8 z-50 text-left">
-            <span className="inline-block px-3 py-1 bg-orange-600/20 text-orange-500 text-[10px] font-black uppercase tracking-widest rounded mb-4 border border-orange-500/30">
-              Sample Case
-            </span>
-            <h3 className="text-4xl font-black text-white mb-4 tracking-tighter leading-none">{samples[currentSampleIndex]?.brand}</h3>
-            <p className="text-neutral-400 text-base leading-relaxed max-w-xs">{samples[currentSampleIndex]?.description}</p>
+            <div className="relative p-6 pr-16">
+              {/* Dynamic gradient background */}
+              <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent rounded-r-3xl -z-10" />
+              <span className="inline-block px-3 py-1 bg-orange-600/20 text-orange-500 text-[10px] font-black uppercase tracking-widest rounded mb-4 border border-orange-500/30">
+                Sample Case
+              </span>
+              <h3 className="text-4xl font-black text-white mb-4 tracking-tighter leading-none">{samples[currentSampleIndex]?.brand}</h3>
+              <p className="text-neutral-400 text-base leading-relaxed max-w-xs">{samples[currentSampleIndex]?.description}</p>
+            </div>
           </div>
 
           {/* Carousel Track */}
