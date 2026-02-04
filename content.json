@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "tagline": "Amazon Listing Optimization",
+    "headline": "Your Product Deserves To Be Seen",
+    "description": "We transform underperforming Amazon listings into conversion machines. Strategic visuals. Compelling copy. Measurable results.",
+    "buttonText": "Start Converting More →",
+    "stats": [
+      { "value": "250+", "label": "Listings Optimized" },
+      { "value": "40%", "label": "Avg. Conversion Lift" },
+      { "value": "3-5 Day", "label": "Turnaround" }
+    ]
+  },
+  "services": {
+    "listing": {
+      "title": "Listing Images",
+      "description": "Main images, lifestyle shots, and infographics engineered for maximum conversion.",
+      "samples": [
+        { "brand": "Wireless Earbuds", "description": "Electronics • Complete 7-Image Set", "image": "listing-1.jpg" },
+        { "brand": "Skincare Collection", "description": "Beauty • Lifestyle & Macro Set", "image": "listing-2.jpg" },
+        { "brand": "Yoga Mat Pro", "description": "Fitness • Feature-Benefit Set", "image": "listing-3.jpg" }
+      ]
+    },
+    "aplus": {
+      "title": "A+ Content",
+      "description": "Premium brand content modules that tell your story and differentiate your product.",
+      "samples": [
+        { "brand": "EcoPet Food", "description": "Pet • Storytelling Modules", "image": "aplus-1.jpg" },
+        { "brand": "Office Flow", "description": "Home • Product Comparison", "image": "aplus-2.jpg" },
+        { "brand": "Premium Brand", "description": "Lifestyle • A+ Content Set", "image": "aplus-3.jpg" },
+        { "brand": "GPS Tracker", "description": "Electronics • Feature Showcase", "image": "aplus-4.jpg" }
+      ]
+    },
+    "brand": {
+      "title": "Brand Story",
+      "description": "Build emotional connection and brand loyalty with compelling narrative design.",
+      "samples": [
+        { "brand": "Veda Wellness", "description": "Supplements • Brand Story Set", "image": "brand-1.jpg" }
+      ]
+    },
+    "storefront": {
+      "title": "Storefronts",
+      "description": "Custom branded shopping experiences that increase AOV and customer lifetime value.",
+      "samples": [
+        { "brand": "Lux Apparel", "description": "Clothing • Premium Storefront", "image": "storefront-1.jpg" }
+      ]
+    }
+  },
+  "testimonials": [
+    {
+      "quote": "Our conversion rate jumped 47% within two weeks of launching the new images. Scalene understood exactly what we needed and delivered beyond expectations.",
+      "author": "Simon H.",
+      "role": "Home & Kitchen Brand"
+    },
+    {
+      "quote": "Finally, an agency that gets Amazon. The team's attention to detail and quick turnaround made our product launch stress-free. Highly recommend.",
+      "author": "Sarah L.",
+      "role": "Beauty & Personal Care"
+    },
+    {
+      "quote": "We've worked with several agencies before. Scalene is the first one that actually moved the needle. Their A+ Content alone paid for itself in the first month.",
+      "author": "David T.",
+      "role": "Electronics Seller"
+    }
+  ],
+  "contact": {
+    "email": "scalenedesigns@gmail.com",
+    "phone": "+63 977 332 3052",
+    "calendlyLink": "https://calendly.com/jcad-creatives/discovery-call"
+  }
+}
