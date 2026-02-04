@@ -52,21 +52,30 @@ const ServicesSection: React.FC = () => {
           {/* Controls - only show if multiple samples */}
           {samples.length > 1 && (
             <>
-              <button 
-                onClick={prev} 
+              <button
+                onClick={prev}
                 className="absolute left-4 lg:left-24 z-[60] w-14 h-14 bg-black/40 backdrop-blur-md hover:bg-orange-600 border border-white/10 rounded-full flex items-center justify-center text-white transition-all hover:scale-110 active:scale-90 shadow-2xl"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </button>
-              
-              <button 
-                onClick={next} 
+
+              <button
+                onClick={next}
                 className="absolute right-4 lg:right-24 z-[60] w-14 h-14 bg-black/40 backdrop-blur-md hover:bg-orange-600 border border-white/10 rounded-full flex items-center justify-center text-white transition-all hover:scale-110 active:scale-90 shadow-2xl"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </button>
             </>
           )}
+
+          {/* Text info - positioned on left side of page */}
+          <div className="absolute left-0 bottom-8 z-50 text-left pl-4 lg:pl-6">
+            <span className="inline-block px-3 py-1 bg-orange-600/20 text-orange-500 text-[10px] font-black uppercase tracking-widest rounded mb-4 border border-orange-500/30">
+              Sample Case
+            </span>
+            <h3 className="text-4xl font-black text-white mb-4 tracking-tighter leading-none">{samples[currentSampleIndex]?.brand}</h3>
+            <p className="text-neutral-400 text-base leading-relaxed max-w-xs">{samples[currentSampleIndex]?.description}</p>
+          </div>
 
           {/* Carousel Track */}
           <div className="relative w-full h-full flex items-center justify-center">
@@ -94,15 +103,6 @@ const ServicesSection: React.FC = () => {
                   className="absolute flex items-center justify-center overflow-hidden group pointer-events-none"
                 >
                   <img src={sample.imageUrl} alt={sample.brand} className="max-h-[550px] w-auto object-contain group-hover:scale-105 transition-transform duration-[2s]" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-90" />
-                  
-                  <div className={`absolute bottom-6 left-28 lg:left-32 text-left transition-all duration-700 ${position === 0 ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
-                    <span className="inline-block px-3 py-1 bg-orange-600/20 text-orange-500 text-[10px] font-black uppercase tracking-widest rounded mb-4 border border-orange-500/30">
-                      Sample Case
-                    </span>
-                    <h3 className="text-4xl font-black text-white mb-4 tracking-tighter leading-none">{sample.brand}</h3>
-                    <p className="text-neutral-400 text-base leading-relaxed max-w-xs">{sample.description}</p>
-                  </div>
                 </div>
               );
             })}
