@@ -8,7 +8,7 @@ export const TESTIMONIALS: Testimonial[] = content.testimonials.map((t, i) => ({
   quote: t.quote,
   author: t.name,
   role: t.business,
-  image: t.photo ? `/images/profiles/${t.photo}` : `/images/clients/client-${i + 1}.jpg`
+  image: t.photo ? `/images/clients/${t.photo}` : `/images/clients/client-${i + 1}.jpg`
 }));
 
 export const SERVICES: ServiceItem[] = [
