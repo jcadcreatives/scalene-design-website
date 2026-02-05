@@ -72,6 +72,7 @@ function getTestimonials() {
       if (line.startsWith('Quote:')) current.quote = line.substring(6).trim();
       if (line.startsWith('Name:')) current.name = line.substring(5).trim();
       if (line.startsWith('Business:')) current.business = line.substring(9).trim();
+      if (line.startsWith('Photo:')) current.photo = line.substring(6).trim();
     }
   }
   if (current && current.quote) testimonials.push(current);

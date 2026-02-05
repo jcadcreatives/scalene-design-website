@@ -65,16 +65,19 @@ Testimonial 1:
 Quote: Our conversion rate jumped 47% within two weeks of launching the new images. Scalene understood exactly what we needed and delivered beyond expectations.
 Name: Simon H.
 Business: Home & Kitchen Brand
+Photo: client-1.jpg
 
 Testimonial 2:
 Quote: Finally, an agency that gets Amazon. The team's attention to detail and quick turnaround made our product launch stress-free. Highly recommend.
 Name: Sarah L.
 Business: Beauty & Personal Care
+Photo: client-2.jpg
 
 Testimonial 3:
 Quote: We've worked with several agencies before. Scalene is the first one that actually moved the needle. Their A+ Content alone paid for itself in the first month.
 Name: David T.
 Business: Electronics Seller
+Photo: client-3.jpg
 
 
 --- CONTACT INFO ---
@@ -91,6 +94,13 @@ Calendly: https://calendly.com/jcad-creatives/discovery-call
     2. Add a new line under the right category:
        Image: filename.jpg | Brand Name | Category • Description
     3. Save this file and run the commands below
+
+    HOW TO ADD TESTIMONIAL PROFILE PICS:
+
+    1. Put the photo in: public/images/profiles/
+    2. Name it: client-1.jpg, client-2.jpg, etc.
+    3. Add a Photo line under the testimonial:
+       Photo: client-1.jpg
 =========================================
 
 

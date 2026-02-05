@@ -125,17 +125,20 @@
     {
       "quote": "Our conversion rate jumped 47% within two weeks of launching the new images. Scalene understood exactly what we needed and delivered beyond expectations.",
       "name": "Simon H.",
-      "business": "Home & Kitchen Brand"
+      "business": "Home & Kitchen Brand",
+      "photo": "client-1.jpg"
     },
     {
       "quote": "Finally, an agency that gets Amazon. The team's attention to detail and quick turnaround made our product launch stress-free. Highly recommend.",
       "name": "Sarah L.",
-      "business": "Beauty & Personal Care"
+      "business": "Beauty & Personal Care",
+      "photo": "client-2.jpg"
     },
     {
       "quote": "We've worked with several agencies before. Scalene is the first one that actually moved the needle. Their A+ Content alone paid for itself in the first month.",
       "name": "David T.",
-      "business": "Electronics Seller"
+      "business": "Electronics Seller",
+      "photo": "client-3.jpg"
     }
   ],
   "contact": {
