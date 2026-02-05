@@ -97,6 +97,16 @@ function getStats() {
   return stats;
 }
 
+function getSolutionImage() {
+  const sectionLines = getSection('SOLUTION SECTION');
+  for (const line of sectionLines) {
+    if (line.startsWith('Image:')) {
+      return line.substring(6).trim();
+    }
+  }
+  return 'solution.jpg';
+}
+
 const content = {
   "_HOW_TO_USE": "Auto-generated from EDIT-ME.txt. Run: node update-content.cjs",
   hero: {
@@ -129,6 +139,9 @@ const content = {
     }
   },
   testimonials: getTestimonials(),
+  solution: {
+    image: getSolutionImage()
+  },
   contact: {
     email: getValue('Email'),
     phone: getValue('Phone'),

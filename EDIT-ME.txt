@@ -59,6 +59,11 @@ Image: storefront-2.jpg | ISpyNits | Lice Treatment Kit • Health & Personal Ca
 
 
 
+--- SOLUTION SECTION ---
+
+Image: solution.jpg
+
+
 --- TESTIMONIALS ---
 
 Testimonial 1:
@@ -97,10 +102,16 @@ Calendly: https://calendly.com/jcad-creatives/discovery-call
 
     HOW TO ADD TESTIMONIAL PROFILE PICS:
 
-    1. Put the photo in: public/images/profiles/
+    1. Put the photo in: public/images/clients/
     2. Name it: client-1.jpg, client-2.jpg, etc.
     3. Add a Photo line under the testimonial:
        Photo: client-1.jpg
+
+    HOW TO CHANGE SOLUTION SECTION IMAGE:
+
+    1. Put the image in: public/images/solution/
+    2. Update the Image line under SOLUTION SECTION:
+       Image: your-image.jpg
 =========================================
 
 

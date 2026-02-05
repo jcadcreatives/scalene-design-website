@@ -141,6 +141,9 @@
       "photo": "client-3.jpg"
     }
   ],
+  "solution": {
+    "image": "solution.jpg"
+  },
   "contact": {
     "email": "scalenedesigns@gmail.com",
     "phone": "+63 977 332 3052",

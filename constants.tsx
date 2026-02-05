@@ -59,3 +59,7 @@ export const SERVICES: ServiceItem[] = [
 ];
 
 export const CONTACT = content.contact;
+
+export const SOLUTION = {
+  image: content.solution?.image ? `/images/solution/${content.solution.image}` : '/images/solution/solution.jpg'
+};
