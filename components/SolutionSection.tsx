@@ -4,7 +4,7 @@ import { SOLUTION } from '../constants';
 
 const SolutionSection: React.FC = () => {
   return (
-    <section className="py-24 bg-[#0a0a0a] overflow-hidden">
+    <section className="py-24 bg-[#050505] overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           <div className="max-w-xl">
@@ -34,16 +34,12 @@ const SolutionSection: React.FC = () => {
             </ul>
           </div>
 
-          <div className="relative">
-            <div className="rounded-[2rem] overflow-hidden shadow-2xl bg-black">
-              <img
-                src={SOLUTION.image}
-                alt="Solution showcase"
-                className="w-full h-auto object-contain"
-              />
-            </div>
-            {/* Accent Blur */}
-            <div className="absolute bottom-0 right-0 w-64 h-64 bg-orange-600/10 rounded-full blur-[80px] -z-10" />
+          <div>
+            <img
+              src={SOLUTION.image}
+              alt="Solution showcase"
+              className="w-full h-auto object-contain"
+            />
           </div>
         </div>
       </div>
