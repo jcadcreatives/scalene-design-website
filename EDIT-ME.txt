@@ -23,8 +23,8 @@ Category Description: Main images, lifestyle shots, and infographics engineered 
 Image: listing-1.jpg | Lionbeam | Ceiling Speaker • Electronics
 Image: listing-2.jpg | Brickhouse Security | Car GPS Tracker • Electronics
 Image: listing-3.jpg | Yoga Mat Pro | Fitness • Feature-Benefit Set
-Image: listing-3.jpg | Yoga Mat Pro | Fitness • Feature-Benefit Set
-Image: listing-3.jpg | Yoga Mat Pro | Fitness • Feature-Benefit Set
+Image: listing-4.jpg | Yoga Mat Pro | Fitness • Feature-Benefit Set
+Image: listing-5.jpg | Yoga Mat Pro | Fitness • Feature-Benefit Set
 
 
 --- PORTFOLIO: A+ CONTENT ---
@@ -35,7 +35,7 @@ Image: aplus-1.jpg | EcoPet Food | Pet • Storytelling Modules
 Image: aplus-2.jpg | Office Flow | Home • Product Comparison
 Image: aplus-3.jpg | Premium Brand | Lifestyle • A+ Content Set
 Image: aplus-4.jpg | GPS Tracker | Electronics • Feature Showcase
-Image: aplus-4.jpg | GPS Tracker | Electronics • Feature Showcase
+Image: aplus-5.jpg | GPS Tracker | Electronics • Feature Showcase
 
 
 
@@ -44,8 +44,8 @@ Image: aplus-4.jpg | GPS Tracker | Electronics • Feature Showcase
 Category Description: Build emotional connection and brand loyalty with compelling narrative design.
 
 Image: brand-1.jpg | Veda Wellness | Supplements • Brand Story Set
-Image: brand-1.jpg | Veda Wellness | Supplements • Brand Story Set
-Image: brand-1.jpg | Veda Wellness | Supplements • Brand Story Set
+Image: brand-2.jpg | Veda Wellness | Supplements • Brand Story Set
+Image: brand-3.jpg | Veda Wellness | Supplements • Brand Story Set
 
 
 
@@ -54,9 +54,7 @@ Image: brand-1.jpg | Veda Wellness | Supplements • Brand Story Set
 Category Description: Custom branded shopping experiences that increase AOV and customer lifetime value.
 
 Image: storefront-1.jpg | Lux Apparel | Clothing • Premium Storefront
-Image: storefront-1.jpg | Lux Apparel | Clothing • Premium Storefront
-Image: storefront-1.jpg | Lux Apparel | Clothing • Premium Storefront
-Image: storefront-1.jpg | Lux Apparel | Clothing • Premium Storefront
+Image: storefront-2.jpg | Lux Apparel | Clothing • Premium Storefront
 
 
 
