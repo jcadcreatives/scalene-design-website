@@ -4,7 +4,7 @@ import { SOLUTION } from '../constants';
 
 const SolutionSection: React.FC = () => {
   return (
-    <section className="py-24 bg-black overflow-hidden">
+    <section className="py-24 bg-[#050505] overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           <div className="max-w-xl">
