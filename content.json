@@ -33,22 +33,22 @@
         {
           "file": "listing-2.jpg",
           "name": "Brickhouse Security",
-          "subtitle": "Car GPS Tracker • Electronics"
+          "subtitle": "GPS Car Tracker • Electronics"
         },
         {
           "file": "listing-3.jpg",
-          "name": "Yoga Mat Pro",
-          "subtitle": "Fitness • Feature-Benefit Set"
+          "name": "Health Routine",
+          "subtitle": "Foot Bath Salt • Health & Personal Care"
         },
         {
           "file": "listing-4.jpg",
-          "name": "Yoga Mat Pro",
-          "subtitle": "Fitness • Feature-Benefit Set"
+          "name": "peplement",
+          "subtitle": "Mushroom Supplements • Health & Wellness"
         },
         {
           "file": "listing-5.jpg",
-          "name": "Yoga Mat Pro",
-          "subtitle": "Fitness • Feature-Benefit Set"
+          "name": "Office Logix",
+          "subtitle": "Ergonomic Office Chair • Office Furniture"
         }
       ]
     },
@@ -58,28 +58,28 @@
       "images": [
         {
           "file": "aplus-1.jpg",
-          "name": "EcoPet Food",
-          "subtitle": "Pet • Storytelling Modules"
+          "name": "Lionbeam",
+          "subtitle": "Ceiling Speaker • Electronics"
         },
         {
           "file": "aplus-2.jpg",
-          "name": "Office Flow",
-          "subtitle": "Home • Product Comparison"
+          "name": "Fender",
+          "subtitle": "Finger Exerciser • Musical Instruments"
         },
         {
           "file": "aplus-3.jpg",
-          "name": "Premium Brand",
-          "subtitle": "Lifestyle • A+ Content Set"
+          "name": "Exous Body Gear",
+          "subtitle": "Knee Brace • Sports & Fitness"
         },
         {
           "file": "aplus-4.jpg",
-          "name": "GPS Tracker",
-          "subtitle": "Electronics • Feature Showcase"
+          "name": "MCCHJoy",
+          "subtitle": "Mailbox Flag Replacement • Home & Garden"
         },
         {
           "file": "aplus-5.jpg",
-          "name": "GPS Tracker",
-          "subtitle": "Electronics • Feature Showcase"
+          "name": "Serenelife",
+          "subtitle": "Golf Push Cart • Sports & Outdoors"
         }
       ]
     },
@@ -89,18 +89,18 @@
       "images": [
         {
           "file": "brand-1.jpg",
-          "name": "Veda Wellness",
-          "subtitle": "Supplements • Brand Story Set"
+          "name": "Marlow",
+          "subtitle": "Pillow • Home & Bedding"
         },
         {
           "file": "brand-2.jpg",
-          "name": "Veda Wellness",
-          "subtitle": "Supplements • Brand Story Set"
+          "name": "Exous Body Gear",
+          "subtitle": "Knee Brace • Sports & Fitness"
         },
         {
           "file": "brand-3.jpg",
-          "name": "Veda Wellness",
-          "subtitle": "Supplements • Brand Story Set"
+          "name": "Du Peau",
+          "subtitle": "Shapewear • Women's Fashion"
         }
       ]
     },
@@ -110,13 +110,13 @@
       "images": [
         {
           "file": "storefront-1.jpg",
-          "name": "Lux Apparel",
-          "subtitle": "Clothing • Premium Storefront"
+          "name": "Vornado",
+          "subtitle": "Air Circulators • Home Appliances"
         },
         {
           "file": "storefront-2.jpg",
-          "name": "Lux Apparel",
-          "subtitle": "Clothing • Premium Storefront"
+          "name": "ISpyNits",
+          "subtitle": "Lice Treatment Kit • Health & Personal Care"
         }
       ]
     }
@@ -130,7 +130,7 @@
     },
     {
       "quote": "Finally, an agency that gets Amazon. The team's attention to detail and quick turnaround made our product launch stress-free. Highly recommend.",
-      "name": "Sarah L.",
+      "name": "Michael L.",
       "business": "Beauty & Personal Care",
       "photo": "client-2.jpg"
     },

@@ -21,21 +21,21 @@ Stat 3: 3-5 Day | Turnaround
 Category Description: Main images, lifestyle shots, and infographics engineered for maximum conversion.
 
 Image: listing-1.jpg | Lionbeam | Ceiling Speaker • Electronics
-Image: listing-2.jpg | Brickhouse Security | Car GPS Tracker • Electronics
-Image: listing-3.jpg | Yoga Mat Pro | Fitness • Feature-Benefit Set
-Image: listing-4.jpg | Yoga Mat Pro | Fitness • Feature-Benefit Set
-Image: listing-5.jpg | Yoga Mat Pro | Fitness • Feature-Benefit Set
+Image: listing-2.jpg | Brickhouse Security | GPS Car Tracker • Electronics
+Image: listing-3.jpg | Health Routine | Foot Bath Salt • Health & Personal Care
+Image: listing-4.jpg | peplement | Mushroom Supplements • Health & Wellness
+Image: listing-5.jpg | Office Logix | Ergonomic Office Chair • Office Furniture
 
 
 --- PORTFOLIO: A+ CONTENT ---
 
 Category Description: Premium brand content modules that tell your story and differentiate your product.
 
-Image: aplus-1.jpg | EcoPet Food | Pet • Storytelling Modules
-Image: aplus-2.jpg | Office Flow | Home • Product Comparison
-Image: aplus-3.jpg | Premium Brand | Lifestyle • A+ Content Set
-Image: aplus-4.jpg | GPS Tracker | Electronics • Feature Showcase
-Image: aplus-5.jpg | GPS Tracker | Electronics • Feature Showcase
+Image: aplus-1.jpg | Lionbeam | Ceiling Speaker • Electronics
+Image: aplus-2.jpg | Fender | Finger Exerciser • Musical Instruments
+Image: aplus-3.jpg | Exous Body Gear | Knee Brace • Sports & Fitness
+Image: aplus-4.jpg | MCCHJoy | Mailbox Flag Replacement • Home & Garden
+Image: aplus-5.jpg | Serenelife | Golf Push Cart • Sports & Outdoors
 
 
 
@@ -43,9 +43,9 @@ Image: aplus-5.jpg | GPS Tracker | Electronics • Feature Showcase
 
 Category Description: Build emotional connection and brand loyalty with compelling narrative design.
 
-Image: brand-1.jpg | Veda Wellness | Supplements • Brand Story Set
-Image: brand-2.jpg | Veda Wellness | Supplements • Brand Story Set
-Image: brand-3.jpg | Veda Wellness | Supplements • Brand Story Set
+Image: brand-1.jpg | Marlow | Pillow • Home & Bedding
+Image: brand-2.jpg | Exous Body Gear | Knee Brace • Sports & Fitness
+Image: brand-3.jpg | Du Peau | Shapewear • Women's Fashion
 
 
 
@@ -53,8 +53,8 @@ Image: brand-3.jpg | Veda Wellness | Supplements • Brand Story Set
 
 Category Description: Custom branded shopping experiences that increase AOV and customer lifetime value.
 
-Image: storefront-1.jpg | Lux Apparel | Clothing • Premium Storefront
-Image: storefront-2.jpg | Lux Apparel | Clothing • Premium Storefront
+Image: storefront-1.jpg | Vornado | Air Circulators • Home Appliances
+Image: storefront-2.jpg | ISpyNits | Lice Treatment Kit • Health & Personal Care
 
 
 
@@ -69,7 +69,7 @@ Photo: client-1.jpg
 
 Testimonial 2:
 Quote: Finally, an agency that gets Amazon. The team's attention to detail and quick turnaround made our product launch stress-free. Highly recommend.
-Name: Sarah L.
+Name: Michael L.
 Business: Beauty & Personal Care
 Photo: client-2.jpg
 
@@ -97,7 +97,7 @@ Calendly: https://calendly.com/jcad-creatives/discovery-call
 
     HOW TO ADD TESTIMONIAL PROFILE PICS:
 
-    1. Put the photo in: public/images/clients/
+    1. Put the photo in: public/images/profiles/
     2. Name it: client-1.jpg, client-2.jpg, etc.
     3. Add a Photo line under the testimonial:
        Photo: client-1.jpg
