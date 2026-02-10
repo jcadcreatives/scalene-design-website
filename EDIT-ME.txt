@@ -22,8 +22,6 @@ Category Description: Main images, lifestyle shots, and infographics engineered 
 
 Image: listing-1.jpg | Lionbeam | Ceiling Speaker • Electronics
 Image: listing-2.jpg | Brickhouse Security | GPS Car Tracker • Electronics
-Image: listing-3.jpg | Health Routine | Foot Bath Salt • Health & Personal Care
-Image: listing-4.jpg | peplement | Mushroom Supplements • Health & Wellness
 Image: listing-5.jpg | Office Logix | Ergonomic Office Chair • Office Furniture
 
 
