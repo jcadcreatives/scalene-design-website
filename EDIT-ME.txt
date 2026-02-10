@@ -66,7 +66,7 @@ Image: solution.jpg
 
 Testimonial 1:
 Quote: Our conversion rate jumped 47% within two weeks of launching the new images. Scalene understood exactly what we needed and delivered beyond expectations.
-Name: Simon H.
+Name: George H.
 Business: Home & Kitchen Brand
 Photo: client-1.jpg
 
