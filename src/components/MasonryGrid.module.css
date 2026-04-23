@@ -8,9 +8,12 @@
   margin: 0 48px;
 }
 
-.item {
+.itemWrapper {
   break-inside: avoid;
   margin-bottom: 16px;
+}
+
+.item {
   overflow: hidden;
   border-radius: 8px;
   position: relative;
@@ -21,23 +24,6 @@
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.overlay {
-  position: absolute;
-  inset: 0;
-  background: var(--color-primary);
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-
-.item:hover .image {
-  transform: scale(1.03);
-}
-
-.item:hover .overlay {
-  opacity: 0.10;
 }
 
 @media (max-width: 1200px) {
@@ -47,7 +33,7 @@
     margin: 0 32px;
   }
 
-  .item {
+  .itemWrapper {
     margin-bottom: 12px;
   }
 }
@@ -59,7 +45,7 @@
     margin: 0 16px;
   }
 
-  .item {
+  .itemWrapper {
     margin-bottom: 10px;
   }
 }
