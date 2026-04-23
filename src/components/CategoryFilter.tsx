@@ -29,7 +29,7 @@ export default function CategoryFilter({ activeCategory, onSelect }: CategoryFil
               aria-label="Show all categories"
             >
               <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Scalene — show all"
                 width={400}
                 height={120}

@@ -6,7 +6,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.logo}>
         <Image
-          src="/logo.png"
+          src="/logo.webp"
           alt="Scalene Design"
           width={400}
           height={120}
