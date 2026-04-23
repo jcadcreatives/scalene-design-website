@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { AnimatePresence, motion } from 'framer-motion'
 import styles from './MasonryGrid.module.css'
 import portfolioData from '@/data/portfolio.json'
@@ -55,11 +56,13 @@ export default function MasonryGrid({ activeCategory }: MasonryGridProps) {
               initial="hidden"
               data-cursor
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src={item.src}
                 alt={item.alt}
-                loading="lazy"
+                width={1600}
+                height={1200}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ width: '100%', height: 'auto' }}
                 className={styles.image}
               />
               <div className={styles.overlay} />
