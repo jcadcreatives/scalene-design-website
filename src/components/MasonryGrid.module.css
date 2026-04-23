@@ -3,16 +3,16 @@
 }
 
 .grid {
-  columns: 3;
-  column-gap: var(--gap);
-  margin: 0 var(--margin-h);
+  columns: 4;
+  column-gap: 16px;
+  margin: 0 48px;
 }
 
 .item {
   break-inside: avoid;
-  margin-bottom: var(--gap);
+  margin-bottom: 16px;
   overflow: hidden;
-  border-radius: 2px;
+  border-radius: 8px;
   position: relative;
   cursor: pointer;
 }
@@ -42,14 +42,24 @@
 
 @media (max-width: 1200px) {
   .grid {
-    columns: 2;
-    margin: 0 8vw;
+    columns: 3;
+    column-gap: 12px;
+    margin: 0 32px;
+  }
+
+  .item {
+    margin-bottom: 12px;
   }
 }
 
 @media (max-width: 768px) {
   .grid {
-    columns: 1;
+    columns: 2;
+    column-gap: 10px;
     margin: 0 16px;
+  }
+
+  .item {
+    margin-bottom: 10px;
   }
 }
