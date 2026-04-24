@@ -10,6 +10,7 @@ interface PortfolioItem {
   src: string
   alt: string
   category: string
+  priority: boolean
 }
 
 const itemVariants = {
@@ -37,9 +38,9 @@ interface MasonryGridProps {
 }
 
 export default function MasonryGrid({ activeCategory }: MasonryGridProps) {
-  const items = (portfolioData as PortfolioItem[]).filter(
-    (item) => activeCategory === 'all' || item.category === activeCategory
-  )
+  const items = (portfolioData as PortfolioItem[])
+    .filter((item) => activeCategory === 'all' || item.category === activeCategory)
+    .sort((a, b) => (b.priority ? 1 : 0) - (a.priority ? 1 : 0))
 
   return (
     <main className={styles.wrapper}>
