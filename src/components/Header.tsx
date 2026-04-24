@@ -28,7 +28,7 @@ export default function Header() {
         rel="noopener noreferrer"
         className={styles.cta}
       >
-        Let&apos;s chat!
+        Work with us
       </a>
     </header>
   )
