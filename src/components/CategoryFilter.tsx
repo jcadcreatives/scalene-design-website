@@ -10,7 +10,7 @@ const CATEGORIES = [
   { id: 'all', label: 'logo' },
   { id: 'health-beauty', label: 'Health & Beauty' },
   { id: 'electronics', label: 'Electronics' },
-  { id: 'category', label: 'Category' },
+  { id: 'and-more', label: 'AND MORE' },
 ]
 
 interface CategoryFilterProps {
