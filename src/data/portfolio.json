@@ -449,16 +449,30 @@
   },
   {
     "id": "65",
-    "src": "/images/Home%20and%20Kitchen/a%2B_GSI%20Jumbo%20Cones.webp",
-    "alt": "a+_GSI Jumbo Cones",
-    "category": "home-kitchen",
+    "src": "/images/AND%20MORE/GSI%20Cones%20A%2B.webp",
+    "alt": "GSI Cones A+",
+    "category": "and-more",
     "priority": false
   },
   {
     "id": "66",
-    "src": "/images/Home%20and%20Kitchen/a%2B_skechers.webp",
-    "alt": "a+_skechers",
-    "category": "home-kitchen",
+    "src": "/images/AND%20MORE/Skechers%20A%2B%201.webp",
+    "alt": "Skechers A+ 1",
+    "category": "and-more",
+    "priority": false
+  },
+  {
+    "id": "88",
+    "src": "/images/AND%20MORE/Skechers%201.webp",
+    "alt": "Skechers 1",
+    "category": "and-more",
+    "priority": false
+  },
+  {
+    "id": "89",
+    "src": "/images/AND%20MORE/Skechers%202.webp",
+    "alt": "Skechers 2",
+    "category": "and-more",
     "priority": false
   },
   {
