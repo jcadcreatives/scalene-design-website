@@ -123,28 +123,30 @@
     bottom: 16px;
     height: 52px;
     padding: 0 4px;
+    /* cap width and enable horizontal scroll */
+    max-width: calc(100vw - 32px);
+    overflow-x: auto;
+    overflow-y: visible;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    /* fade hint on right edge */
+    -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%);
+    mask-image: linear-gradient(to right, black 80%, transparent 100%);
+  }
+
+  .bar::-webkit-scrollbar {
+    display: none;
   }
 
   .item {
-    font-size: 9px;
-    padding: 0 11px;
-    letter-spacing: 0.03em;
+    font-size: 10px;
+    padding: 0 12px;
+    letter-spacing: 0.04em;
     height: 40px;
   }
 
   .logoBtn {
     padding: 0 10px;
     height: 40px;
-  }
-}
-
-@media (max-width: 480px) {
-  .item {
-    font-size: 8px;
-    padding: 0 11px;
-  }
-
-  .logoBtn {
-    padding: 0 8px;
   }
 }
