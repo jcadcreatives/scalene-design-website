@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { useState, useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import styles from './MasonryGrid.module.css'
 import portfolioData from '@/data/portfolio.json'
@@ -37,7 +38,24 @@ interface MasonryGridProps {
   activeCategory: string
 }
 
+function useNumCols() {
+  const [numCols, setNumCols] = useState(4)
+  useEffect(() => {
+    const update = () => {
+      if (window.innerWidth <= 768) setNumCols(2)
+      else if (window.innerWidth <= 1200) setNumCols(3)
+      else setNumCols(4)
+    }
+    update()
+    window.addEventListener('resize', update)
+    return () => window.removeEventListener('resize', update)
+  }, [])
+  return numCols
+}
+
 export default function MasonryGrid({ activeCategory }: MasonryGridProps) {
+  const numCols = useNumCols()
+
   const getOrder = (src: string) => {
     const filename = decodeURIComponent(src.split('/').pop() ?? '')
     const match = filename.match(/^(\d+)_/)
@@ -48,9 +66,8 @@ export default function MasonryGrid({ activeCategory }: MasonryGridProps) {
     .filter((item) => activeCategory === 'all' || item.category === activeCategory)
     .sort((a, b) => getOrder(a.src) - getOrder(b.src))
 
-  const NUM_COLS = 4
-  const columns: PortfolioItem[][] = Array.from({ length: NUM_COLS }, () => [])
-  items.forEach((item, i) => columns[i % NUM_COLS].push(item))
+  const columns: PortfolioItem[][] = Array.from({ length: numCols }, () => [])
+  items.forEach((item, i) => columns[i % numCols].push(item))
 
   return (
     <main className={styles.wrapper}>
@@ -65,7 +82,7 @@ export default function MasonryGrid({ activeCategory }: MasonryGridProps) {
           {columns.map((col, colIdx) => (
             <div key={colIdx} className={styles.column}>
               {col.map((item, rowIdx) => {
-                const globalIdx = colIdx + rowIdx * NUM_COLS
+                const globalIdx = colIdx + rowIdx * numCols
                 return (
                   <div key={item.id} className={styles.itemWrapper}>
                     <motion.div
