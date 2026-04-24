@@ -3,14 +3,20 @@
 }
 
 .grid {
-  columns: 4;
-  column-gap: 16px;
+  display: flex;
+  gap: 16px;
   margin: 0 48px;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .itemWrapper {
-  break-inside: avoid;
-  margin-bottom: 16px;
 }
 
 .item {
@@ -28,24 +34,14 @@
 
 @media (max-width: 1200px) {
   .grid {
-    columns: 3;
-    column-gap: 12px;
+    gap: 12px;
     margin: 0 32px;
-  }
-
-  .itemWrapper {
-    margin-bottom: 12px;
   }
 }
 
 @media (max-width: 768px) {
   .grid {
-    columns: 2;
-    column-gap: 10px;
+    gap: 10px;
     margin: 0 16px;
-  }
-
-  .itemWrapper {
-    margin-bottom: 10px;
   }
 }
