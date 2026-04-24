@@ -22,63 +22,63 @@
   },
   {
     "id": "3",
-    "src": "/images/Electronics/Fender/7_Fender%203.webp",
+    "src": "/images/Electronics/7_Fender%203.webp",
     "alt": "Fender 3",
     "category": "electronics",
     "priority": false
   },
   {
     "id": "4",
-    "src": "/images/Electronics/Fender/4_Fender%204.webp",
+    "src": "/images/Electronics/4_Fender%204.webp",
     "alt": "Fender 4",
     "category": "electronics",
     "priority": false
   },
   {
     "id": "5",
-    "src": "/images/Electronics/Fender/Prioritize%20-%20Fender%201.webp",
+    "src": "/images/Electronics/Prioritize%20-%20Fender%201.webp",
     "alt": "Prioritize - Fender 1",
     "category": "electronics",
-    "priority": true
+    "priority": false
   },
   {
     "id": "6",
-    "src": "/images/Electronics/Fender/Prioritize%20-%20Fender%202.webp",
+    "src": "/images/Electronics/Prioritize%20-%20Fender%202.webp",
     "alt": "Prioritize - Fender 2",
     "category": "electronics",
-    "priority": true
+    "priority": false
   },
   {
     "id": "7",
-    "src": "/images/Electronics/Sandshark%20/5_Sandshark%201.webp",
+    "src": "/images/Electronics/5_Sandshark%201.webp",
     "alt": "Sandshark 1",
     "category": "electronics",
     "priority": false
   },
   {
     "id": "8",
-    "src": "/images/Electronics/Sandshark%20/Sandshark%202.webp",
+    "src": "/images/Electronics/Sandshark%202.webp",
     "alt": "Sandshark 2",
     "category": "electronics",
     "priority": false
   },
   {
     "id": "9",
-    "src": "/images/Electronics/Sandshark%20/Sandshark%203.webp",
+    "src": "/images/Electronics/Sandshark%203.webp",
     "alt": "Sandshark 3",
     "category": "electronics",
     "priority": false
   },
   {
     "id": "10",
-    "src": "/images/Electronics/Sandshark%20/2_Sandshark%204.webp",
+    "src": "/images/Electronics/2_Sandshark%204.webp",
     "alt": "Sandshark 4",
     "category": "electronics",
     "priority": false
   },
   {
     "id": "11",
-    "src": "/images/Electronics/Sandshark%20/Sandshark%205.webp",
+    "src": "/images/Electronics/Sandshark%205.webp",
     "alt": "Sandshark 5",
     "category": "electronics",
     "priority": false
