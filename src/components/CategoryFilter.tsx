@@ -6,9 +6,11 @@ import styles from './CategoryFilter.module.css'
 const CATEGORIES = [
   { id: 'home-kitchen', label: 'Home & Kitchen' },
   { id: 'supplements', label: 'Supplements' },
+  { id: 'pets', label: 'Pets' },
   { id: 'all', label: 'logo' },
   { id: 'health-beauty', label: 'Health & Beauty' },
   { id: 'electronics', label: 'Electronics' },
+  { id: 'category', label: 'Category' },
 ]
 
 interface CategoryFilterProps {
