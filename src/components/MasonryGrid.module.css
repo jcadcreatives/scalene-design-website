@@ -16,14 +16,12 @@
   gap: 16px;
 }
 
-.itemWrapper {
-}
+.itemWrapper {}
 
 .item {
   overflow: hidden;
   border-radius: 8px;
   position: relative;
-  cursor: pointer;
 }
 
 .image {

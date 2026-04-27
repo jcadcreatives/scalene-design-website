@@ -434,13 +434,6 @@
     "priority": false
   },
   {
-    "id": "p-1",
-    "src": "/images/Pets/1_Mr%20Remys%201.webp",
-    "alt": "Mr Remys 1",
-    "category": "pets",
-    "priority": false
-  },
-  {
     "id": "p-2",
     "src": "/images/Pets/2_Pupiboo%20a%2B.webp",
     "alt": "Pupiboo A+",
