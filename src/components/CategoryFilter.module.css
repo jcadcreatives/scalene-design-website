@@ -3,8 +3,7 @@
   bottom: 24px;
   left: 50%;
   transform: translateX(-50%);
-  width: fit-content;
-  max-width: calc(100% - 48px);
+  width: max-content;
   height: 56px;
   padding: 0 6px;
 
@@ -49,7 +48,7 @@
   font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 0 20px;
+  padding: 0 16px;
   height: 44px;
   display: flex;
   align-items: center;
@@ -57,6 +56,7 @@
   transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   white-space: nowrap;
   position: relative;
+  flex-shrink: 0;
 }
 
 .item:hover {
@@ -78,10 +78,11 @@
   align-items: center;
   justify-content: center;
   height: 44px;
-  padding: 0 20px;
+  padding: 0 16px;
   border-radius: 100px;
   transition: opacity 0.2s ease, background 0.2s ease;
   position: relative;
+  flex-shrink: 0;
 }
 
 .logoBtn:hover {
@@ -122,29 +123,30 @@
     bottom: 16px;
     height: 52px;
     padding: 0 4px;
-    max-width: calc(100% - 32px);
+    /* cap width and enable horizontal scroll */
+    max-width: calc(100vw - 32px);
+    overflow-x: auto;
+    overflow-y: visible;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    /* fade hint on right edge */
+    -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%);
+    mask-image: linear-gradient(to right, black 80%, transparent 100%);
+  }
+
+  .bar::-webkit-scrollbar {
+    display: none;
   }
 
   .item {
     font-size: 10px;
-    padding: 0 14px;
+    padding: 0 12px;
     letter-spacing: 0.04em;
     height: 40px;
   }
 
   .logoBtn {
-    padding: 0 14px;
+    padding: 0 10px;
     height: 40px;
-  }
-}
-
-@media (max-width: 480px) {
-  .item {
-    font-size: 9px;
-    padding: 0 10px;
-  }
-
-  .logoBtn {
-    padding: 0 10px;
   }
 }

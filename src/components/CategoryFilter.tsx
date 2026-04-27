@@ -6,9 +6,11 @@ import styles from './CategoryFilter.module.css'
 const CATEGORIES = [
   { id: 'home-kitchen', label: 'Home & Kitchen' },
   { id: 'supplements', label: 'Supplements' },
+  { id: 'pets', label: 'Pets' },
   { id: 'all', label: 'logo' },
   { id: 'health-beauty', label: 'Health & Beauty' },
   { id: 'electronics', label: 'Electronics' },
+  { id: 'and-more', label: 'AND MORE' },
 ]
 
 interface CategoryFilterProps {
@@ -29,7 +31,7 @@ export default function CategoryFilter({ activeCategory, onSelect }: CategoryFil
               aria-label="Show all categories"
             >
               <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Scalene — show all"
                 width={400}
                 height={120}

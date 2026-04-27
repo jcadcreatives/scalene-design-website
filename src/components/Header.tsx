@@ -6,7 +6,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.logo}>
         <Image
-          src="/logo.png"
+          src="/logo.webp"
           alt="Scalene Design"
           width={400}
           height={120}
@@ -28,7 +28,7 @@ export default function Header() {
         rel="noopener noreferrer"
         className={styles.cta}
       >
-        Let&apos;s chat!
+        Work with us
       </a>
     </header>
   )
