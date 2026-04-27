@@ -1,0 +1,47 @@
+.wrapper {
+  padding: 32px 0 0;
+}
+
+.grid {
+  display: flex;
+  gap: 16px;
+  margin: 0 48px;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.itemWrapper {
+}
+
+.item {
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .grid {
+    gap: 12px;
+    margin: 0 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    gap: 8px;
+    margin: 0 12px;
+  }
+}
