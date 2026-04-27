@@ -98,7 +98,6 @@ export default function MasonryGrid({ activeCategory }: MasonryGridProps) {
                         zIndex: 10,
                         transition: { duration: 0.35, ease: [0.25, 0.46, 0.45, 0.94] },
                       }}
-                      data-cursor
                     >
                       <Image
                         src={item.src}
