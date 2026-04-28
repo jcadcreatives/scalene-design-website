@@ -12,6 +12,7 @@ interface PortfolioItem {
   alt: string
   category: string
   priority: boolean
+  allOrder?: number
 }
 
 const itemVariants = {
@@ -56,15 +57,19 @@ function useNumCols() {
 export default function MasonryGrid({ activeCategory }: MasonryGridProps) {
   const numCols = useNumCols()
 
-  const getOrder = (src: string) => {
-    const filename = decodeURIComponent(src.split('/').pop() ?? '')
+  const getOrder = (item: PortfolioItem): number => {
+    if (activeCategory === 'all' && item.allOrder != null) {
+      return item.allOrder
+    }
+    const filename = decodeURIComponent(item.src.split('/').pop() ?? '')
     const match = filename.match(/^(\d+)_/)
-    return match ? parseInt(match[1], 10) : Infinity
+    const fileOrder = match ? parseInt(match[1], 10) : 9999
+    return activeCategory === 'all' ? 100 + fileOrder : fileOrder
   }
 
   const items = (portfolioData as PortfolioItem[])
     .filter((item) => activeCategory === 'all' || item.category === activeCategory)
-    .sort((a, b) => getOrder(a.src) - getOrder(b.src))
+    .sort((a, b) => getOrder(a) - getOrder(b))
 
   const columns: PortfolioItem[][] = Array.from({ length: numCols }, () => [])
   items.forEach((item, i) => columns[i % numCols].push(item))
