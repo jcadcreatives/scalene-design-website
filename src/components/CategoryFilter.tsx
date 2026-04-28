@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 import styles from './CategoryFilter.module.css'
 
 const CATEGORIES = [
@@ -15,10 +16,15 @@ const CATEGORIES = [
 
 interface CategoryFilterProps {
   activeCategory: string
-  onSelect: (id: string) => void
 }
 
-export default function CategoryFilter({ activeCategory, onSelect }: CategoryFilterProps) {
+export default function CategoryFilter({ activeCategory }: CategoryFilterProps) {
+  const router = useRouter()
+
+  const handleSelect = (id: string) => {
+    router.push(id === 'all' ? '/' : `/${id}`)
+  }
+
   return (
     <nav className={styles.bar} aria-label="Portfolio categories">
       {CATEGORIES.map((cat) => {
@@ -27,7 +33,7 @@ export default function CategoryFilter({ activeCategory, onSelect }: CategoryFil
             <button
               key="all"
               className={`${styles.logoBtn} ${activeCategory === 'all' ? styles.logoActive : ''}`}
-              onClick={() => onSelect('all')}
+              onClick={() => handleSelect('all')}
               aria-label="Show all categories"
             >
               <Image
@@ -53,7 +59,7 @@ export default function CategoryFilter({ activeCategory, onSelect }: CategoryFil
           <button
             key={cat.id}
             className={`${styles.item} ${isActive ? styles.active : ''}`}
-            onClick={() => onSelect(cat.id)}
+            onClick={() => handleSelect(cat.id)}
           >
             {cat.label}
           </button>
