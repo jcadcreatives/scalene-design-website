@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   icons: {
     icon: '/logo.webp',
   },
+  openGraph: {
+    images: ['/images/Supplements/1_Naturello A+.webp'],
+  },
 }
 
 export default function RootLayout({
