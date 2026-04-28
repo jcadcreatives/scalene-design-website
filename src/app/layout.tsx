@@ -12,6 +12,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: 'Scalene Design — Amazon Graphics Agency',
   description: 'Premium Amazon product graphics — main images, listing imagery, and A+ content.',
+  icons: {
+    icon: '/logo.webp',
+  },
 }
 
 export default function RootLayout({
