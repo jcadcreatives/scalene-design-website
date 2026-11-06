@@ -66,15 +66,24 @@ export default function MasonryGrid({ activeCategory }: MasonryGridProps) {
     return item.catOrder ?? item.order ?? 9999
   }
 
-  const items = (portfolioData as PortfolioItem[])
+  const ratioOf = (item: PortfolioItem) => (item.w && item.h ? item.h / item.w : 1)
+
+  const sorted = (portfolioData as PortfolioItem[])
     .filter((item) => activeCategory === 'all' || item.category === activeCategory)
     .sort((a, b) => getOrder(a) - getOrder(b))
+
+  // Near the end, place tall tiles first and short ones last so they fill the gaps.
+  const tailN = Math.min(sorted.length, numCols * 4)
+  const items = [
+    ...sorted.slice(0, sorted.length - tailN),
+    ...sorted.slice(sorted.length - tailN).sort((a, b) => ratioOf(b) - ratioOf(a)),
+  ]
 
   // Place each tile in the currently shortest column so columns end level.
   const columns: PortfolioItem[][] = Array.from({ length: numCols }, () => [])
   const heights = new Array(numCols).fill(0)
   items.forEach((item) => {
-    const ratio = item.w && item.h ? item.h / item.w : 1
+    const ratio = ratioOf(item)
     let target = 0
     for (let c = 1; c < numCols; c++) if (heights[c] < heights[target] - 0.01) target = c
     columns[target].push(item)
