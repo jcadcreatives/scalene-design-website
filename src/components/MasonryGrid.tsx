@@ -11,8 +11,12 @@ interface PortfolioItem {
   src: string
   alt: string
   category: string
-  priority: boolean
+  priority?: boolean
   allOrder?: number
+  order?: number
+  catOrder?: number
+  w?: number
+  h?: number
 }
 
 const itemVariants = {
@@ -58,21 +62,24 @@ export default function MasonryGrid({ activeCategory }: MasonryGridProps) {
   const numCols = useNumCols()
 
   const getOrder = (item: PortfolioItem): number => {
-    if (activeCategory === 'all' && item.allOrder != null) {
-      return item.allOrder
-    }
-    const filename = decodeURIComponent(item.src.split('/').pop() ?? '')
-    const match = filename.match(/^(\d+)_/)
-    const fileOrder = match ? parseInt(match[1], 10) : 9999
-    return activeCategory === 'all' ? 100 + fileOrder : fileOrder
+    if (activeCategory === 'all') return item.order ?? item.allOrder ?? 9999
+    return item.catOrder ?? item.order ?? 9999
   }
 
   const items = (portfolioData as PortfolioItem[])
     .filter((item) => activeCategory === 'all' || item.category === activeCategory)
     .sort((a, b) => getOrder(a) - getOrder(b))
 
+  // Place each tile in the currently shortest column so columns end level.
   const columns: PortfolioItem[][] = Array.from({ length: numCols }, () => [])
-  items.forEach((item, i) => columns[i % numCols].push(item))
+  const heights = new Array(numCols).fill(0)
+  items.forEach((item) => {
+    const ratio = item.w && item.h ? item.h / item.w : 1
+    let target = 0
+    for (let c = 1; c < numCols; c++) if (heights[c] < heights[target] - 0.01) target = c
+    columns[target].push(item)
+    heights[target] += ratio + 0.05
+  })
 
   return (
     <main className={styles.wrapper}>
@@ -107,8 +114,8 @@ export default function MasonryGrid({ activeCategory }: MasonryGridProps) {
                       <Image
                         src={item.src}
                         alt={item.alt}
-                        width={1600}
-                        height={1200}
+                        width={item.w ?? 1600}
+                        height={item.h ?? 1200}
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         style={{ width: '100%', height: 'auto' }}
                         className={styles.image}
