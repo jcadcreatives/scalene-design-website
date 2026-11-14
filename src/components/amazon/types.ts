@@ -2,6 +2,7 @@ export interface Img {
   src: string
   w: number
   h: number
+  product?: string
 }
 
 export interface Product {
@@ -16,6 +17,7 @@ export interface StoreBrand {
   name: string
   slug: string
   storefront: Img[]
+  storefrontRows?: Img[][]
   brandstory: Img[]
   products: Product[]
 }

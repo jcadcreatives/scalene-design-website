@@ -6773,49 +6773,108 @@
   "slug": "wuju",
   "storefront": [
    {
-    "src": "/images/pdp/wuju/d1c188723008.webp",
-    "w": 900,
-    "h": 180
+    "src": "/images/pdp/wuju/0f0a80f5eb5f.webp",
+    "w": 1500,
+    "h": 299
    },
    {
-    "src": "/images/pdp/wuju/8f5cf9fbc720.webp",
-    "w": 900,
-    "h": 180
+    "src": "/images/pdp/wuju/e8f619e3b0a7.webp",
+    "w": 1500,
+    "h": 750
    },
    {
-    "src": "/images/pdp/wuju/1efb749ad6ec.webp",
-    "w": 900,
-    "h": 900
+    "src": "/images/pdp/wuju/006c7c8d232e.webp",
+    "w": 829,
+    "h": 829,
+    "product": "chili-oil"
    },
    {
-    "src": "/images/pdp/wuju/67a7609bb95a.webp",
-    "w": 900,
-    "h": 900
+    "src": "/images/pdp/wuju/693cd64f1f82.webp",
+    "w": 829,
+    "h": 829,
+    "product": "chili-oil"
    },
    {
-    "src": "/images/pdp/wuju/25a63339156d.webp",
-    "w": 900,
-    "h": 450
+    "src": "/images/pdp/wuju/fcf64e148a3b.webp",
+    "w": 829,
+    "h": 829,
+    "product": "chili-oil"
    },
    {
-    "src": "/images/pdp/wuju/fab16937e469.webp",
-    "w": 900,
-    "h": 450
+    "src": "/images/pdp/wuju/3f3a20e55e0f.webp",
+    "w": 829,
+    "h": 829,
+    "product": "chili-oil"
    },
    {
-    "src": "/images/pdp/wuju/69560c327a0f.webp",
-    "w": 900,
-    "h": 900
+    "src": "/images/pdp/wuju/f58031f5df05.webp",
+    "w": 829,
+    "h": 829,
+    "product": "spicy-mayo"
    },
    {
-    "src": "/images/pdp/wuju/3a10a54b222e.webp",
-    "w": 900,
-    "h": 900
+    "src": "/images/pdp/wuju/9ca8bd1f47c8.webp",
+    "w": 829,
+    "h": 829,
+    "product": "spicy-mayo"
    },
    {
-    "src": "/images/pdp/wuju/49d07baab8e2.webp",
-    "w": 900,
-    "h": 900
+    "src": "/images/pdp/wuju/73e5ffceb94b.webp",
+    "w": 829,
+    "h": 829,
+    "product": "sriracha-mustard"
+   },
+   {
+    "src": "/images/pdp/wuju/3d1ba35b2b60.webp",
+    "w": 829,
+    "h": 829,
+    "product": "sriracha-mustard"
+   },
+   {
+    "src": "/images/pdp/wuju/7919df3bf0b5.webp",
+    "w": 829,
+    "h": 829,
+    "product": "soy-sauce"
+   },
+   {
+    "src": "/images/pdp/wuju/b6ff07f84646.webp",
+    "w": 829,
+    "h": 829,
+    "product": "soy-sauce"
+   },
+   {
+    "src": "/images/pdp/wuju/09d2d6d86604.webp",
+    "w": 396,
+    "h": 396,
+    "product": "soy-sauce"
+   },
+   {
+    "src": "/images/pdp/wuju/670fefb30709.webp",
+    "w": 396,
+    "h": 396,
+    "product": "spicy-mayo"
+   },
+   {
+    "src": "/images/pdp/wuju/e25e4f9eec50.webp",
+    "w": 396,
+    "h": 396,
+    "product": "chili-oil"
+   },
+   {
+    "src": "/images/pdp/wuju/fc5d01bf5376.webp",
+    "w": 396,
+    "h": 396,
+    "product": "sriracha-mustard"
+   },
+   {
+    "src": "/images/pdp/wuju/56931bec40e4.webp",
+    "w": 1500,
+    "h": 750
+   },
+   {
+    "src": "/images/pdp/wuju/9d64a6de1b54.webp",
+    "w": 1500,
+    "h": 300
    }
   ],
   "brandstory": [],
@@ -7000,6 +7059,132 @@
      "aplus"
     ]
    }
+  ],
+  "storefrontRows": [
+   [
+    {
+     "src": "/images/pdp/wuju/0f0a80f5eb5f.webp",
+     "w": 1500,
+     "h": 299
+    }
+   ],
+   [
+    {
+     "src": "/images/pdp/wuju/e8f619e3b0a7.webp",
+     "w": 1500,
+     "h": 750
+    }
+   ],
+   [
+    {
+     "src": "/images/pdp/wuju/006c7c8d232e.webp",
+     "w": 829,
+     "h": 829,
+     "product": "chili-oil"
+    },
+    {
+     "src": "/images/pdp/wuju/693cd64f1f82.webp",
+     "w": 829,
+     "h": 829,
+     "product": "chili-oil"
+    }
+   ],
+   [
+    {
+     "src": "/images/pdp/wuju/fcf64e148a3b.webp",
+     "w": 829,
+     "h": 829,
+     "product": "chili-oil"
+    },
+    {
+     "src": "/images/pdp/wuju/3f3a20e55e0f.webp",
+     "w": 829,
+     "h": 829,
+     "product": "chili-oil"
+    }
+   ],
+   [
+    {
+     "src": "/images/pdp/wuju/f58031f5df05.webp",
+     "w": 829,
+     "h": 829,
+     "product": "spicy-mayo"
+    },
+    {
+     "src": "/images/pdp/wuju/9ca8bd1f47c8.webp",
+     "w": 829,
+     "h": 829,
+     "product": "spicy-mayo"
+    }
+   ],
+   [
+    {
+     "src": "/images/pdp/wuju/73e5ffceb94b.webp",
+     "w": 829,
+     "h": 829,
+     "product": "sriracha-mustard"
+    },
+    {
+     "src": "/images/pdp/wuju/3d1ba35b2b60.webp",
+     "w": 829,
+     "h": 829,
+     "product": "sriracha-mustard"
+    }
+   ],
+   [
+    {
+     "src": "/images/pdp/wuju/7919df3bf0b5.webp",
+     "w": 829,
+     "h": 829,
+     "product": "soy-sauce"
+    },
+    {
+     "src": "/images/pdp/wuju/b6ff07f84646.webp",
+     "w": 829,
+     "h": 829,
+     "product": "soy-sauce"
+    }
+   ],
+   [
+    {
+     "src": "/images/pdp/wuju/09d2d6d86604.webp",
+     "w": 396,
+     "h": 396,
+     "product": "soy-sauce"
+    },
+    {
+     "src": "/images/pdp/wuju/670fefb30709.webp",
+     "w": 396,
+     "h": 396,
+     "product": "spicy-mayo"
+    },
+    {
+     "src": "/images/pdp/wuju/e25e4f9eec50.webp",
+     "w": 396,
+     "h": 396,
+     "product": "chili-oil"
+    },
+    {
+     "src": "/images/pdp/wuju/fc5d01bf5376.webp",
+     "w": 396,
+     "h": 396,
+     "product": "sriracha-mustard"
+    }
+   ],
+   [
+    {
+     "src": "/images/pdp/wuju/56931bec40e4.webp",
+     "w": 1500,
+     "h": 750
+    }
+   ],
+   [
+    {
+     "src": "/images/pdp/wuju/9d64a6de1b54.webp",
+     "w": 1500,
+     "h": 300
+    }
+   ]
   ]
  },
  "av-aura-valley": {

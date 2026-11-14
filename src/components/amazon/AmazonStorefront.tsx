@@ -37,8 +37,10 @@ export default function AmazonStorefront({
   const cat = from && CATEGORY_LABEL[from] ? from : category
   const q = from ? `?from=${from}` : ''
   const imgs = brand.storefront
-  const hero = imgs[0] && imgs[0].w / imgs[0].h >= 3 ? imgs[0] : null
-  const body = hero ? imgs.slice(1) : imgs
+  const fixed = brand.storefrontRows
+  const hero = fixed ? fixed[0][0] : imgs[0] && imgs[0].w / imgs[0].h >= 3 ? imgs[0] : null
+  const body = hero && !fixed ? imgs.slice(1) : imgs
+  const bodyRows = fixed ? fixed.slice(1) : rows(body)
   // storefronts that ship their own navigation strip don't need ours
   const ownNav = body.some((i) => i.w / i.h > 6)
 
@@ -64,12 +66,19 @@ export default function AmazonStorefront({
           </div>
           )}
           <div className={styles.storeBody}>
-            {rows(body).map((r, i) => (
+            {bodyRows.map((r, i) => (
               <div key={i} className={styles.storeRow} data-n={r.length}>
-                {r.map((im) => (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img key={im.src} src={im.src} alt="" loading="lazy" style={{ aspectRatio: `${im.w} / ${im.h}` }} />
-                ))}
+                {r.map((im) =>
+                  im.product ? (
+                    <Link key={im.src} href={`/brands/${brand.slug}/${im.product}${q}`} className={styles.storeTile}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={im.src} alt="" loading="lazy" style={{ aspectRatio: `${im.w} / ${im.h}` }} />
+                    </Link>
+                  ) : (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img key={im.src} src={im.src} alt="" loading="lazy" style={{ aspectRatio: `${im.w} / ${im.h}` }} />
+                  ),
+                )}
               </div>
             ))}
           </div>

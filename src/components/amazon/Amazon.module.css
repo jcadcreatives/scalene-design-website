@@ -404,9 +404,20 @@ a.storeLink:hover {
 .storeRow[data-n='2'] {
   grid-template-columns: 1fr 1fr;
 }
+.storeRow[data-n='4'] {
+  grid-template-columns: repeat(4, 1fr);
+}
 .storeRow img {
   width: 100%;
   height: auto;
+}
+.storeTile {
+  display: block;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.storeTile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.18);
 }
 .storeProducts {
   margin-top: 40px;
