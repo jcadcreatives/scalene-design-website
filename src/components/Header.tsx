@@ -1,12 +1,13 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from './Header.module.css'
 
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
+      <Link href="/" className={styles.logo} aria-label="Scalene — all brands">
         <Image
           src="/logo.webp"
           alt="Scalene Design"
@@ -22,7 +23,7 @@ export default function Header() {
           }}
         />
         <span className={styles.logoFallback}>SCALENE</span>
-      </div>
+      </Link>
 
       <a
         href="https://calendly.com/jcad-creatives/discovery-call"
