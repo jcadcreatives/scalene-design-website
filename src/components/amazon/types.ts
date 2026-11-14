@@ -19,6 +19,7 @@ export interface StoreBrand {
   storefront: Img[]
   storefrontRows?: Img[][]
   brandstory: Img[]
+  storyMode?: string
   products: Product[]
 }
 

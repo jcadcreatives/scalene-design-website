@@ -50,7 +50,11 @@ export default function AmazonPDP({
     bullets.push(`${nList} listing images: hero, benefits, features, size and lifestyle, in one consistent look.`)
   }
   if (product.aplus.length) {
-    bullets.push(`A+ content: ${product.aplus.length} modules that tell the product story below the fold.`)
+    bullets.push(
+      product.aplus.length > 1
+        ? `A+ content: ${product.aplus.length} modules that tell the product story below the fold.`
+        : 'Premium A+ page that tells the product story below the fold.',
+    )
   }
   if (brand.brandstory.length) bullets.push('Brand Story carousel that introduces the brand and links shoppers to the full range.')
   if (hasStore) bullets.push('Brand Storefront designed to match, so every product page leads back to one branded home.')
@@ -169,7 +173,7 @@ export default function AmazonPDP({
         {brand.brandstory.length > 0 && (
           <section className={styles.below}>
             <h2 className={styles.belowTitle}>From the brand</h2>
-            <BrandStory images={brand.brandstory} brand={brand.name} />
+            <BrandStory images={brand.brandstory} brand={brand.name} mode={brand.storyMode} />
           </section>
         )}
 

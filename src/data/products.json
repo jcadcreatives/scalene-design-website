@@ -4910,7 +4910,38 @@
   "name": "Fender",
   "slug": "fender",
   "storefront": [],
-  "brandstory": [],
+  "brandstory": [
+   {
+    "src": "/images/pdp/fender/d68983759cae.webp",
+    "w": 1500,
+    "h": 640
+   },
+   {
+    "src": "/images/pdp/fender/b5c39583501e.webp",
+    "w": 724,
+    "h": 906
+   },
+   {
+    "src": "/images/pdp/fender/380bc9198ecc.webp",
+    "w": 724,
+    "h": 906
+   },
+   {
+    "src": "/images/pdp/fender/a48658e715bc.webp",
+    "w": 724,
+    "h": 906
+   },
+   {
+    "src": "/images/pdp/fender/f604e6e8a814.webp",
+    "w": 724,
+    "h": 906
+   },
+   {
+    "src": "/images/pdp/fender/dd6487e61131.webp",
+    "w": 724,
+    "h": 906
+   }
+  ],
   "products": [
    {
     "name": "Fender Grip",
@@ -4960,7 +4991,8 @@
      "aplus"
     ]
    }
-  ]
+  ],
+  "storyMode": "strip"
  },
  "reglow": {
   "name": "ReGlow",
@@ -6786,13 +6818,13 @@
     "src": "/images/pdp/wuju/006c7c8d232e.webp",
     "w": 829,
     "h": 829,
-    "product": "chili-oil"
+    "product": "chili-crisp-sweet-heat"
    },
    {
     "src": "/images/pdp/wuju/693cd64f1f82.webp",
     "w": 829,
     "h": 829,
-    "product": "chili-oil"
+    "product": "chili-crisp-sweet-heat"
    },
    {
     "src": "/images/pdp/wuju/fcf64e148a3b.webp",
@@ -6880,182 +6912,317 @@
   "brandstory": [],
   "products": [
    {
-    "name": "Soy Sauce",
+    "name": "Chili Crisp Soy Sauce",
     "slug": "soy-sauce",
     "gallery": [
      {
-      "src": "/images/pdp/wuju/b1f7120e14eb.webp",
-      "w": 900,
-      "h": 900
+      "src": "/images/pdp/wuju/5450f437f1e5.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/0e1bd2fdb5bd.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/c2bec0aeb674.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/13da0f69bbc4.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/0b22dc293192.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/f67a1203435f.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/acda8ea9211b.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/baabbbd799b1.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/58997563cc3e.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/122cd408fe01.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/9ac8560dbdd0.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/6e08e47e7250.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/640d7ec37f26.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/607bc68d1589.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/93aacf175b87.webp",
+      "w": 1000,
+      "h": 1000
      }
     ],
-    "aplus": [],
+    "aplus": [
+     {
+      "src": "/images/pdp/wuju/3c802156ba59.webp",
+      "w": 1000,
+      "h": 2869
+     }
+    ],
     "kinds": [
-     "listing"
+     "main",
+     "listing",
+     "aplus"
     ]
    },
    {
-    "name": "Spicy Mayo",
+    "name": "Chili Crisp Spicy Mayo",
     "slug": "spicy-mayo",
     "gallery": [
      {
-      "src": "/images/pdp/wuju/7a097ae67def.webp",
-      "w": 900,
-      "h": 900
+      "src": "/images/pdp/wuju/44a000be88ff.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/a80ddb2840ad.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/64b11b5ac3e3.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/7ef17815006e.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/0c65462b6de2.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/75a6df574b9b.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/fedb9e2edd75.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/73d7b453aa31.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/95894711bc28.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/06894e578a06.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/076b6eb775b3.webp",
+      "w": 1000,
+      "h": 1000
      },
      {
-      "src": "/images/pdp/wuju/1fb33e173dd0.webp",
-      "w": 450,
-      "h": 450
+      "src": "/images/pdp/wuju/3cb8c73f695d.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/589c01c06c45.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/18c77673bd92.webp",
+      "w": 1000,
+      "h": 1000
      }
     ],
-    "aplus": [],
+    "aplus": [
+     {
+      "src": "/images/pdp/wuju/01c214668374.webp",
+      "w": 1000,
+      "h": 2869
+     }
+    ],
     "kinds": [
-     "listing"
+     "main",
+     "listing",
+     "aplus"
     ]
    },
    {
-    "name": "Chili Oil",
+    "name": "Chili Crisp Oil (Classic)",
     "slug": "chili-oil",
-    "gallery": [],
+    "gallery": [
+     {
+      "src": "/images/pdp/wuju/99962810ac8b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/3c506d409e7a.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/40c488ec0cbf.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/83e42d922719.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/74402cea1e71.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/33cd39498b68.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/b9e4475f76e6.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/476f7ffd9a17.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/e760fc9db50a.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
     "aplus": [
      {
-      "src": "/images/pdp/wuju/eca1f216d7db.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/a80ef2e601fa.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/2570b7937c7e.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/1c4a7ec1d2ee.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/2ef3c5710636.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/af01e761e8da.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/62a3bccba127.webp",
-      "w": 900,
-      "h": 369
+      "src": "/images/pdp/wuju/9d2bcbb9dede.webp",
+      "w": 1000,
+      "h": 2869
      }
     ],
     "kinds": [
+     "main",
+     "listing",
+     "aplus"
+    ]
+   },
+   {
+    "name": "Chili Crisp Oil (Sweet Heat)",
+    "slug": "chili-crisp-sweet-heat",
+    "gallery": [
+     {
+      "src": "/images/pdp/wuju/be5f6332ba89.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/2db8f8272d58.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/0ae823550a90.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/10fab9f203bd.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/e1d9ea59b12e.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/dba7be6c6cad.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/54e327b29e28.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/66276bae96ad.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/81abf0bf16a6.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [
+     {
+      "src": "/images/pdp/wuju/7fff19693520.webp",
+      "w": 1000,
+      "h": 2869
+     }
+    ],
+    "kinds": [
+     "main",
+     "listing",
      "aplus"
     ]
    },
    {
     "name": "Sriracha Mustard",
     "slug": "sriracha-mustard",
-    "gallery": [],
+    "gallery": [
+     {
+      "src": "/images/pdp/wuju/2b771e5992f9.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/4ae2677811d4.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/bd94f8845b6b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/e2fb15e39c16.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/856655fc9d8c.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/0d16369441c2.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/f60ed2490a30.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/35aec721bde9.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wuju/747aaa0599ba.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
     "aplus": [
      {
-      "src": "/images/pdp/wuju/5b8c866b2fa4.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/f94d06089ef1.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/1ec1b8c0c5d0.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/e79f212e1380.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/7fb74140f5a2.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/26a2c39b4456.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/wuju/bedd1a8f8b35.webp",
-      "w": 900,
-      "h": 369
+      "src": "/images/pdp/wuju/ccfb52fdc101.webp",
+      "w": 1000,
+      "h": 2869
      }
     ],
     "kinds": [
+     "main",
+     "listing",
      "aplus"
     ]
    }
@@ -7080,13 +7247,13 @@
      "src": "/images/pdp/wuju/006c7c8d232e.webp",
      "w": 829,
      "h": 829,
-     "product": "chili-oil"
+     "product": "chili-crisp-sweet-heat"
     },
     {
      "src": "/images/pdp/wuju/693cd64f1f82.webp",
      "w": 829,
      "h": 829,
-     "product": "chili-oil"
+     "product": "chili-crisp-sweet-heat"
     }
    ],
    [

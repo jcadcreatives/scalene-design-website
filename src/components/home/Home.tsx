@@ -2,6 +2,8 @@ import Link from 'next/link'
 import styles from './Home.module.css'
 import Reel from './Reel'
 import HeroVisual from './HeroVisual'
+import Services, { type ServicesData } from './Services'
+import Stats from './Stats'
 import brandsData from '@/data/brands.json'
 import productsData from '@/data/products.json'
 
@@ -11,6 +13,8 @@ type Img = { src: string; w: number; h: number }
 type Store = {
   name: string
   slug: string
+  storyMode?: string
+  storefrontRows?: Img[][]
   storefront: Img[]
   brandstory: Img[]
   products: { name: string; slug: string; gallery: Img[]; aplus: Img[] }[]
@@ -21,38 +25,18 @@ const stores = productsData as unknown as Record<string, Store>
 const creatives = brands.reduce((n, b) => n + b.count, 0)
 const products = Object.values(stores).reduce((n, s) => n + s.products.length, 0)
 
-const SERVICES = [
-  {
-    title: 'Main images',
-    text: 'The one image that decides the click in search. Product-true, with props and a claim that sells it at a glance.',
-    slug: 'jaybees-nuts',
-    imgs: [stores['jaybees-nuts'].products[0].gallery[0]],
-  },
-  {
-    title: 'Listing images',
-    text: 'Six to eight images that answer every question a buyer has before they scroll: benefits, features, size, use.',
-    slug: 'cuemill',
-    imgs: [stores['cuemill'].products[0].gallery[1]],
-  },
-  {
-    title: 'Premium A+',
-    text: 'The story below the fold. Modules built for mobile first, so the page sells on the screen most buyers use.',
-    slug: 'doc-itchy',
-    imgs: stores['doc-itchy'].products[0].aplus.slice(0, 3),
-  },
-  {
-    title: 'Brand Story',
-    text: 'A carousel that introduces the brand and walks shoppers into the rest of your range.',
-    slug: 'luminoire',
-    imgs: [stores['luminoire'].brandstory.find((i) => i.w / i.h < 1) ?? stores['luminoire'].brandstory[0]],
-  },
-  {
-    title: 'Storefronts',
-    text: 'A branded home on Amazon that matches every product page and ties the catalogue together.',
+const pick = (slug: string) => stores[slug]
+const SERVICES: ServicesData = {
+  main: { slug: 'core-fiber', brand: 'Core Fiber', img: pick('core-fiber').products[0].gallery[0] },
+  listing: { slug: 'luminoire', brand: 'Luminoire', imgs: pick('luminoire').products[0].gallery.slice(1, 4) },
+  aplus: {
     slug: 'vornado',
-    imgs: stores['vornado'].storefront.slice(0, 4),
+    brand: 'Vornado',
+    imgs: (pick('vornado').products.find((p) => p.aplus.length) ?? pick('vornado').products[0]).aplus,
   },
-]
+  story: { slug: 'fender', brand: 'Fender', imgs: pick('fender').brandstory, mode: pick('fender').storyMode },
+  store: { slug: 'wuju', brand: 'WUJU', imgs: (pick('wuju').storefrontRows ?? [pick('wuju').storefront]).flat() },
+}
 
 const MARQUEE = [
   'jaybees-nuts', 'cuemill', 'vornado', 'sprinkle-and-sweep', 'nostalgia', 'cogimex', 'oramd', 'fender',
@@ -135,83 +119,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* proof */}
-      <section className={styles.proof}>
-        <div>
-          <b>{brands.length}</b>
-          <span>brands designed for</span>
-        </div>
-        <div>
-          <b>{products}</b>
-          <span>products on Amazon</span>
-        </div>
-        <div>
-          <b>{Math.floor(creatives / 10) * 10}+</b>
-          <span>creatives in the portfolio</span>
-        </div>
-        <div>
-          <b>1</b>
-          <span>marketplace. Only Amazon.</span>
-        </div>
-      </section>
+      <Stats brands={brands.length} products={products} creatives={Math.floor(creatives / 10) * 10} callUrl={CALL_URL} />
 
-      {/* reel */}
-      <section className={styles.reelBlock}>
-        <div className={styles.blockHead}>
-          <p className={styles.eyebrowDark}>The showreel</p>
-          <h2 className={styles.h2}>60 seconds of what we make.</h2>
-        </div>
-        <Reel />
-      </section>
-
-      {/* who */}
-      <section className={styles.doors}>
-        <div className={styles.door}>
-          <p className={styles.doorTag}>For brands</p>
-          <h3>Your listing, rebuilt to convert.</h3>
-          <p>
-            Launching a product or fixing one that isn’t selling? We plan, design and deliver the full set, from the main image
-            to the Storefront.
-          </p>
-          <a href={CALL_URL} target="_blank" rel="noopener noreferrer">
-            Book a call →
-          </a>
-        </div>
-        <div className={styles.door}>
-          <p className={styles.doorTag}>For agencies</p>
-          <h3>Your creative team, on call.</h3>
-          <p>
-            We work white-label behind Amazon agencies: your brand on the work, your clients stay yours, and the volume flexes
-            with your month.
-          </p>
-          <a href={CALL_URL} target="_blank" rel="noopener noreferrer">
-            Talk partnership →
-          </a>
-        </div>
-      </section>
-
-      {/* services */}
-      <section className={styles.block}>
-        <div className={styles.blockHead}>
-          <p className={styles.eyebrowDark}>What we make</p>
-          <h2 className={styles.h2}>Everything a buyer sees on Amazon.</h2>
-        </div>
-        <div className={styles.services}>
-          {SERVICES.map((s) => (
-            <Link key={s.title} href={`/brands/${s.slug}`} className={styles.service}>
-              <span className={`${styles.serviceImg} ${s.imgs.length > 1 ? styles.stack : ''}`}>
-                {s.imgs.map((im) => (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img key={im.src} src={im.src} alt={s.title} loading="lazy" />
-                ))}
-              </span>
-              <h3>{s.title}</h3>
-              <p>{s.text}</p>
-              <span className={styles.more}>See an example →</span>
-            </Link>
-          ))}
-        </div>
-      </section>
+      <Services data={SERVICES} />
 
       {/* featured */}
       <section className={styles.block}>
@@ -288,6 +198,15 @@ export default function Home() {
             </tbody>
           </table>
         </div>
+      </section>
+
+      {/* reel */}
+      <section className={styles.reelBlock}>
+        <div className={styles.reelHead}>
+          <p className={styles.eyebrow}>The showreel</p>
+          <h2 className={styles.h2Light}>60 seconds of what we make.</h2>
+        </div>
+        <Reel />
       </section>
 
       {/* close */}

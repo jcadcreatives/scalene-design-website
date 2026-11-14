@@ -2,9 +2,9 @@ import styles from './Amazon.module.css'
 import type { Img } from './types'
 
 /** Amazon Brand Story: a wide background with cards scrolling over it; falls back to a plain strip. */
-export default function BrandStory({ images, brand }: { images: Img[]; brand: string }) {
+export default function BrandStory({ images, brand, mode }: { images: Img[]; brand: string; mode?: string }) {
   if (!images.length) return null
-  const bg = images.find((i) => i.w / i.h > 2)
+  const bg = mode === 'strip' ? undefined : images.find((i) => i.w / i.h > 2)
   const cards = images.filter((i) => i !== bg && i.w / i.h < 1.4 && i.w >= 250)
   if (bg && cards.length) {
     return (
