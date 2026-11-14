@@ -27,7 +27,12 @@ export default function AmazonPDP({
   const product = brand.products.find((p) => p.slug === productSlug) ?? brand.products[0]
   const hasStore = brand.storefront.length > 0
 
-  const gallery: Img[] = product.gallery.length ? product.gallery : [{ src: fallback, w: 640, h: 640 }]
+  // A+-only products show their own A+ modules in the gallery, never another product's image
+  const gallery: Img[] = product.gallery.length
+    ? product.gallery
+    : product.aplus.length
+      ? product.aplus
+      : [{ src: fallback, w: 640, h: 640 }]
   const [active, setActive] = useState(0)
   const [box, setBox] = useState<number | null>(null)
   const swipe = useRef<HTMLDivElement>(null)
@@ -145,7 +150,7 @@ export default function AmazonPDP({
                       className={`${styles.chip} ${p.slug === product.slug ? styles.chipOn : ''}`}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={p.gallery[0]?.src ?? fallback} alt="" loading="lazy" />
+                      <img src={p.gallery[0]?.src ?? p.aplus[0]?.src ?? fallback} alt="" loading="lazy" />
                       <span>{p.name}</span>
                     </Link>
                   ))}

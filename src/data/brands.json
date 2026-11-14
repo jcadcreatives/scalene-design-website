@@ -235,8 +235,7 @@
   "name": "Nostalgia",
   "slug": "nostalgia",
   "categories": [
-   "home-kitchen",
-   "health-beauty"
+   "home-kitchen"
   ],
   "thumb": "/images/thumbs/nostalgia.webp",
   "count": 13,
@@ -806,7 +805,8 @@
   "name": "Vornado",
   "slug": "vornado",
   "categories": [
-   "home-kitchen"
+   "home-kitchen",
+   "electronics"
   ],
   "thumb": "/images/thumbs/vornado.webp",
   "count": 9,
@@ -1004,7 +1004,7 @@
   "name": "Fender",
   "slug": "fender",
   "categories": [
-   "electronics"
+   "and-more"
   ],
   "thumb": "/images/thumbs/fender.webp",
   "count": 8,
@@ -1234,7 +1234,7 @@
   "name": "Sandshark",
   "slug": "sandshark",
   "categories": [
-   "electronics"
+   "and-more"
   ],
   "thumb": "/images/thumbs/sandshark.webp",
   "count": 6,
@@ -2076,7 +2076,8 @@
   "name": "Luminoire",
   "slug": "luminoire",
   "categories": [
-   "home-kitchen"
+   "home-kitchen",
+   "electronics"
   ],
   "thumb": "/images/thumbs/luminoire.webp",
   "count": 3,
@@ -2336,7 +2337,8 @@
   "name": "Farberware",
   "slug": "farberware",
   "categories": [
-   "home-kitchen"
+   "home-kitchen",
+   "electronics"
   ],
   "thumb": "/images/thumbs/farberware.webp",
   "count": 2,
@@ -2629,7 +2631,7 @@
   "name": "Storii",
   "slug": "storii",
   "categories": [
-   "electronics"
+   "and-more"
   ],
   "thumb": "/images/thumbs/storii.webp",
   "count": 2,
@@ -2710,7 +2712,7 @@
   "name": "Touch-Up Pen",
   "slug": "touch-up-pen",
   "categories": [
-   "home-kitchen"
+   "and-more"
   ],
   "thumb": "/images/thumbs/touch-up-pen.webp",
   "count": 2,
@@ -2780,19 +2782,19 @@
   ]
  },
  {
-  "name": "Car Guard Technology",
-  "slug": "car-guard-technology",
+  "name": "Velani",
+  "slug": "velani",
   "categories": [
    "home-kitchen"
   ],
-  "thumb": "/images/thumbs/car-guard-technology.webp",
+  "thumb": "/images/thumbs/velani.webp",
   "count": 1,
   "kinds": [
    "Listing images"
   ],
   "items": [
    {
-    "src": "/images/work/car-guard-technology-listing-878a8f.webp",
+    "src": "/images/work/velani-listing-878a8f.webp",
     "w": 900,
     "h": 2265,
     "kind": "listing"
@@ -3063,7 +3065,7 @@
   "name": "Golf Cart",
   "slug": "golf-cart",
   "categories": [
-   "electronics"
+   "and-more"
   ],
   "thumb": "/images/thumbs/golf-cart.webp",
   "count": 1,
