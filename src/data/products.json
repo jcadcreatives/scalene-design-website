@@ -9024,41 +9024,6 @@
    }
   ]
  },
- "skechers": {
-  "name": "Skechers",
-  "slug": "skechers",
-  "storefront": [],
-  "brandstory": [],
-  "products": [
-   {
-    "name": "Skechers",
-    "slug": "skechers",
-    "gallery": [
-     {
-      "src": "/images/pdp/skechers/0b9232d49b2c.webp",
-      "w": 480,
-      "h": 480
-     },
-     {
-      "src": "/images/pdp/skechers/5c4269eee8ab.webp",
-      "w": 480,
-      "h": 480
-     }
-    ],
-    "aplus": [
-     {
-      "src": "/images/pdp/skechers/6aa195834927.webp",
-      "w": 1352,
-      "h": 3878
-     }
-    ],
-    "kinds": [
-     "listing",
-     "aplus"
-    ]
-   }
-  ]
- },
  "alert-innovations": {
   "name": "Alert Innovations",
   "slug": "alert-innovations",
@@ -11592,7 +11557,13 @@
    {
     "name": "GLP-1 Patches",
     "slug": "glp-1-patches",
-    "gallery": [],
+    "gallery": [
+     {
+      "src": "/images/mains/glp1-patches.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
     "aplus": [
      {
       "src": "/images/pdp/glp1-patches/85ad180c498e.webp",

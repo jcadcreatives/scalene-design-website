@@ -70,16 +70,6 @@
     "catOrder": 1
   },
   {
-    "id": "66",
-    "src": "/images/AND%20MORE/3_Skechers%20A%2B%201.webp",
-    "alt": "Skechers A+ 1",
-    "category": "and-more",
-    "w": 1352,
-    "h": 3878,
-    "order": 8,
-    "catOrder": 3
-  },
-  {
     "id": "w-sprinkle-sweep-listing-2aaa5c",
     "src": "/images/work/sprinkle-sweep-listing-2aaa5c.webp",
     "alt": "Sprinkle & Sweep — Listing images",
@@ -1188,16 +1178,6 @@
     "h": 2265,
     "order": 119,
     "catOrder": 4
-  },
-  {
-    "id": "88",
-    "src": "/images/AND%20MORE/2_Skechers%201.webp",
-    "alt": "Skechers 1",
-    "category": "and-more",
-    "w": 480,
-    "h": 480,
-    "order": 120,
-    "catOrder": 21
   },
   {
     "id": "w-bailrop-listing-e7a7a2",
@@ -2358,16 +2338,6 @@
     "h": 3321,
     "order": 236,
     "catOrder": 18
-  },
-  {
-    "id": "89",
-    "src": "/images/AND%20MORE/4_Skechers%202.webp",
-    "alt": "Skechers 2",
-    "category": "and-more",
-    "w": 480,
-    "h": 480,
-    "order": 237,
-    "catOrder": 48
   },
   {
     "id": "w-ditch-the-witch-aplus-93c7ce",

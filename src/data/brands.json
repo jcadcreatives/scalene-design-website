@@ -2175,39 +2175,6 @@
   ]
  },
  {
-  "name": "Skechers",
-  "slug": "skechers",
-  "categories": [
-   "and-more"
-  ],
-  "thumb": "/images/thumbs/skechers.webp",
-  "count": 3,
-  "kinds": [
-   "Listing images",
-   "A+ content"
-  ],
-  "items": [
-   {
-    "src": "/images/AND%20MORE/2_Skechers%201.webp",
-    "w": 480,
-    "h": 480,
-    "kind": "listing"
-   },
-   {
-    "src": "/images/AND%20MORE/4_Skechers%202.webp",
-    "w": 480,
-    "h": 480,
-    "kind": "listing"
-   },
-   {
-    "src": "/images/AND%20MORE/3_Skechers%20A%2B%201.webp",
-    "w": 1352,
-    "h": 3878,
-    "kind": "aplus"
-   }
-  ]
- },
- {
   "name": "Alert Innovations",
   "slug": "alert-innovations",
   "categories": [
