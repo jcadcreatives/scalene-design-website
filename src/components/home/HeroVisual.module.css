@@ -235,43 +235,79 @@
   box-shadow: 0 1cqw 3cqw rgba(253, 102, 3, 0.45);
 }
 
-/* stat cards */
+/* stat cards: dark glass, on brand */
 .stat {
   position: absolute;
   z-index: 5;
-  width: 27%;
+  width: 29%;
 }
 .stat > div {
-  background: rgba(255, 255, 255, 0.96);
+  position: relative;
+  background: linear-gradient(160deg, rgba(48, 30, 20, 0.78), rgba(14, 12, 12, 0.86));
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.09);
   border-radius: 2.6cqw;
-  padding: 1.8cqw 2cqw 1.4cqw;
-  box-shadow: 0 2.4cqw 6cqw rgba(0, 0, 0, 0.45);
+  padding: 1.9cqw 2.1cqw 1.6cqw;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 2.4cqw 6cqw rgba(0, 0, 0, 0.55),
+    0 0 4cqw rgba(253, 102, 3, 0.12);
+  overflow: hidden;
+}
+.stat > div::before {
+  content: '';
+  position: absolute;
+  inset: -40% -20% auto auto;
+  width: 70%;
+  aspect-ratio: 1;
+  background: radial-gradient(closest-side, rgba(253, 102, 3, 0.28), transparent);
+  pointer-events: none;
 }
 .statA {
-  left: 3%;
+  left: 2%;
   top: 6%;
 }
 .statB {
-  right: 1%;
+  right: 0;
   bottom: 12%;
 }
 .statHead {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 1cqw;
-  font-size: 1.75cqw;
+  gap: 1.2cqw;
+}
+.headText,
+.convertText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3cqw;
+  min-width: 0;
+}
+.kicker {
+  font-size: 1.25cqw;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fd8a3d;
+}
+.statTitle {
+  font-size: 1.8cqw;
   font-weight: 700;
-  color: #0a0a0a;
+  color: #fff;
   letter-spacing: -0.01em;
+  white-space: nowrap;
 }
 .icon {
-  width: 3.4cqw;
-  height: 3.4cqw;
-  border-radius: 50%;
+  width: 3.6cqw;
+  height: 3.6cqw;
+  border-radius: 1cqw;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #fff1e6;
+  background: rgba(253, 102, 3, 0.14);
+  border: 1px solid rgba(253, 102, 3, 0.35);
   color: #fd6603;
   flex-shrink: 0;
 }
@@ -280,11 +316,73 @@
   height: 2cqw;
 }
 .spark {
+  position: relative;
   width: 100%;
   height: auto;
-  margin-top: 1.2cqw;
+  margin-top: 1.4cqw;
   display: block;
   overflow: visible;
+}
+.gridLine {
+  stroke: rgba(255, 255, 255, 0.07);
+  stroke-width: 0.6;
+  stroke-dasharray: 2 3;
+}
+.glowLine {
+  filter: drop-shadow(0 0 3px rgba(253, 102, 3, 0.8));
+}
+
+/* conversion card */
+.convert {
+  display: flex;
+  align-items: center;
+  gap: 1.8cqw;
+}
+.ringWrap {
+  position: relative;
+  width: 8.4cqw;
+  height: 8.4cqw;
+  flex-shrink: 0;
+}
+.ring {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.ringTrack {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.08);
+  stroke-width: 4;
+}
+.ringIcon {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.ringIcon svg {
+  width: 3.2cqw;
+  height: 3.2cqw;
+}
+.added {
+  margin-top: 0.8cqw;
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6cqw;
+  font-size: 1.3cqw;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #fd6603, #d95223);
+  padding: 0.6cqw 1.3cqw 0.6cqw 1cqw;
+  border-radius: 10cqw;
+  box-shadow: 0 0.8cqw 2.4cqw rgba(253, 102, 3, 0.4);
+}
+.added svg {
+  width: 1.4cqw;
+  height: 1.4cqw;
 }
 
 .label {
