@@ -43,13 +43,11 @@ export default function AmazonPDP({
   }
 
   const bullets: string[] = []
-  const nMain = product.kinds.includes('main')
-  if (product.gallery.length) {
-    bullets.push(
-      nMain
-        ? `Main image + ${product.gallery.length - 1} gallery images, built to win the click and answer buyer questions before they scroll.`
-        : `${product.gallery.length} listing images: hero, benefits, features, size and lifestyle, in one consistent look.`,
-    )
+  const hasMain = product.kinds.includes('main') || product.gallery.some((g) => g.src.includes('/mains/'))
+  const nList = product.gallery.length - (hasMain ? 1 : 0)
+  if (hasMain) bullets.push('Main image built to win the click in search, with props and a claim tag that sell the product at a glance.')
+  if (nList > 0) {
+    bullets.push(`${nList} listing images: hero, benefits, features, size and lifestyle, in one consistent look.`)
   }
   if (product.aplus.length) {
     bullets.push(`A+ content: ${product.aplus.length} modules that tell the product story below the fold.`)
