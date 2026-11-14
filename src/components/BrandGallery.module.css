@@ -190,3 +190,7 @@
     width: 94vw;
   }
 }
+
+.tile:focus:not(:focus-visible) {
+  outline: none;
+}
