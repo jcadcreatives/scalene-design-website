@@ -25,6 +25,10 @@ export default function Header() {
         <span className={styles.logoFallback}>SCALENE</span>
       </Link>
 
+      <nav className={styles.nav}>
+        <Link href="/work" className={styles.navLink}>
+          Our work
+        </Link>
       <a
         href="https://calendly.com/jcad-creatives/discovery-call"
         target="_blank"
@@ -33,6 +37,7 @@ export default function Header() {
       >
         Work with us
       </a>
+      </nav>
     </header>
   )
 }
