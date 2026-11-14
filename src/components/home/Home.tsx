@@ -38,14 +38,6 @@ const SERVICES: ServicesData = {
   store: { slug: 'wuju', brand: 'WUJU', imgs: (pick('wuju').storefrontRows ?? [pick('wuju').storefront]).flat() },
 }
 
-const MARQUEE = [
-  'jaybees-nuts', 'cuemill', 'vornado', 'sprinkle-and-sweep', 'nostalgia', 'cogimex', 'oramd', 'fender',
-  'king-coil', 'tillbrook', 'core-fiber', 'mr-remys', 'hot-star-honey', 'naturello', 'pupiboo', 'luminoire',
-  'the-restroom-kit', 'bubble-bro', 'cpx-pickleball', 'netrox', 'better-boat', 'reglow',
-]
-  .map((slug) => brands.find((b) => b.slug === slug))
-  .filter((b): b is (typeof brands)[number] => Boolean(b))
-
 const FEATURED = ['cuemill', 'jaybees-nuts', 'vornado', 'nostalgia', 'sprinkle-and-sweep', 'doc-itchy', 'fender', 'cogimex']
 
 const STEPS = [
@@ -107,17 +99,6 @@ export default function Home() {
         <HeroVisual />
       </section>
 
-      {/* main images marquee */}
-      <section className={styles.marquee} aria-label="Main images by Scalene">
-        <div className={styles.track}>
-          {[...MARQUEE, ...MARQUEE].map((b, i) => (
-            <Link key={`${b.slug}-${i}`} href={`/brands/${b.slug}`} className={styles.mq} tabIndex={i >= MARQUEE.length ? -1 : 0}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={b.thumb} alt={b.name} loading="lazy" />
-            </Link>
-          ))}
-        </div>
-      </section>
 
       <Stats brands={brands.length} products={products} creatives={Math.floor(creatives / 10) * 10} callUrl={CALL_URL} />
 
@@ -170,6 +151,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* reel */}
+      <section className={styles.reelBlock}>
+        <div className={styles.reelHead}>
+          <p className={styles.eyebrow}>The showreel</p>
+          <h2 className={styles.h2Light}>60 seconds of what we make.</h2>
+        </div>
+        <Reel />
+      </section>
+
       {/* compare */}
       <section className={styles.block}>
         <div className={styles.blockHead}>
@@ -200,14 +190,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* reel */}
-      <section className={styles.reelBlock}>
-        <div className={styles.reelHead}>
-          <p className={styles.eyebrow}>The showreel</p>
-          <h2 className={styles.h2Light}>60 seconds of what we make.</h2>
-        </div>
-        <Reel />
-      </section>
 
       {/* close */}
       <section className={styles.close}>
