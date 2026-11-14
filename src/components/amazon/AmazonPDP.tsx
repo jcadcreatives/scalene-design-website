@@ -103,13 +103,22 @@ export default function AmazonPDP({
             </div>
             <button className={styles.hero} onClick={() => setBox(active)} aria-label="Open image">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={gallery[active].src} alt={`${title} — image ${active + 1}`} />
+              <img
+                src={gallery[active].src}
+                alt={`${title} — image ${active + 1}`}
+                className={gallery[active].h > gallery[active].w * 1.3 ? styles.tallTop : undefined}
+              />
             </button>
             <div className={styles.swipe} ref={swipe} onScroll={onSwipe}>
               {gallery.map((g, i) => (
                 <button key={g.src} className={styles.swipeItem} onClick={() => setBox(i)}>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={g.src} alt={`${title} — image ${i + 1}`} loading={i ? 'lazy' : 'eager'} />
+                  <img
+                    src={g.src}
+                    alt={`${title} — image ${i + 1}`}
+                    loading={i ? 'lazy' : 'eager'}
+                    className={g.h > g.w * 1.3 ? styles.tallTop : undefined}
+                  />
                 </button>
               ))}
             </div>

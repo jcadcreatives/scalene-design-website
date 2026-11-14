@@ -179,6 +179,15 @@
   max-height: 100%;
   object-fit: contain;
 }
+/* a tall A+ page used as the hero: show its top as a square */
+.hero img.tallTop,
+.swipeItem img.tallTop {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+  object-position: top;
+}
 .swipe,
 .gdots {
   display: none;
