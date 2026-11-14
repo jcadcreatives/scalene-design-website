@@ -37,7 +37,7 @@ export default function CategoryFilter({ activeCategory }: CategoryFilterProps) 
               aria-label="Show all categories"
             >
               <Image
-                src="/logo.webp"
+                src="/logo.png"
                 alt="Scalene — show all"
                 width={400}
                 height={120}

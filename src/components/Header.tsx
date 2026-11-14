@@ -9,7 +9,7 @@ export default function Header() {
     <header className={styles.header}>
       <Link href="/" className={styles.logo} aria-label="Scalene — all brands">
         <Image
-          src="/logo.webp"
+          src="/logo.png"
           alt="Scalene Design"
           width={400}
           height={120}

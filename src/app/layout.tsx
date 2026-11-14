@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: 'Scalene Design — Amazon Graphics Agency',
   description: 'Your On-Call Amazon Creative Partner — Main Images, Listing Images, and Premium A+ Content',
   icons: {
-    icon: '/logo.webp',
+    icon: '/logo.png',
   },
   openGraph: {
     images: ['/images/Supplements/1_Naturello A+.webp'],
