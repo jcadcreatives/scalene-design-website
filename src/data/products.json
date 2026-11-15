@@ -14996,5 +14996,64 @@
     ]
    }
   ]
+ },
+ "peplement": {
+  "name": "Peplement",
+  "slug": "peplement",
+  "storefront": [],
+  "brandstory": [],
+  "products": [
+   {
+    "name": "Himalaya Shilajit Resin",
+    "slug": "himalaya-shilajit-resin",
+    "gallery": [
+     {
+      "src": "/images/pdp/peplement/94547f4ad178.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/869b34fb0f92.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/f405ed87670f.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/85730c0e66ec.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/539f89accea5.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/63d0cf676aeb.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/ba5d37e0f56b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/76f9d450b681.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   }
+  ]
  }
 }
