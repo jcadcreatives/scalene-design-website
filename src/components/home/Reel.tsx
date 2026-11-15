@@ -24,8 +24,8 @@ export default function Reel() {
       <video
         ref={ref}
         className={styles.reelVideo}
-        src="/video/scalene-reel.mp4"
-        poster="/video/reel-poster.jpg"
+        src="/video/scalene-reel-v17.mp4"
+        poster="/video/reel-poster-v17.jpg"
         autoPlay
         muted
         loop

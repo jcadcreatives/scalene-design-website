@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './Header.module.css'
+import { openAudit } from './AuditModal'
 
 export default function Header() {
   return (
@@ -29,9 +30,9 @@ export default function Header() {
         <Link href="/work" className={styles.navLink}>
           Our work
         </Link>
-        <Link href="/#audit" className={styles.navLink}>
+        <button type="button" className={styles.navLink} onClick={openAudit}>
           Free audit
-        </Link>
+        </button>
       <a
         href="https://calendly.com/jcad-creatives/discovery-call"
         target="_blank"

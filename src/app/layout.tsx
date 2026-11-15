@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Space_Grotesk } from 'next/font/google'
 import './globals.css'
+import AuditModal from '@/components/AuditModal'
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -29,6 +30,7 @@ export default function RootLayout({
     <html lang="en" className={spaceGrotesk.variable}>
       <body style={{ fontFamily: 'var(--font-space-grotesk), sans-serif' }}>
         {children}
+        <AuditModal />
       </body>
     </html>
   )

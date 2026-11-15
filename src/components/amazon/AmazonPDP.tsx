@@ -8,6 +8,7 @@ import MockFrame from './MockFrame'
 import BrandStory from './BrandStory'
 import Lightbox from './Lightbox'
 import AplusCarousel from './AplusCarousel'
+import { openAudit } from '../AuditModal'
 import { CALL_URL, CATEGORY_LABEL, type Img, type StoreBrand } from './types'
 
 export default function AmazonPDP({
@@ -190,9 +191,9 @@ export default function AmazonPDP({
               <a href={CALL_URL} target="_blank" rel="noopener noreferrer" className={styles.buyBtn}>
                 Book a call
               </a>
-              <Link href="/#audit" className={styles.buyAlt}>
+              <button type="button" className={styles.buyAlt} onClick={openAudit}>
                 Or get a free audit of your listing →
-              </Link>
+              </button>
             </div>
           </div>
         </section>

@@ -482,56 +482,6 @@
   color: var(--muted);
 }
 
-/* ---------- free audit ---------- */
-.audit {
-  scroll-margin-top: calc(var(--header-h) + 16px);
-  margin: 96px max(5vw, 32px) 0;
-  padding: 64px clamp(24px, 4vw, 64px);
-  border-radius: 28px;
-  color: #fff;
-  background:
-    radial-gradient(60% 90% at 0% 100%, rgba(253, 102, 3, 0.5), transparent 65%),
-    #0a0a0a;
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
-  gap: clamp(32px, 5vw, 80px);
-  align-items: center;
-}
-.auditLead {
-  margin-top: 18px;
-  color: rgba(255, 255, 255, 0.72);
-  line-height: 1.6;
-  max-width: 520px;
-}
-.auditList {
-  list-style: none;
-  margin-top: 26px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.auditList li {
-  position: relative;
-  padding-left: 30px;
-  color: rgba(255, 255, 255, 0.88);
-  line-height: 1.45;
-}
-.auditList li::before {
-  content: '✓';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: rgba(253, 102, 3, 0.2);
-  color: #fd6603;
-  font-size: 12px;
-  font-weight: 700;
-  display: grid;
-  place-items: center;
-}
-
 /* ---------- responsive ---------- */
 @media (max-width: 1100px) {
   .hero {
@@ -579,11 +529,6 @@
   }
   .close {
     padding: 56px 24px;
-  }
-  .audit {
-    grid-template-columns: 1fr;
-    margin: 64px 16px 0;
-    padding: 40px 18px 18px;
   }
 }
 

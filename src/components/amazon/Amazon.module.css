@@ -308,6 +308,7 @@ a.storeLink:hover {
 
 .buyAlt {
   display: block;
+  width: 100%;
   text-align: center;
   margin-top: 10px;
   font-size: 13px;

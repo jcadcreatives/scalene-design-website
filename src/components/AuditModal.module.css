@@ -1,0 +1,225 @@
+/* ---------- floating button ---------- */
+.fab {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 950;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.fabHidden {
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+}
+.fabBtn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 56px;
+  padding: 0 22px 0 18px;
+  border-radius: 100px;
+  background: linear-gradient(135deg, #fd6603, #d95223);
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 0 12px 32px rgba(253, 102, 3, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.fabBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(253, 102, 3, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.fabBtn svg,
+.fabBtn span {
+  position: relative;
+}
+.pulse {
+  position: absolute !important;
+  inset: 0;
+  border-radius: inherit;
+  border: 2px solid #fd6603;
+  animation: pulse 2.8s ease-out infinite;
+  pointer-events: none;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  70%,
+  100% {
+    transform: scale(1.35, 1.6);
+    opacity: 0;
+  }
+}
+.hint {
+  max-width: 230px;
+  text-align: left;
+  background: #0a0a0a;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.35;
+  padding: 12px 16px;
+  border-radius: 14px 14px 4px 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  animation: rise 0.35s ease;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+/* ---------- popup ---------- */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgba(10, 10, 10, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  animation: fade 0.2s ease;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+.panel {
+  position: relative;
+  width: min(1040px, 100%);
+  border-radius: 28px;
+  padding: clamp(28px, 4vw, 56px);
+  color: #fff;
+  background:
+    radial-gradient(60% 90% at 0% 100%, rgba(253, 102, 3, 0.5), transparent 65%),
+    #0a0a0a;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: clamp(28px, 4vw, 64px);
+  align-items: center;
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.45);
+  animation: pop 0.28s cubic-bezier(0.2, 0.9, 0.3, 1.2);
+}
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+}
+.close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 0.2s ease;
+}
+.close:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #fd6603;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.copy h2 {
+  font-size: clamp(30px, 3.4vw, 48px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+}
+.lead {
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.6;
+}
+.list {
+  list-style: none;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list li {
+  position: relative;
+  padding-left: 30px;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.45;
+}
+.list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(253, 102, 3, 0.2);
+  color: #fd6603;
+  font-size: 12px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+/* the category bar sits bottom-centre; lift the button above it when they'd overlap */
+@media (max-width: 1240px) {
+  .fab {
+    bottom: 96px;
+  }
+}
+@media (max-width: 768px) {
+  .fab {
+    right: 16px;
+    bottom: 80px;
+  }
+  .fabBtn {
+    height: 50px;
+    font-size: 14px;
+    padding: 0 18px 0 14px;
+  }
+  .overlay {
+    padding: 0;
+    place-items: end stretch;
+  }
+  .panel {
+    grid-template-columns: 1fr;
+    border-radius: 24px 24px 0 0;
+    padding: 28px 16px 16px;
+    gap: 20px;
+    max-height: 92vh;
+    overflow-y: auto;
+  }
+  .copy {
+    padding: 0 8px;
+  }
+  .copy h2 {
+    font-size: 28px;
+    padding-right: 36px;
+  }
+  .lead {
+    font-size: 14px;
+  }
+  .list {
+    display: none;
+  }
+}
