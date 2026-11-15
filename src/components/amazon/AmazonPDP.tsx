@@ -7,6 +7,7 @@ import styles from './Amazon.module.css'
 import MockFrame from './MockFrame'
 import BrandStory from './BrandStory'
 import Lightbox from './Lightbox'
+import AplusCarousel from './AplusCarousel'
 import { CALL_URL, CATEGORY_LABEL, type Img, type StoreBrand } from './types'
 
 export default function AmazonPDP({
@@ -47,6 +48,15 @@ export default function AmazonPDP({
     if (el) setActive(Math.round(el.scrollLeft / el.clientWidth))
   }
 
+  // consecutive A+ modules sharing a group render as one carousel module
+  const aplusBlocks: Img[][] = []
+  for (const a of product.aplus) {
+    const last = aplusBlocks[aplusBlocks.length - 1]
+    if (a.group && last && last[0].group === a.group) last.push(a)
+    else aplusBlocks.push([a])
+  }
+  const nModules = aplusBlocks.length
+
   const bullets: string[] = []
   const hasMain = product.kinds.includes('main') || product.gallery.some((g) => g.src.includes('/mains/'))
   const nList = product.gallery.length - (hasMain ? 1 : 0)
@@ -56,8 +66,8 @@ export default function AmazonPDP({
   }
   if (product.aplus.length) {
     bullets.push(
-      product.aplus.length > 1
-        ? `A+ content: ${product.aplus.length} modules that tell the product story below the fold.`
+      nModules > 1
+        ? `A+ content: ${nModules} modules that tell the product story below the fold${aplusBlocks.some((b) => b[0].group) ? ', including a swipeable carousel' : ''}.`
         : 'Premium A+ page that tells the product story below the fold.',
     )
   }
@@ -195,17 +205,21 @@ export default function AmazonPDP({
           <section className={styles.below}>
             <h2 className={styles.belowTitle}>Product description</h2>
             <div className={styles.aplus}>
-              {product.aplus.map((a, i) => (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  key={a.src}
-                  src={a.src}
-                  alt={`${title} — A+ module ${i + 1}`}
-                  width={a.w}
-                  height={a.h}
-                  loading="lazy"
-                />
-              ))}
+              {aplusBlocks.map((b, bi) =>
+                b.length > 1 || b[0].group ? (
+                  <AplusCarousel key={b[0].src} images={b} label={`${title} — A+ carousel ${bi + 1}`} />
+                ) : (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    key={b[0].src}
+                    src={b[0].src}
+                    alt={`${title} — A+ module ${bi + 1}`}
+                    width={b[0].w}
+                    height={b[0].h}
+                    loading="lazy"
+                  />
+                ),
+              )}
             </div>
           </section>
         )}

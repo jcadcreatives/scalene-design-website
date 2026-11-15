@@ -654,3 +654,73 @@ a.storeLink:hover {
     transform: none;
   }
 }
+
+/* Premium A+ carousel module */
+.apc {
+  position: relative;
+  width: 100%;
+  margin: 0 0 4px;
+}
+.apcTrack {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  width: 100%;
+}
+.apcTrack::-webkit-scrollbar {
+  display: none;
+}
+.apcTrack img {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  scroll-snap-align: start;
+}
+.apcArrow {
+  position: absolute;
+  top: calc(50% - 16px);
+  transform: translateY(-50%);
+  width: 34px;
+  height: 52px;
+  border: 1px solid #d5d9d9;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  font-size: 30px;
+  line-height: 1;
+  color: #0f1111;
+  cursor: pointer;
+}
+.apcPrev {
+  left: 8px;
+}
+.apcNext {
+  right: 8px;
+}
+.apcDots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 0 6px;
+}
+.apcDot,
+.apcDotOn {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #888c8c;
+  background: #fff;
+  padding: 0;
+  cursor: pointer;
+}
+.apcDotOn {
+  background: #0f1111;
+  border-color: #0f1111;
+}
+@media (max-width: 640px) {
+  .apcArrow {
+    display: none;
+  }
+}

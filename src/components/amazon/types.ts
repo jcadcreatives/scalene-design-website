@@ -3,6 +3,8 @@ export interface Img {
   w: number
   h: number
   product?: string
+  /** A+ only: consecutive modules with the same group are one swipeable carousel module */
+  group?: string
 }
 
 export interface Product {
