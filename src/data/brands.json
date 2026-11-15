@@ -7648,5 +7648,56 @@
     "kind": "listing"
    }
   ]
+ },
+ {
+  "name": "Hexxa Home",
+  "slug": "hexxa-home",
+  "categories": [
+   "home-kitchen"
+  ],
+  "thumb": "/images/thumbs/hexxa-home.webp",
+  "count": 6,
+  "kinds": [
+   "Main images",
+   "Listing images"
+  ],
+  "items": [
+   {
+    "src": "/images/pdp/hexxa-home/fca066e3430f.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/hexxa-home/b292eaaa2ff5.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/hexxa-home/7a8ca816ddf2.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/hexxa-home/104465da960e.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/hexxa-home/fb7d0ac7e96d.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/hexxa-home/604cb148734c.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   }
+  ]
  }
 ]
