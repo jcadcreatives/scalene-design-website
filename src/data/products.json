@@ -10585,8 +10585,8 @@
     ]
    },
    {
-    "name": "Vintage Garden Lantern",
-    "slug": "vintage-garden-lantern",
+    "name": "Saluting Soldier Solar Gnome",
+    "slug": "saluting-soldier-solar-gnome",
     "gallery": [],
     "aplus": [
      {
@@ -10618,11 +10618,6 @@
       "src": "/images/pdp/impeccable-goods/647c5aed2323.webp",
       "w": 900,
       "h": 369
-     },
-     {
-      "src": "/images/pdp/impeccable-goods/8b40544d5d59.webp",
-      "w": 813,
-      "h": 2000
      }
     ],
     "kinds": [
@@ -15781,6 +15776,346 @@
       "src": "/images/pdp/serenelife/44174e704dbb.webp",
       "w": 1464,
       "h": 606
+     },
+     {
+      "src": "/images/pdp/serenelife/7ac7981d34d5.webp",
+      "w": 1464,
+      "h": 652
+     },
+     {
+      "src": "/images/pdp/serenelife/f2419046b242.webp",
+      "w": 1464,
+      "h": 652
+     },
+     {
+      "src": "/images/pdp/serenelife/61791c7b9a07.webp",
+      "w": 1464,
+      "h": 652
+     },
+     {
+      "src": "/images/pdp/serenelife/2ff4bdee18fc.webp",
+      "w": 1464,
+      "h": 652
+     }
+    ],
+    "kinds": [
+     "aplus"
+    ]
+   },
+   {
+    "name": "Foldable 3-Wheel Golf Push Cart",
+    "slug": "foldable-3-wheel-golf-push-cart",
+    "gallery": [],
+    "aplus": [
+     {
+      "src": "/images/pdp/serenelife/6306d2f0ed1e.webp",
+      "w": 1464,
+      "h": 4203
+     },
+     {
+      "src": "/images/pdp/serenelife/18a11c127d4e.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/cacc3e7213f8.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "aplus"
+    ]
+   },
+   {
+    "name": "Folding Shopping Cart (SLSPCART50)",
+    "slug": "folding-shopping-cart-slspcart50",
+    "gallery": [],
+    "aplus": [
+     {
+      "src": "/images/pdp/serenelife/0bfdb576b90c.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/599a38c9479b.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/8a95087fc64a.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/da5db64b1088.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/4710bdb2129c.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/4ab71b9b90b2.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/ecb3dce12c7e.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/26038d020018.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/a9382f955da7.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/9db93c27d26d.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "aplus"
+    ]
+   },
+   {
+    "name": "Folding Shopping Cart (SLSPCART60)",
+    "slug": "folding-shopping-cart-slspcart60",
+    "gallery": [],
+    "aplus": [
+     {
+      "src": "/images/pdp/serenelife/d2eb8400f5ce.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/dd18422fea10.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/1877afc256ae.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/8a79fc667207.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/67ead3d797ce.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/d6181df1800e.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/0d94dcbc9138.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/fd1d0aba86f5.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/fbf0695b0884.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/56c5f02c1817.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "aplus"
+    ]
+   },
+   {
+    "name": "Folding Shopping Cart (SLSPCART70)",
+    "slug": "folding-shopping-cart-slspcart70",
+    "gallery": [],
+    "aplus": [
+     {
+      "src": "/images/pdp/serenelife/6da516ec8625.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/8500c6968c5a.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/f89e0c6c291d.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/296f6390b2ab.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/65b2e5040473.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/efdc46243744.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/373755b91485.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/818fa757692a.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/77f4d14b3419.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/76bd62a608f7.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "aplus"
+    ]
+   },
+   {
+    "name": "Bimini Top Boat Cover (SLBT484B.5)",
+    "slug": "bimini-top-boat-cover-slbt484b-5",
+    "gallery": [],
+    "aplus": [
+     {
+      "src": "/images/pdp/serenelife/2352ec3223d8.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/3de40df506b4.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/c6aacbc35832.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/9ffe22dd6640.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/6ed42451d823.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/dc831e9c1dd8.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/377f3c72f0a1.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/b1f235b5355b.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/0446c48f31c0.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/cceb408ba696.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "aplus"
+    ]
+   },
+   {
+    "name": "2-Wheel Golf Push Cart (SLGCX5)",
+    "slug": "2-wheel-golf-push-cart-slgcx5",
+    "gallery": [],
+    "aplus": [
+     {
+      "src": "/images/pdp/serenelife/d166f653472a.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/7af0bf08be7f.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/e92bee6a07a5.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/2d7219f6fae1.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/86db80bc6da6.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/a356f5224085.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/7debf4ed6aeb.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/8948faa68576.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/serenelife/a5ded26d9c57.webp",
+      "w": 1464,
+      "h": 600
      }
     ],
     "kinds": [
@@ -16010,6 +16345,21 @@
       "src": "/images/pdp/jonathan-y/7bba8e9a4fd2.webp",
       "w": 1000,
       "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/ad11448806a5.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/9b9e6b82e19b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/1a2c4465c24e.webp",
+      "w": 1000,
+      "h": 1000
      }
     ],
     "aplus": [],
@@ -16076,6 +16426,41 @@
       "src": "/images/pdp/jonathan-y/08aca43abfb0.webp",
       "w": 1000,
       "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/696fa29e589b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/57139f73798d.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/e049c4459e7a.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/13f97ff86344.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/5e38e973e7a4.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/9fa820b0662e.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/b2ed0b4f8f25.webp",
+      "w": 1000,
+      "h": 1000
      }
     ],
     "aplus": [],
@@ -16105,6 +16490,114 @@
      },
      {
       "src": "/images/pdp/jonathan-y/f092ae493275.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Outdoor Furniture",
+    "slug": "outdoor-furniture",
+    "gallery": [
+     {
+      "src": "/images/pdp/jonathan-y/15368b5eb546.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/147e05afc476.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/c365b0f10ad7.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/9b1e2a668714.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/3d990b4d0d8b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/955f4542c813.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/9bfadac3d257.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/daaf8bc062b2.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Outdoor Rugs",
+    "slug": "outdoor-rugs",
+    "gallery": [
+     {
+      "src": "/images/pdp/jonathan-y/b0fc6ab98628.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/f5f824383e66.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/33fe9ce37827.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/c2b7f50fded3.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Bathroom Vanities",
+    "slug": "bathroom-vanities",
+    "gallery": [
+     {
+      "src": "/images/pdp/jonathan-y/6de11cbeac65.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/ee8f30d26c0b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/jonathan-y/062c56040509.webp",
       "w": 1000,
       "h": 1000
      }
