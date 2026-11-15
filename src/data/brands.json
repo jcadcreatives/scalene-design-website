@@ -4541,13 +4541,195 @@
    "supplements"
   ],
   "thumb": "/images/thumbs/core-fiber.webp",
-  "count": 1,
+  "count": 31,
   "kinds": [
+   "Main images",
+   "Listing images",
    "A+ content"
   ],
   "items": [
    {
-    "src": "/images/Supplements/8_Core%20Fiber%20A%2B.webp",
+    "src": "/images/pdp/core-fiber/b29008ff5250.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/core-fiber/c27f2c1d6fd4.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/mains/core-fiber.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/core-fiber/5dfd8d048e35.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/f40b374c4dba.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/84df07480307.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/a4720dea92be.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/aa774a511b31.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/16226410422c.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/0478e72190f2.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/30a73e389573.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/033d6795f0e0.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/258b8054603b.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/8a8506662c32.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/85a9ee429370.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/add8d1bbb81e.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/0f848d3ef57f.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/f818f9894d00.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/core-fiber/cf47aeaa514c.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/8e63b4584de8.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/b82aae02ed71.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/99bd0b83ac59.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/087dbb747d8d.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/50b9c9c16b09.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/ddd0502833e7.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/a794d0bc8ac5.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/45af5fc98486.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/b1fe2f973ce5.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/719821352c46.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/24f5e299a040.webp",
+    "w": 1464,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/core-fiber/651fe28f9594.webp",
     "w": 1464,
     "h": 3600,
     "kind": "aplus"
