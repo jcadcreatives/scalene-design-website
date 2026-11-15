@@ -1,14 +1,12 @@
 [
  {
-  "name": "CSPrime",
-  "slug": "csprime",
+  "name": "EternaVea",
+  "slug": "eternavea",
   "categories": [
-   "home-kitchen",
-   "health-beauty",
    "supplements"
   ],
-  "thumb": "/images/thumbs/csprime.webp",
-  "count": 17,
+  "thumb": "/images/thumbs/eternavea.webp",
+  "count": 21,
   "kinds": [
    "Main images",
    "Listing images",
@@ -16,105 +14,682 @@
   ],
   "items": [
    {
-    "src": "/images/work/csprime-main-405b00.webp",
+    "src": "/images/pdp/csprime/5c64b94e7626.webp",
     "w": 900,
     "h": 900,
     "kind": "main"
    },
    {
-    "src": "/images/work/csprime-main-72770d.webp",
+    "src": "/images/pdp/csprime/849b24533248.webp",
     "w": 900,
-    "h": 445,
+    "h": 900,
     "kind": "main"
    },
    {
-    "src": "/images/work/csprime-listing-6f0144.webp",
-    "w": 900,
-    "h": 2265,
+    "src": "/images/pdp/csprime/15e2a180321b.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-listing-c3bc6f.webp",
-    "w": 900,
-    "h": 2265,
+    "src": "/images/pdp/csprime/e08c3ab7b588.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-listing-ca9891.webp",
-    "w": 900,
-    "h": 2265,
+    "src": "/images/pdp/csprime/e3c248521a9c.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-listing-39e7a9.webp",
-    "w": 900,
-    "h": 2265,
+    "src": "/images/pdp/csprime/6e54234bcc4a.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-listing-bb3775.webp",
-    "w": 900,
-    "h": 2265,
+    "src": "/images/pdp/csprime/7f384593509e.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-listing-58028f.webp",
-    "w": 900,
-    "h": 2265,
+    "src": "/images/pdp/csprime/cc0351eba37b.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-listing-99dbc7.webp",
-    "w": 900,
-    "h": 2265,
+    "src": "/images/pdp/csprime/d9bd8a8a07fe.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-listing-ed1457.webp",
-    "w": 900,
-    "h": 2265,
+    "src": "/images/pdp/csprime/20f26e2169ef.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-listing-4ac6c2.webp",
-    "w": 900,
-    "h": 2265,
+    "src": "/images/pdp/csprime/c01d59adab24.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-listing-8e01ae.webp",
-    "w": 900,
-    "h": 1810,
+    "src": "/images/pdp/csprime/3173c77d042c.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-listing-8214b2.webp",
-    "w": 900,
-    "h": 1810,
+    "src": "/images/pdp/csprime/4fcfdbeadfc6.webp",
+    "w": 450,
+    "h": 450,
     "kind": "listing"
    },
    {
-    "src": "/images/work/csprime-aplus-d90c40.webp",
+    "src": "/images/pdp/csprime/044c90ce69e8.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/68837c04fa6d.webp",
     "w": 900,
-    "h": 2584,
+    "h": 369,
     "kind": "aplus"
    },
    {
-    "src": "/images/work/csprime-aplus-c54bc7.webp",
+    "src": "/images/pdp/csprime/afeaf6ae2897.webp",
     "w": 900,
-    "h": 2583,
+    "h": 369,
     "kind": "aplus"
    },
    {
-    "src": "/images/work/csprime-aplus-b42660.webp",
+    "src": "/images/pdp/csprime/df4336a1ec2b.webp",
     "w": 900,
-    "h": 2214,
+    "h": 371,
     "kind": "aplus"
    },
    {
-    "src": "/images/work/csprime-aplus-a69daa.webp",
+    "src": "/images/pdp/csprime/8aec1e8a7a96.webp",
     "w": 900,
-    "h": 2214,
+    "h": 368,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/ac0756251611.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/6cd58aae0449.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/01806936ec87.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   }
+  ]
+ },
+ {
+  "name": "LIV Skin Lab",
+  "slug": "liv-skin-lab",
+  "categories": [
+   "health-beauty"
+  ],
+  "thumb": "/images/thumbs/liv-skin-lab.webp",
+  "count": 27,
+  "kinds": [
+   "Main images",
+   "Listing images"
+  ],
+  "items": [
+   {
+    "src": "/images/pdp/csprime/25266189032f.webp",
+    "w": 900,
+    "h": 900,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/csprime/f2de24f282be.webp",
+    "w": 900,
+    "h": 900,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/csprime/e6883d30cdf2.webp",
+    "w": 900,
+    "h": 900,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/csprime/ab62610a33f4.webp",
+    "w": 900,
+    "h": 900,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/csprime/3afea9ac5bf3.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/c41074c4070d.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/5b6ff1fb321c.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/933cf51d52ff.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/75e4ac5f805b.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/731048c6f821.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/3da5a4981283.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/f0bd5f91ce5b.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/0e3ee9903020.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/9b2041196af0.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/ec525fe58d0e.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/6bda9f618c12.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/ecc792bbd5b1.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/0a57ad4aa96e.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/195b8142a9a8.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/aa1c5c48bbb4.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/16a9193b922d.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/18349555a4bc.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/0c878bb9c2fe.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/63974d6d8d2b.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/a049837ec7e4.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/d40f7a300d4c.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/e6729cd23b80.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   }
+  ]
+ },
+ {
+  "name": "LaSuite08",
+  "slug": "lasuite08",
+  "categories": [
+   "home-kitchen"
+  ],
+  "thumb": "/images/thumbs/lasuite08.webp",
+  "count": 60,
+  "kinds": [
+   "Main images",
+   "Listing images",
+   "A+ content"
+  ],
+  "items": [
+   {
+    "src": "/images/pdp/csprime/f4122f4f0351.webp",
+    "w": 900,
+    "h": 900,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/csprime/a701b574fc7c.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/csprime/8315431b6068.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/csprime/92e7260690c7.webp",
+    "w": 900,
+    "h": 900,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/csprime/6d78a4e07819.webp",
+    "w": 900,
+    "h": 900,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/csprime/128541c980a8.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/49492d3d27c9.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/a11922c0b79e.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/f471ebdee933.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/e91f500aeef9.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/a3bb301bb4c3.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/64fe41888311.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/7df4e5c3e44a.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/13359b9a2082.webp",
+    "w": 900,
+    "h": 900,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/1b62141998e1.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/b5cc9674854d.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/4efc56361640.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/7d8e03a5c2a9.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/f9e330895718.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/d6b185e3a547.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/24a11155df4d.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/10f6098578c8.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/b0fb85695b90.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/eae9139303f7.webp",
+    "w": 900,
+    "h": 900,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/e36f7337c8f9.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/b90bfc6f22fb.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/295a3c8f50ee.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/542c87875299.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/ca3e164fe0db.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/6bfd52d29ed0.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/18dd31dbc8e0.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/a7c37978f0ea.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/7d6ff866c3bc.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/0c12b30c829c.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/96a135878dfd.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/17b3491ac2b3.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/d44a4e61c968.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/206a204d30f2.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/f344a5f77922.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/27d4ec0ce752.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/519a6c8f0086.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/csprime/95f08a31bcf6.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/393221333eec.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/428c00979781.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/970bf4fec636.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/ecadd33a603e.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/449add418ebd.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/47b38b6a704d.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/5506f3f8ecf5.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/8db308a69a99.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/3eb049a119ce.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/2a3913a7b221.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/ae422cbbba6b.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/b8898b0cb14c.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/fed0ea4d7a93.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/c691ed6af5ea.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/a9289528302c.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/1f0698253955.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/b89d5ade8c0d.webp",
+    "w": 900,
+    "h": 369,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/csprime/d3bcb8a2619a.webp",
+    "w": 900,
+    "h": 369,
     "kind": "aplus"
    }
   ]
