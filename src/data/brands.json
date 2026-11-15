@@ -1384,60 +1384,1128 @@
    "electronics"
   ],
   "thumb": "/images/thumbs/vornado.webp",
-  "count": 9,
+  "count": 187,
   "kinds": [
-   "Main images",
-   "Listing images",
    "A+ content",
+   "Listing images",
+   "Main images",
    "Storefront"
   ],
   "items": [
    {
-    "src": "/images/work/vornado-main-5c75f5.webp",
-    "w": 900,
-    "h": 445,
+    "src": "/images/pdp/vornado/9970c3b1f1b8.webp",
+    "w": 1000,
+    "h": 1000,
     "kind": "main"
    },
    {
-    "src": "/images/work/vornado-listing-99bf72.webp",
+    "src": "/images/pdp/vornado/93de3ce5cffb.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/871118925e04.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/c01a298ccd37.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/42c19ac9b779.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/fa6bfbffd252.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/d325f95d7294.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/aa7ac9a841c4.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/22523ac78429.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/1ec832857ef5.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/57f879de8cc3.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/a7844a7d0f52.webp",
     "w": 900,
-    "h": 2265,
-    "kind": "listing"
+    "h": 900,
+    "kind": "main"
    },
    {
-    "src": "/images/work/vornado-listing-4f718b.webp",
+    "src": "/images/pdp/vornado/bc61df5bccde.webp",
     "w": 900,
-    "h": 2265,
+    "h": 900,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/f3b88472395d.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/vornado/cf531f377f76.webp",
+    "w": 1000,
+    "h": 1000,
     "kind": "listing"
    },
    {
-    "src": "/images/legacy/1_Prioritize%20-%20Vornado%202.webp",
-    "w": 2000,
-    "h": 2000,
+    "src": "/images/pdp/vornado/e11b082990fc.webp",
+    "w": 1000,
+    "h": 1000,
     "kind": "listing"
    },
    {
-    "src": "/images/legacy/6_Vornado%203.webp",
-    "w": 2000,
-    "h": 2000,
+    "src": "/images/pdp/vornado/272ff4375a16.webp",
+    "w": 1000,
+    "h": 1000,
     "kind": "listing"
    },
    {
-    "src": "/images/legacy/5_.webp",
-    "w": 2000,
-    "h": 2000,
+    "src": "/images/pdp/vornado/6da21d355fea.webp",
+    "w": 1000,
+    "h": 1000,
     "kind": "listing"
    },
    {
-    "src": "/images/work/vornado-aplus-1ae900.webp",
-    "w": 900,
-    "h": 2228,
+    "src": "/images/pdp/vornado/8126e0c0979f.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/786e6416da85.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/3171c78be6da.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/3742dd25fa27.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/035483a1fb1f.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/22634dca154a.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/130559ab2946.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/4ca0487fd765.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/2a7c0f9dc70a.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/67bc1fc4fae4.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/20367c18a739.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/acdbdb629cc5.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/7123f070dcc8.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/ea159a497ff8.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/af48f3915896.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/f47d730a7e13.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/5bc2ba89b37a.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/9729c2c36b99.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/1c285c2a8c63.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/16ce9dc51791.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/9f202b9d7deb.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/86ddf587b903.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/09f2001b3387.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/63dcbbc49a7a.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/f42420a8ef11.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/d3d4917e400c.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/608a48ccec0a.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/9bc054224da2.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/eebb89de7296.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/f71be3ad4b5b.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/0a1b006a4206.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/7a04e489cf38.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/e1344da7b7bf.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/617cc5853790.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/cd41cd8f2956.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/4a1f4276b0c9.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/a29108ec46b0.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/2fe9460fc816.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/16e0dbeb3337.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/23158ec4f6f5.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/043f3c9eb6f1.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/28ceff5aca88.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/16de4251ec36.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/65aeecbb062c.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/a7122ac05f00.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/9cfc61652fb7.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/59f1391623e2.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/1145c331f8bf.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/c70a1e47016a.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/ea229f435338.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/d3f329a03b44.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/864ffdb4e77c.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/3c62d6c01429.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/22cb1d4815bb.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/1f9a9b0438bf.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/a04a1fcb3200.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/e4f9bbeda771.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/864ffdb4e77c.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/148793520f9c.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/755f6f75c4bf.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/9bd8466a1eff.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/6abbbc94067d.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/c40593ad5ead.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/5808738ba723.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/443011eb7c90.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/7d52d0a5564c.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/790cca78dd27.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/079033b01946.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/da67402ea6c8.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/2c4ea7b30026.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/da66c8f5bfdd.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/d4a107d2637c.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/36a34b2f359c.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/1dffd85a811b.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/d502dc9f7e74.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/08ec17ea564d.webp",
+    "w": 450,
+    "h": 450,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/vornado/df0df48aeb5f.webp",
+    "w": 1000,
+    "h": 619,
     "kind": "aplus"
    },
    {
-    "src": "/images/work/vornado-aplus-f8edb4.webp",
-    "w": 900,
-    "h": 2228,
+    "src": "/images/pdp/vornado/2706c1c6a463.webp",
+    "w": 1000,
+    "h": 619,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/834861ae6f20.webp",
+    "w": 1000,
+    "h": 619,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/2b8d84f97086.webp",
+    "w": 1000,
+    "h": 619,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/c1d6de2af648.webp",
+    "w": 1000,
+    "h": 619,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/1c41e1f647e3.webp",
+    "w": 1000,
+    "h": 619,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/168db5f68814.webp",
+    "w": 1000,
+    "h": 619,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/f7a14557c5f5.webp",
+    "w": 1000,
+    "h": 619,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/4897eb0f9f94.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/6105281f1a44.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/02f8d442050c.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/c91d91cdc8b2.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/99577e83129c.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/b1cac4dfb0b8.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/d61a2193bb43.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/e4fdf7d6e7bb.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/b2e249317b44.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/67db7f253208.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/54638f4c4d1d.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/06d6e2f22db2.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/fcfdbe6be7e7.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/766e1236c840.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/33a7c7baedbf.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/c2e0c0dc9674.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/82bf647262f3.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/824a4d1096f9.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/aadbe8c38663.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/47532419aa70.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/483be2aff780.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/73ac09dad6d2.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/06642afc3a63.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/de6270576069.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/46e129a09820.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/08b32c7a7101.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/edb5afa2a9c0.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/515a875990c2.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/32c97344fbcf.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/75b4bb5ecbe7.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/09140d518e5f.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/a8a8d1401b2e.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/37ff5cb74983.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/e8c1a38373d3.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/e3c1d08c6802.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/dffb07e91564.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/a459ac320d0f.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/bfdeb1fca3d2.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/e0cb1dc55c68.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/c1bb84ec0625.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/7192c91252f7.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/422674fd212e.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/d5ff9faee04f.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/0b910f413159.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/76a6b0873997.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/5cc5d6971eb5.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/67ad3a1198c7.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/e25b64a4f7b6.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/2907a8b7eae4.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/3c01222518ff.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/86a679c8b66f.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/d9dc5bb82396.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/2ca4b3f21db4.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/9422e2c53d9d.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/f50e64a7f8fb.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/45a44624bf5d.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/45c4e75f364b.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/01cc9e44528f.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/f795b03786c4.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/2727cbeb20eb.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/88854a8e290f.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/4e82f0e52167.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/9e6be5007af6.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/a1e41c9ec98f.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/c3beb20d5047.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/64c964658ac8.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/6140ba24a80d.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/2b043580fb0b.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/107fb85878f9.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/75a437155d47.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/313113e49ede.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/24c5868b3fa2.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/251b8f75fd28.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/daffffef1ac6.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/235c149140e1.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/5a6dddb6e389.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/3e1464d8aaea.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/1b424ff320ae.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/93cd8f40d2db.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/4e09450412fd.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/9816470c30e3.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/fbe96b493d5e.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/1ef6e1dccc2a.webp",
+    "w": 970,
+    "h": 600,
+    "kind": "aplus"
+   },
+   {
+    "src": "/images/pdp/vornado/e7a060da7fcb.webp",
+    "w": 970,
+    "h": 600,
     "kind": "aplus"
    },
    {
