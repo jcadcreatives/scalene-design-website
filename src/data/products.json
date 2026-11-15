@@ -13766,7 +13766,18 @@
    {
     "name": "Plant-Based Kitchen Sponges (12 Pack)",
     "slug": "plant-based-kitchen-sponges-12-pack",
-    "gallery": [],
+    "gallery": [
+     {
+      "src": "/images/pdp/biogo/4ba6fbe2ac17.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/biogo/24f10b40d41b.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
     "aplus": [
      {
       "src": "/images/pdp/biogo/878633d413bc.webp",
@@ -13800,6 +13811,8 @@
      }
     ],
     "kinds": [
+     "main",
+     "listing",
      "aplus"
     ]
    }
@@ -14945,6 +14958,253 @@
   "brandstory": [],
   "products": [
    {
+    "name": "Hormone Balance Tea",
+    "slug": "hormone-balance-tea",
+    "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/0aafce03f426.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/281d64ffcb06.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/8eb653e1bcab.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/3923c6b3d655.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/d2a50f0b61cd.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/c226f4157ce6.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/c0eaf79e46dc.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/aa4ad18f79cc.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/a77dd62a2319.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/3a585ad38f2b.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Cleanse Sweet Surprise",
+    "slug": "cleanse-sweet-surprise",
+    "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/c784cb905122.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/5174dc4591c6.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/4412e73f85ac.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/f84b76977e6c.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/5fe7c2040a33.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/001fba673428.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/e5f004cf1aed.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/a62f44b3e314.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [
+     {
+      "src": "/images/pdp/hey-girl/b7d59059ff6c.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/f8021474880f.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/7b1c7505ef28.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/6f49442e6d5e.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/96c3e931db7a.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/b6d36b362ce5.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/d26e941db89d.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/007d8cb051b7.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/4f7ed52d4239.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/6e300be8aadd.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "main",
+     "listing",
+     "aplus"
+    ]
+   },
+   {
+    "name": "Cleanse Chocomint",
+    "slug": "cleanse-chocomint",
+    "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/e996fe0bc579.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/a0953a7439c3.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/b5b92eed36b9.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/1c073b2e0cec.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/6a309207e035.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/75ff5f82b74b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/1757e2d7eb36.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/bc4b2dfa84b8.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [
+     {
+      "src": "/images/pdp/hey-girl/948ea00d990c.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/f36e09978dcb.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/e01a9fa6dd75.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/796134148fd8.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/78bea9143599.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/hey-girl/c44ec9f77ccf.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "main",
+     "listing",
+     "aplus"
+    ]
+   },
+   {
     "name": "Cleanse Detox Tea",
     "slug": "cleanse-detox-tea",
     "gallery": [
@@ -14987,6 +15247,217 @@
       "src": "/images/pdp/hey-girl/ea847ec87d2f.webp",
       "w": 1000,
       "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "D-Mannose",
+    "slug": "d-mannose",
+    "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/4b234919a74f.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/b46c254108d2.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/22e654a09b18.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/c7b95f3eb876.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/1ffa1fb87534.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/5665e649bf44.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/8dd8278a7294.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/fd10c697f3a1.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Energize Tea",
+    "slug": "energize-tea",
+    "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/b79fdf768c31.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/7837b857c626.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/56aec666273c.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Sleep Tea",
+    "slug": "sleep-tea",
+    "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/f101d69d3f0e.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/bf4e2e326fdc.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/27998bda6bb5.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/df7d150a2a77.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Feel Better Tea",
+    "slug": "feel-better-tea",
+    "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/a1bfa8773514.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/60c42cf88b99.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/bc5da2138163.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/e795f341b1b2.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Apple Cider Vinegar",
+    "slug": "apple-cider-vinegar",
+    "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/b382e6c35591.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/95f9dcfcf51e.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/4925f0a7594e.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/8fe264f7f4de.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/cd10c4642d18.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Ashwagandha",
+    "slug": "ashwagandha",
+    "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/c01b38031b3c.webp",
+      "w": 1000,
+      "h": 996
+     },
+     {
+      "src": "/images/pdp/hey-girl/a47ed2aef750.webp",
+      "w": 1000,
+      "h": 996
+     },
+     {
+      "src": "/images/pdp/hey-girl/511d458a2412.webp",
+      "w": 1000,
+      "h": 996
+     },
+     {
+      "src": "/images/pdp/hey-girl/a706ba4b0075.webp",
+      "w": 1000,
+      "h": 996
+     },
+     {
+      "src": "/images/pdp/hey-girl/9c43f237816e.webp",
+      "w": 1000,
+      "h": 996
      }
     ],
     "aplus": [],
