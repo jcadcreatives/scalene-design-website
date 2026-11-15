@@ -3841,26 +3841,6 @@
   ]
  },
  {
-  "name": "Beauty Junkees",
-  "slug": "beauty-junkees",
-  "categories": [
-   "health-beauty"
-  ],
-  "thumb": "/images/thumbs/beauty-junkees.webp",
-  "count": 1,
-  "kinds": [
-   "A+ content"
-  ],
-  "items": [
-   {
-    "src": "/images/pdp/beauty-junkees/84679f2d7536.webp",
-    "w": 970,
-    "h": 2781,
-    "kind": "aplus"
-   }
-  ]
- },
- {
   "name": "Dynasty Golf",
   "slug": "dynasty-golf",
   "categories": [
