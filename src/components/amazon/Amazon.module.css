@@ -306,6 +306,18 @@ a.storeLink:hover {
   background: var(--color-secondary);
 }
 
+.buyAlt {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #007185;
+}
+.buyAlt:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
 /* ---------- below the fold ---------- */
 .below {
   margin-top: 40px;

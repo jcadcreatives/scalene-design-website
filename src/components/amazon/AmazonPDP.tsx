@@ -190,6 +190,9 @@ export default function AmazonPDP({
               <a href={CALL_URL} target="_blank" rel="noopener noreferrer" className={styles.buyBtn}>
                 Book a call
               </a>
+              <Link href="/#audit" className={styles.buyAlt}>
+                Or get a free audit of your listing →
+              </Link>
             </div>
           </div>
         </section>

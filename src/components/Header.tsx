@@ -29,6 +29,9 @@ export default function Header() {
         <Link href="/work" className={styles.navLink}>
           Our work
         </Link>
+        <Link href="/#audit" className={styles.navLink}>
+          Free audit
+        </Link>
       <a
         href="https://calendly.com/jcad-creatives/discovery-call"
         target="_blank"

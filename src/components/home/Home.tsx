@@ -4,6 +4,7 @@ import Reel from './Reel'
 import HeroVisual from './HeroVisual'
 import Services, { type ServicesData } from './Services'
 import Stats from './Stats'
+import FreeAudit from '../FreeAudit'
 import brandsData from '@/data/brands.json'
 import productsData from '@/data/products.json'
 
@@ -104,6 +105,24 @@ export default function Home() {
 
       <Services data={SERVICES} />
 
+      {/* free audit */}
+      <section id="audit" className={styles.audit}>
+        <div className={styles.auditCopy}>
+          <p className={styles.eyebrow}>Free listing audit</p>
+          <h2 className={styles.h2Light}>Not sure what to fix first? Send us your ASIN.</h2>
+          <p className={styles.auditLead}>
+            Our team reviews your listing the way a shopper and an Amazon designer would, and emails you what we’d change
+            first. Not live yet? Tell us about the product and we’ll tell you what your images need to do.
+          </p>
+          <ul className={styles.auditList}>
+            <li>Main image: does it win the click in search?</li>
+            <li>Listing images: do they answer the buyer’s questions in order?</li>
+            <li>A+ and Brand Story: what’s missing, and what to keep</li>
+          </ul>
+        </div>
+        <FreeAudit callUrl={CALL_URL} />
+      </section>
+
       {/* featured */}
       <section className={styles.block}>
         <div className={styles.blockHead}>
@@ -195,9 +214,14 @@ export default function Home() {
       <section className={styles.close}>
         <h2>Show us your listing.</h2>
         <p>Book a call. We’ll go through your images with you and tell you what we’d change first.</p>
-        <a href={CALL_URL} target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
-          Book a call
-        </a>
+        <div className={styles.ctas}>
+          <a href={CALL_URL} target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
+            Book a call
+          </a>
+          <a href="#audit" className={styles.btnGhost}>
+            Get a free audit
+          </a>
+        </div>
       </section>
 
       <footer className={styles.footer}>
