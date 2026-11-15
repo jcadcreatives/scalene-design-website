@@ -14937,5 +14937,64 @@
     ]
    }
   ]
+ },
+ "hey-girl": {
+  "name": "Hey Girl",
+  "slug": "hey-girl",
+  "storefront": [],
+  "brandstory": [],
+  "products": [
+   {
+    "name": "Cleanse Detox Tea",
+    "slug": "cleanse-detox-tea",
+    "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/889aa5cbd00c.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/4ada93c02993.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/a7e1dc0cfae7.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/3b23cadbc085.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/080468f90992.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/aa95f6d16047.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/4e56b894fc69.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/hey-girl/ea847ec87d2f.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   }
+  ]
  }
 }
