@@ -5505,6 +5505,94 @@
   ],
   "products": [
    {
+    "name": "Carpenter Denim Jeans",
+    "slug": "carpenter-jeans",
+    "gallery": [
+     {
+      "src": "/images/pdp/cogimex/5280a7c026e5.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/cogimex/a5e5a600ea98.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/cogimex/b300b55010f1.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/cogimex/525168f12e13.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/cogimex/e5bff84df5ae.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/cogimex/5173b571f929.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/cogimex/f89b48f4614b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/cogimex/5b170bd872e3.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [
+     {
+      "src": "/images/pdp/cogimex/bcc417efd41e.webp",
+      "w": 900,
+      "h": 369
+     },
+     {
+      "src": "/images/pdp/cogimex/030af9670df0.webp",
+      "w": 900,
+      "h": 369
+     },
+     {
+      "src": "/images/pdp/cogimex/2fcf5156dda2.webp",
+      "w": 900,
+      "h": 369
+     },
+     {
+      "src": "/images/pdp/cogimex/7630a6ae9b7a.webp",
+      "w": 900,
+      "h": 369
+     },
+     {
+      "src": "/images/pdp/cogimex/0b8c9ee8829d.webp",
+      "w": 900,
+      "h": 369
+     },
+     {
+      "src": "/images/pdp/cogimex/510bbfa448bf.webp",
+      "w": 900,
+      "h": 369
+     },
+     {
+      "src": "/images/pdp/cogimex/3153cca5b93f.webp",
+      "w": 900,
+      "h": 369
+     }
+    ],
+    "kinds": [
+     "main",
+     "listing",
+     "aplus"
+    ]
+   },
+   {
     "name": "Carpenter Canvas Pants",
     "slug": "carpenter-canvas-pants",
     "gallery": [
@@ -5639,51 +5727,6 @@
       "src": "/images/pdp/cogimex/c53e89a878a7.webp",
       "w": 900,
       "h": 2583
-     }
-    ],
-    "kinds": [
-     "aplus"
-    ]
-   },
-   {
-    "name": "Carpenter Jeans",
-    "slug": "carpenter-jeans",
-    "gallery": [],
-    "aplus": [
-     {
-      "src": "/images/pdp/cogimex/bcc417efd41e.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/cogimex/030af9670df0.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/cogimex/2fcf5156dda2.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/cogimex/7630a6ae9b7a.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/cogimex/0b8c9ee8829d.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/cogimex/510bbfa448bf.webp",
-      "w": 900,
-      "h": 369
-     },
-     {
-      "src": "/images/pdp/cogimex/3153cca5b93f.webp",
-      "w": 900,
-      "h": 369
      }
     ],
     "kinds": [

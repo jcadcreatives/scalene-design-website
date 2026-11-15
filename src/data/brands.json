@@ -1961,12 +1961,62 @@
    "and-more"
   ],
   "thumb": "/images/thumbs/cogimex.webp",
-  "count": 5,
+  "count": 13,
   "kinds": [
    "A+ content",
-   "Brand story"
+   "Brand story",
+   "Listing images",
+   "Main images"
   ],
   "items": [
+   {
+    "src": "/images/pdp/cogimex/5280a7c026e5.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "main"
+   },
+   {
+    "src": "/images/pdp/cogimex/a5e5a600ea98.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/cogimex/b300b55010f1.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/cogimex/525168f12e13.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/cogimex/e5bff84df5ae.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/cogimex/5173b571f929.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/cogimex/f89b48f4614b.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
+   {
+    "src": "/images/pdp/cogimex/5b170bd872e3.webp",
+    "w": 1000,
+    "h": 1000,
+    "kind": "listing"
+   },
    {
     "src": "/images/work/cogimex-aplus-bac990.webp",
     "w": 900,
