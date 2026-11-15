@@ -15432,6 +15432,189 @@
      "main",
      "listing"
     ]
+   },
+   {
+    "name": "Astaxanthin",
+    "slug": "astaxanthin",
+    "gallery": [
+     {
+      "src": "/images/pdp/peplement/5cfd2ec3643f.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/6306f6a70c61.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/f287087f6676.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/f4b2391ab7aa.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/8304050fff63.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/c16791eb2f5b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/6debc9b0eae9.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/d109e0db14b1.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/dd5098de16b9.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/ca2e0f951fdc.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Shilajit plus+ Women's Edition",
+    "slug": "shilajit-plus-women-s-edition",
+    "gallery": [
+     {
+      "src": "/images/pdp/peplement/b68a4b510e62.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/bbded14e7a2e.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/48cdf3eae640.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/5091dbda917e.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/0b99005452f6.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/6f3395aeed7b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/34c6c6e64da9.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/05706c3cacdc.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   },
+   {
+    "name": "Main Images — Innovation & Excellence Award (12 products)",
+    "slug": "main-images-innovation-excellence-award-12-products",
+    "gallery": [
+     {
+      "src": "/images/pdp/peplement/de921b376359.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/17fce61f5eaa.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/c41a4506f25d.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/bbcf32ccef4b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/87fcd2aa70ba.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/097759f69867.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/02dac556ac90.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/b59c47f1d7d8.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/ab78fd30521d.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/0db2ab76bb1d.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/e470d7d7bbd2.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/peplement/e412f80221d2.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
    }
   ]
  },
@@ -17235,6 +17418,395 @@
       "src": "/images/pdp/clouvou/4da88cf9c0f9.webp",
       "w": 1000,
       "h": 1333
+     }
+    ],
+    "aplus": [],
+    "kinds": [
+     "main",
+     "listing"
+    ]
+   }
+  ]
+ },
+ "decalys": {
+  "name": "Decalys",
+  "slug": "decalys",
+  "storefront": [],
+  "brandstory": [],
+  "products": [
+   {
+    "name": "Le Gel (Acne Scar Gel)",
+    "slug": "le-gel-acne-scar-gel",
+    "gallery": [
+     {
+      "src": "/images/pdp/decalys/8d68510e71ec.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/83ff1429038b.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/cf1d6877b901.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/8ae78d562e51.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/e3544017951e.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/eadce09925d1.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/2fca71595e93.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [
+     {
+      "src": "/images/pdp/decalys/6f4731191c0a.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/529c2003a38a.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/ee0c3de7190a.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/384ab60bb1b4.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "main",
+     "listing",
+     "aplus"
+    ]
+   },
+   {
+    "name": "Le Baume (Soothing Balm)",
+    "slug": "le-baume-soothing-balm",
+    "gallery": [
+     {
+      "src": "/images/pdp/decalys/bbc1c860fcbe.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/dc66b0e4d786.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/a285012a125f.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/76c6819b280d.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/fc49f43f19f2.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/3fdc31dea881.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/b69d1576ba20.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [
+     {
+      "src": "/images/pdp/decalys/351d5bf6dd7e.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/439acc2be6db.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/c2771d44cb0d.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/d10085e7fe3b.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/8ff31eb36eb6.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/3093d07b63c3.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/04f0eb3556c1.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "main",
+     "listing",
+     "aplus"
+    ]
+   },
+   {
+    "name": "La Pommade (Scar Ointment)",
+    "slug": "la-pommade-scar-ointment",
+    "gallery": [
+     {
+      "src": "/images/pdp/decalys/4b4982592848.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/853b1676c927.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/2083dbe699b7.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/7cbc82a6b671.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/9f7ff4542928.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/4f22bc41f46c.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/c72c3ba6e88e.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [
+     {
+      "src": "/images/pdp/decalys/373766968be6.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/b7e9ecf95f59.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/6fa5ce68dbe9.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/bd41fb1b0631.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/19b4fb336f88.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/26d346626617.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/e77ad6de3f02.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "main",
+     "listing",
+     "aplus"
+    ]
+   },
+   {
+    "name": "Cicafilm (Scar Patch)",
+    "slug": "cicafilm-scar-patch",
+    "gallery": [
+     {
+      "src": "/images/pdp/decalys/9330ee85bf05.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/6319f3b48ce8.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/8428552b2bec.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/504243af65f8.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/f6752bc23a2e.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/680e26e2b405.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/21cd95ea0654.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/decalys/bce65906a997.webp",
+      "w": 1000,
+      "h": 1000
+     }
+    ],
+    "aplus": [
+     {
+      "src": "/images/pdp/decalys/88e6a789efdc.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/064e0fd2297e.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/e259ca12209b.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/ae0d92aaa1da.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/be59b0be2887.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/c00e1d695c1b.webp",
+      "w": 1464,
+      "h": 600
+     },
+     {
+      "src": "/images/pdp/decalys/fd155b8eed36.webp",
+      "w": 1464,
+      "h": 600
+     }
+    ],
+    "kinds": [
+     "main",
+     "listing",
+     "aplus"
+    ]
+   }
+  ]
+ },
+ "wundermix": {
+  "name": "Wundermix",
+  "slug": "wundermix",
+  "storefront": [],
+  "brandstory": [],
+  "products": [
+   {
+    "name": "Thermomix Cleaning Brush (8 Colors)",
+    "slug": "thermomix-cleaning-brush-8-colors",
+    "gallery": [
+     {
+      "src": "/images/pdp/wundermix/124ddcdbb7f1.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wundermix/649552a47f68.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wundermix/a4541bf00a3c.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wundermix/80658e564fab.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wundermix/5fd720df4535.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wundermix/fd01a7e1946c.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wundermix/e1487d6b6dcc.webp",
+      "w": 1000,
+      "h": 1000
+     },
+     {
+      "src": "/images/pdp/wundermix/129c07913604.webp",
+      "w": 1000,
+      "h": 1000
      }
     ],
     "aplus": [],
