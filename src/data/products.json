@@ -14958,67 +14958,6 @@
   "brandstory": [],
   "products": [
    {
-    "name": "Hormone Balance Tea",
-    "slug": "hormone-balance-tea",
-    "gallery": [
-     {
-      "src": "/images/pdp/hey-girl/0aafce03f426.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/281d64ffcb06.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/8eb653e1bcab.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/3923c6b3d655.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/d2a50f0b61cd.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/c226f4157ce6.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/c0eaf79e46dc.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/aa4ad18f79cc.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/a77dd62a2319.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/3a585ad38f2b.webp",
-      "w": 1000,
-      "h": 1000
-     }
-    ],
-    "aplus": [],
-    "kinds": [
-     "main",
-     "listing"
-    ]
-   },
-   {
     "name": "Cleanse Sweet Surprise",
     "slug": "cleanse-sweet-surprise",
     "gallery": [
@@ -15344,35 +15283,14 @@
     ]
    },
    {
-    "name": "Energize Tea",
-    "slug": "energize-tea",
-    "gallery": [
-     {
-      "src": "/images/pdp/hey-girl/b79fdf768c31.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/7837b857c626.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/56aec666273c.webp",
-      "w": 1000,
-      "h": 1000
-     }
-    ],
-    "aplus": [],
-    "kinds": [
-     "main",
-     "listing"
-    ]
-   },
-   {
     "name": "Sleep Tea",
     "slug": "sleep-tea",
     "gallery": [
+     {
+      "src": "/images/pdp/hey-girl/03b3043c23b5.webp",
+      "w": 1000,
+      "h": 1000
+     },
      {
       "src": "/images/pdp/hey-girl/f101d69d3f0e.webp",
       "w": 1000,
@@ -15392,109 +15310,6 @@
       "src": "/images/pdp/hey-girl/df7d150a2a77.webp",
       "w": 1000,
       "h": 1000
-     }
-    ],
-    "aplus": [],
-    "kinds": [
-     "main",
-     "listing"
-    ]
-   },
-   {
-    "name": "Feel Better Tea",
-    "slug": "feel-better-tea",
-    "gallery": [
-     {
-      "src": "/images/pdp/hey-girl/a1bfa8773514.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/60c42cf88b99.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/bc5da2138163.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/e795f341b1b2.webp",
-      "w": 1000,
-      "h": 1000
-     }
-    ],
-    "aplus": [],
-    "kinds": [
-     "main",
-     "listing"
-    ]
-   },
-   {
-    "name": "Apple Cider Vinegar",
-    "slug": "apple-cider-vinegar",
-    "gallery": [
-     {
-      "src": "/images/pdp/hey-girl/b382e6c35591.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/95f9dcfcf51e.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/4925f0a7594e.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/8fe264f7f4de.webp",
-      "w": 1000,
-      "h": 1000
-     },
-     {
-      "src": "/images/pdp/hey-girl/cd10c4642d18.webp",
-      "w": 1000,
-      "h": 1000
-     }
-    ],
-    "aplus": [],
-    "kinds": [
-     "main",
-     "listing"
-    ]
-   },
-   {
-    "name": "Ashwagandha",
-    "slug": "ashwagandha",
-    "gallery": [
-     {
-      "src": "/images/pdp/hey-girl/c01b38031b3c.webp",
-      "w": 1000,
-      "h": 996
-     },
-     {
-      "src": "/images/pdp/hey-girl/a47ed2aef750.webp",
-      "w": 1000,
-      "h": 996
-     },
-     {
-      "src": "/images/pdp/hey-girl/511d458a2412.webp",
-      "w": 1000,
-      "h": 996
-     },
-     {
-      "src": "/images/pdp/hey-girl/a706ba4b0075.webp",
-      "w": 1000,
-      "h": 996
-     },
-     {
-      "src": "/images/pdp/hey-girl/9c43f237816e.webp",
-      "w": 1000,
-      "h": 996
      }
     ],
     "aplus": [],
