@@ -127,7 +127,7 @@ const FAQ: [string, string][] = [
   ],
   [
     'Do you work with agencies?',
-    'Yes. We work white-label behind Amazon agencies: your name on the work, your clients stay yours.',
+    'Yes. Scalene plugs into your team as your Amazon creative arm: we work inside your tools and process, take briefs from your account managers, and scale up or down with your month.',
   ],
 ]
 

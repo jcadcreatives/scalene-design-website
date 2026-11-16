@@ -120,8 +120,8 @@ export default function Stats({
           <p className={styles.tag}>For agencies</p>
           <h3>Your creative team, on call.</h3>
           <p className={styles.text}>
-            We work white-label behind Amazon agencies: your brand on the work, your clients stay yours, and the volume flexes
-            with your month.
+            Scalene plugs into your agency as your Amazon creative arm. We work inside your tools and process, and the volume
+            flexes with your month.
           </p>
           <a href={callUrl} target="_blank" rel="noopener noreferrer" className={styles.btnWhite}>
             Talk partnership <i aria-hidden>→</i>
