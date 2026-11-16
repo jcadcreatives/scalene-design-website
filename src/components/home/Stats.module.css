@@ -256,3 +256,8 @@
     max-width: 100%;
   }
 }
+@media (max-width: 560px) {
+  .num {
+    font-size: 38px;
+  }
+}

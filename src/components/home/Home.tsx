@@ -43,6 +43,11 @@ const FEATURED = ['cuemill', 'jaybees-nuts', 'vornado', 'nostalgia', 'sprinkle-a
 
 const STEPS = [
   {
+    n: '00',
+    title: 'Free audit',
+    text: 'Send your ASIN, or tell us about the product if it isn’t live yet. We email you what we’d fix first. No call needed.',
+  },
+  {
     n: '01',
     title: 'A brief you approve',
     text: 'We study your listing, your competitors and your reviews, then plan every image. Nothing gets designed until you sign off the brief.',
@@ -62,6 +67,68 @@ const STEPS = [
     title: 'Ready to upload',
     text: 'Final files, named and sized for Seller Central, delivered to your folder.',
   },
+]
+
+const MARQUEE = [
+  'vornado', 'fender', 'core-fiber', 'cuemill', 'nostalgia', 'doc-itchy', 'jaybees-nuts', 'wuju',
+  'luminoire', 'serenelife', 'sprinkle-and-sweep', 'cogimex', 'farberware', 'dermaglos', 'jonathan-y', 'decalys',
+]
+
+const DECISIONS = [
+  {
+    n: '1',
+    where: 'In search',
+    q: 'Click, or scroll past?',
+    text: 'Your main image is one thumbnail in a grid of competitors. It has a split second to say what it is and why it’s the better pick.',
+    metric: 'Wins the click',
+  },
+  {
+    n: '2',
+    where: 'On the product page',
+    q: 'Is this the right one for me?',
+    text: 'Shoppers swipe the gallery before they read a bullet. Each image should answer the next question: size, use, quality, proof.',
+    metric: 'Turns visits into sales',
+  },
+  {
+    n: '3',
+    where: 'Below the fold',
+    q: 'Can I trust this brand?',
+    text: 'A+ and Brand Story settle the last doubts, make the price feel fair and give shoppers a reason to come back.',
+    metric: 'Closes the sale',
+  },
+]
+
+const REVIEWS = [
+  { q: 'Each time I upload a batch of assets created by Josh, our CVR improves by 25–40%.', who: 'Client review, Upwork' },
+  { q: 'Joshua is an absolute beast!!!', who: 'Client review, Upwork' },
+  { q: 'Beautiful, thoughtful designs.', who: 'Client review, Upwork' },
+]
+
+const FAQ: [string, string][] = [
+  [
+    'What does the free audit include?',
+    'We look at your main image, listing images and A+ the way a shopper would, compare them with your top competitors, and email you what we’d change first and why. No call, no obligation.',
+  ],
+  [
+    'My product isn’t on Amazon yet. Can you still help?',
+    'Yes. Tell us about the product and send what you have: photos, packaging or a website. We’ll plan the full set before launch, and we can build lifestyle scenes from your packaging, so you don’t need a photoshoot for every image.',
+  ],
+  [
+    'What do I need to send you?',
+    'Your ASIN, or product photos and packaging files if you’re pre-launch, plus your logo and brand colours if you have them. We take it from there with a brief you approve before anything is designed.',
+  ],
+  [
+    'How many revisions are included?',
+    'Three rounds of changes on every deliverable. Most projects need fewer, because you approve the brief first.',
+  ],
+  [
+    'Which marketplaces do you design for?',
+    'Amazon US, UK, Europe and Australia, built to each marketplace’s image and A+ specs.',
+  ],
+  [
+    'Do you work with agencies?',
+    'Yes. We work white-label behind Amazon agencies: your name on the work, your clients stay yours.',
+  ],
 ]
 
 const COMPARE: [string, string, string, string][] = [
@@ -85,25 +152,84 @@ export default function Home() {
             that <span>sell.</span>
           </h1>
           <p className={styles.lead}>
-            Main images, listing images, Premium A+, Brand Story and Storefronts. One marketplace, one team, built to turn
-            searches into sales.
+            Shoppers decide in seconds. We design every image they see, from the main image to the Storefront, planned from
+            your reviews and your competitors so more of them click and buy.
           </p>
           <div className={styles.ctas}>
-            <a href={CALL_URL} target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
-              Book a call
-            </a>
+            <AuditButton className={styles.btnPrimary}>Get a free audit</AuditButton>
             <Link href="/work" className={styles.btnGhost}>
               See the work →
             </Link>
+          </div>
+          <div className={styles.trust}>
+            <span className={styles.stars} aria-label="5 stars">
+              ★★★★★
+            </span>
+            <span>Top Rated on Upwork</span>
+            <i aria-hidden>·</i>
+            <span>100% Job Success</span>
+            <i aria-hidden>·</i>
+            <span>130+ projects delivered</span>
           </div>
         </div>
         <HeroVisual />
       </section>
 
 
-      <Stats brands={brands.length} products={products} creatives={Math.floor(creatives / 10) * 10} callUrl={CALL_URL} />
+      {/* proof strip */}
+      <section className={styles.logos}>
+        <p className={styles.logosHead}>
+          Trusted by <b>{brands.length}</b> Amazon brands
+        </p>
+        <div className={styles.marquee}>
+          <div className={styles.track}>
+            {[...MARQUEE, ...MARQUEE].map((slug, i) => {
+              const b = brands.find((x) => x.slug === slug)
+              if (!b) return null
+              return (
+                <Link key={i} href={`/brands/${slug}`} className={styles.mq} title={b.name} tabIndex={i < MARQUEE.length ? 0 : -1}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={b.thumb} alt={b.name} loading="lazy" />
+                </Link>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* problem: the three decisions */}
+      <section className={styles.block}>
+        <div className={styles.blockHead}>
+          <p className={styles.eyebrowDark}>Where listings lose the sale</p>
+          <h2 className={styles.h2}>Every shopper makes three decisions. Your images make or break each one.</h2>
+        </div>
+        <div className={styles.decisions}>
+          {DECISIONS.map((d) => (
+            <div key={d.n} className={styles.decision}>
+              <span className={styles.dN}>{d.n}</span>
+              <p className={styles.dWhere}>{d.where}</p>
+              <h3>{d.q}</h3>
+              <p className={styles.dText}>{d.text}</p>
+              <span className={styles.dMetric}>{d.metric}</span>
+            </div>
+          ))}
+        </div>
+        <div className={styles.inlineCta}>
+          <p>Not sure which one is costing you sales?</p>
+          <AuditButton className={styles.linkBtn}>Send us your ASIN for a free audit →</AuditButton>
+        </div>
+      </section>
 
       <Services data={SERVICES} />
+
+      {/* reel */}
+      <section className={`${styles.reelBlock} ${styles.reelTop}`}>
+        <div className={styles.reelHead}>
+          <p className={styles.eyebrow}>The showreel</p>
+          <h2 className={styles.h2Light}>See how we think, in 60 seconds.</h2>
+        </div>
+        <Reel />
+      </section>
 
       {/* featured */}
       <section className={styles.block}>
@@ -133,13 +259,24 @@ export default function Home() {
             See all {brands.length} brands
           </Link>
         </div>
+        <div className={styles.reviews}>
+          {REVIEWS.map((r) => (
+            <figure key={r.q} className={styles.review}>
+              <span className={styles.stars} aria-label="5 stars">
+                ★★★★★
+              </span>
+              <blockquote>“{r.q}”</blockquote>
+              <figcaption>{r.who}</figcaption>
+            </figure>
+          ))}
+        </div>
       </section>
 
       {/* how */}
       <section className={`${styles.block} ${styles.dark}`}>
         <div className={styles.blockHead}>
           <p className={styles.eyebrow}>How we work</p>
-          <h2 className={styles.h2Light}>No guesswork. No surprises.</h2>
+          <h2 className={styles.h2Light}>From your ASIN to upload-ready files. No guesswork.</h2>
         </div>
         <div className={styles.steps}>
           {STEPS.map((s) => (
@@ -152,14 +289,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* reel */}
-      <section className={styles.reelBlock}>
-        <div className={styles.reelHead}>
-          <p className={styles.eyebrow}>The showreel</p>
-          <h2 className={styles.h2Light}>60 seconds of what we make.</h2>
-        </div>
-        <Reel />
-      </section>
+
+      <Stats brands={brands.length} products={products} creatives={Math.floor(creatives / 10) * 10} callUrl={CALL_URL} />
 
       {/* compare */}
       <section className={styles.block}>
@@ -192,15 +323,33 @@ export default function Home() {
       </section>
 
 
+      {/* faq */}
+      <section className={styles.block}>
+        <div className={styles.faqGrid}>
+          <div className={styles.blockHead}>
+            <p className={styles.eyebrowDark}>Questions</p>
+            <h2 className={styles.h2}>Before you send your ASIN.</h2>
+          </div>
+          <div className={styles.faq}>
+            {FAQ.map(([q, a]) => (
+              <details key={q} className={styles.qa}>
+                <summary>{q}</summary>
+                <p>{a}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* close */}
       <section className={styles.close}>
-        <h2>Show us your listing.</h2>
-        <p>Book a call. We’ll go through your images with you and tell you what we’d change first.</p>
+        <h2>Find out what your listing is losing.</h2>
+        <p>Send your ASIN and we’ll email you a free audit: what we’d fix first, and why. Prefer to talk? Book a call.</p>
         <div className={styles.ctas}>
-          <a href={CALL_URL} target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
+          <AuditButton className={styles.btnPrimary}>Get a free audit</AuditButton>
+          <a href={CALL_URL} target="_blank" rel="noopener noreferrer" className={styles.btnGhost}>
             Book a call
           </a>
-          <AuditButton className={styles.btnGhost}>Get a free audit</AuditButton>
         </div>
       </section>
 

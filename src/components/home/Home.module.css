@@ -383,7 +383,7 @@
 }
 .steps {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 18px;
 }
 .step {
@@ -482,6 +482,207 @@
   color: var(--muted);
 }
 
+/* ---------- hero trust ---------- */
+.trust {
+  margin-top: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.72);
+}
+.trust i {
+  font-style: normal;
+  opacity: 0.4;
+}
+.stars {
+  color: #fdb022;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+/* ---------- proof strip ---------- */
+.logos {
+  background: #0a0a0a;
+  padding-top: 8px;
+}
+.logosHead {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.logosHead b {
+  color: #fff;
+}
+.mq {
+  display: block;
+}
+
+/* ---------- three decisions ---------- */
+.decisions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.decision {
+  position: relative;
+  padding: 30px 28px 28px;
+  border-radius: 22px;
+  background: #f6f6f4;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+.dN {
+  position: absolute;
+  right: 18px;
+  top: -8px;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(253, 102, 3, 0.12);
+  letter-spacing: -0.05em;
+}
+.dWhere {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #d95223;
+  font-weight: 600;
+}
+.decision h3 {
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  max-width: 85%;
+}
+.dText {
+  color: var(--muted);
+  line-height: 1.55;
+  flex: 1;
+}
+.dMetric {
+  align-self: flex-start;
+  margin-top: 8px;
+  padding: 6px 12px;
+  border-radius: 100px;
+  background: #0a0a0a;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
+.inlineCta {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  color: var(--muted);
+}
+.linkBtn {
+  font-weight: 600;
+  color: #d95223;
+  font-size: inherit;
+}
+.linkBtn:hover {
+  text-decoration: underline;
+}
+
+/* reel moved up: it follows the light services block */
+.reelTop {
+  margin-top: 96px;
+  padding-top: 80px;
+}
+
+/* ---------- reviews ---------- */
+.reviews {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 18px;
+}
+.review {
+  margin: 0;
+  padding: 28px;
+  border-radius: 22px;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.review:first-child {
+  background: #0a0a0a;
+  color: #fff;
+  border-color: #0a0a0a;
+}
+.review blockquote {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  flex: 1;
+}
+.review:first-child blockquote {
+  font-size: 26px;
+}
+.review figcaption {
+  font-size: 13px;
+  color: var(--muted);
+}
+.review:first-child figcaption {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* ---------- faq ---------- */
+.faqGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 48px;
+  align-items: start;
+}
+.faq {
+  border-top: 1px solid #e6e6e6;
+}
+.qa {
+  border-bottom: 1px solid #e6e6e6;
+}
+.qa summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 22px 40px 22px 0;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.qa summary::-webkit-details-marker {
+  display: none;
+}
+.qa summary::after {
+  content: '+';
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  font-weight: 400;
+  color: #d95223;
+  transition: transform 0.2s ease;
+}
+.qa[open] summary::after {
+  transform: translateY(-50%) rotate(45deg);
+}
+.qa p {
+  padding: 0 40px 24px 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 /* ---------- responsive ---------- */
 @media (max-width: 1100px) {
   .hero {
@@ -495,6 +696,14 @@
   .steps {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     row-gap: 32px;
+  }
+  .decisions,
+  .reviews {
+    grid-template-columns: 1fr;
+  }
+  .faqGrid {
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 }
 
