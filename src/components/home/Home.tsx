@@ -69,11 +69,6 @@ const STEPS = [
   },
 ]
 
-const MARQUEE = [
-  'vornado', 'fender', 'core-fiber', 'cuemill', 'nostalgia', 'doc-itchy', 'jaybees-nuts', 'wuju',
-  'luminoire', 'serenelife', 'sprinkle-and-sweep', 'cogimex', 'farberware', 'dermaglos', 'jonathan-y', 'decalys',
-]
-
 const DECISIONS = [
   {
     n: '1',
@@ -176,26 +171,7 @@ export default function Home() {
       </section>
 
 
-      {/* proof strip */}
-      <section className={styles.logos}>
-        <p className={styles.logosHead}>
-          Trusted by <b>{brands.length}</b> Amazon brands
-        </p>
-        <div className={styles.marquee}>
-          <div className={styles.track}>
-            {[...MARQUEE, ...MARQUEE].map((slug, i) => {
-              const b = brands.find((x) => x.slug === slug)
-              if (!b) return null
-              return (
-                <Link key={i} href={`/brands/${slug}`} className={styles.mq} title={b.name} tabIndex={i < MARQUEE.length ? 0 : -1}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={b.thumb} alt={b.name} loading="lazy" />
-                </Link>
-              )
-            })}
-          </div>
-        </div>
-      </section>
+      <Stats brands={brands.length} products={products} creatives={Math.floor(creatives / 10) * 10} callUrl={CALL_URL} />
 
       {/* problem: the three decisions */}
       <section className={styles.block}>
@@ -289,8 +265,6 @@ export default function Home() {
         </div>
       </section>
 
-
-      <Stats brands={brands.length} products={products} creatives={Math.floor(creatives / 10) * 10} callUrl={CALL_URL} />
 
       {/* compare */}
       <section className={styles.block}>
