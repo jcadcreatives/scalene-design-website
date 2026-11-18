@@ -3,7 +3,11 @@ import Header from '@/components/Header'
 import BrandGrid from '@/components/BrandGrid'
 import CategoryFilter from '@/components/CategoryFilter'
 
-export const metadata: Metadata = { title: 'Our work — Scalene Design' }
+export const metadata: Metadata = {
+  title: 'Amazon Listing Images & A+ Content Portfolio — Scalene Design',
+  description: 'Main images, listing images, Premium A+, Brand Story and Storefronts for 130+ Amazon brands. Browse by brand.',
+  alternates: { canonical: '/work' },
+}
 
 export default function WorkPage() {
   return (

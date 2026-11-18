@@ -22,8 +22,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const brand = brands.find((b) => b.slug === slug)
   if (!brand) return {}
   return {
-    title: `${brand.name} — Scalene Design`,
+    title: `${brand.name} Amazon Listing Images & A+ Content — Scalene Design`,
     description: `Amazon creatives by Scalene Design for ${brand.name}: ${brand.kinds.join(', ')}.`,
+    alternates: { canonical: `/brands/${slug}` },
     openGraph: { images: [brand.thumb] },
   }
 }
