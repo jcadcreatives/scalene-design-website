@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Header from '@/components/Header'
-import MasonryGrid from '@/components/MasonryGrid'
+import BrandGrid from '@/components/BrandGrid'
 import CategoryFilter from '@/components/CategoryFilter'
 
 const VALID_CATEGORIES = [
@@ -26,7 +26,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
   return (
     <>
       <Header />
-      <MasonryGrid activeCategory={category} />
+      <BrandGrid activeCategory={category} />
       <CategoryFilter activeCategory={category} />
     </>
   )

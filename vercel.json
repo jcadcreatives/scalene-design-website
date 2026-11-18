@@ -1,4 +1,10 @@
 {
   "buildCommand": "next build",
-  "outputDirectory": ".next"
+  "outputDirectory": ".next",
+  "git": {
+    "deploymentEnabled": {
+      "portfolio-refresh": false,
+      "dev": false
+    }
+  }
 }

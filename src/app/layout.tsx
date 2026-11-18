@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Space_Grotesk } from 'next/font/google'
 import './globals.css'
+import AuditModal from '@/components/AuditModal'
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title: 'Scalene Design — Amazon Graphics Agency',
   description: 'Your On-Call Amazon Creative Partner — Main Images, Listing Images, and Premium A+ Content',
   icons: {
-    icon: '/logo.webp',
+    icon: '/logo.png',
   },
   openGraph: {
     images: ['/images/Supplements/1_Naturello A+.webp'],
@@ -29,6 +30,7 @@ export default function RootLayout({
     <html lang="en" className={spaceGrotesk.variable}>
       <body style={{ fontFamily: 'var(--font-space-grotesk), sans-serif' }}>
         {children}
+        <AuditModal />
       </body>
     </html>
   )
